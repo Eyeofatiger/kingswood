@@ -1,0 +1,1088 @@
+@import 'mixins.scss';
+
+/*Var*/
+$font:Futura, Tahoma, sans-serif;
+$fontPlay: 'Playfair Display', Tahoma, sans-serif;
+
+/*main css*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    position: relative;
+
+    .figure1{
+        width: 555px;
+        height: 82px;
+        opacity: 0.85;
+    }
+
+    .headP{
+        @include positions(20px, 31px, 494px, 30px);
+        text-align: left;
+        font:16px/21px $font;
+        color: #FFFFFF;
+    }
+
+    .definit{
+        @include positions(167px, 143px, 515px, 32px);
+        text-align: left;
+        font:18px/25px $font;
+        letter-spacing: 7.2px;
+        color: #1C5253;
+    }
+
+    .mainH{
+        @include positions(199px, 143px, 942px, 261px);
+        text-align: left;
+        font:72px/82px $fontPlay;
+        color: #474749;
+    }
+
+    .lineTop{
+        @include positions(531px, 135px, 530px, 0px);
+        border: 3px solid #474749;
+    }
+
+    .article{
+        @include positions(518px, 695px, 530px, 301px);
+        text-align: left;
+        font: 18px/30px $font;
+        letter-spacing: 0;
+        color: #474749;
+    }
+
+    .lMore{
+        @include positions(839px, 695px, 130px, 27px);
+        text-align: left;
+        font: bold 21px/32px $font;
+        color: #474749;
+        text-decoration: none;
+    }
+
+    .lineLMore{
+        @include positions(854px, 835px, 150px, 0px);
+        border: 3px solid #474749;
+    }
+
+    .figure2{
+        position: absolute;
+        top: 52px;
+        right: 1px;
+        opacity: 0.6;
+    }
+
+   .peopleImg{
+        position: absolute;
+        top: 731px;
+        right: 0px;
+        width: 487px;
+        height: 395px;
+        background: transparent url('../images/Group 595.png') 0% 0% no-repeat padding-box;
+        z-index: 3;
+   }
+}
+
+main{
+    .figure3{
+        position: absolute;
+        top: 839px;
+        width: 986px;
+        height: 646px;
+        opacity: 0.6;
+        z-index: 2;
+    }
+
+    .backgroundMain{
+        @include positions(994px, 0px, 100%, 724px);
+        background-image: url('../images/bg-main.png');
+    }
+
+    .busStop{
+        position: absolute;
+        top: 1187px;
+        left: -160px;
+        width: 995px;
+        height: 567px;
+        background: transparent url('../images/Group 596.png') 0% 0% no-repeat padding-box;
+    }
+
+    .streetFur{
+        @include positions(1286px, 695px, 642px, 37px);
+        text-align: left;
+        font: bold 32px/32px $fontPlay;
+        letter-spacing: 0;
+        color: #474749;
+    }
+
+    .lineStreetFur{
+        @include positions(1347px, 695px, 530px, 0px);
+        border: 3px solid #474749;
+    }
+
+    .mainText{
+        @include positions(1335px, 1255px, 530px, 150px);
+        text-align: left;
+        font: 18px/30px $font;
+        letter-spacing: 0;
+        color: #474749;
+    }
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+
+
+    .content{
+        @include positions(1861px, 135px, 670px, 79px);
+        text-align: left;
+        font: 72px/82px $fontPlay;
+        letter-spacing: 0;
+        color: #474749;
+    }
+
+    .lineNav{
+        @include positions(1999px, 135px, 531px, 0px);
+        border: 3px solid #474749;
+    }
+
+    .contMain{
+        position: relative;
+        top: 2057px;
+        width: 100%;
+
+        .container{
+            display:flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            align-content: center;
+            
+            .townPlanning, .accesProblem, .futureStreet, .links{
+                height: 580px;
+                width: 21.5%;
+                margin-right: 15px;
+                padding: 10px;
+                user-select: none;
+                text-decoration: none;
+                
+                &:hover{
+                    outline: 3px solid grey;
+                                    }
+
+                &:active{
+                    border: 5px solid grey;
+                    box-shadow: 3px 3px 5px 5px darkgrey;
+                    border-radius: 5px;
+                }
+             }
+
+             .townPlanning{
+                background: transparent url('../images/Group 011.svg') 50% 50% no-repeat padding-box;            
+            }
+
+             .townPlanning > img{
+                @include navImg;               
+            }
+
+            .townPlanning > p{
+                @include navP;
+            }
+
+            .accesProblem{
+                background: transparent url('../images/Group 012.svg') 70% 60% no-repeat padding-box;  
+            }
+            
+            .accesProblem > img{
+                @include navImg;
+            }
+
+            .accesProblem > p{
+                @include navP;
+            }
+
+            .futureStreet{
+                background: transparent url('../images/Group 013.svg') 70% 50% no-repeat padding-box;
+            }
+            
+            .futureStreet >img{
+                @include navImg;
+            }
+
+            .futureStreet >p{
+                @include navP;
+            }
+
+            .links{
+                background: transparent url('../images/Group 014.svg') 30% 50% no-repeat padding-box;
+            }
+            
+            .links >img{
+                display: block;
+                width: 135px;
+                height: 208px;   
+                margin: 75px auto 35px auto;
+            }
+
+            .links >p{
+                @include navP;
+            }
+        }
+    }
+}
+
+footer{
+    position: relative;
+    width: 100%;
+
+    .figure5{
+        position: absolute;
+        top: 2686px;
+        right: 0px;
+        width: 482px;
+        height: 189px;
+    }
+
+    .footer{
+        position: relative;
+        width: 100%;
+        top: 2876px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: #474749;
+        align-items: center;
+    }
+
+    .visitMain, .copyright, .backTop{
+        margin: 0 20px;
+        padding: 10px;
+        font: 16px/21px $font;
+        letter-spacing: 0;
+        color: #FCFCFC;
+    }
+
+    .visitMain >a, .backTop >a{
+        font: 16px/21px $font;
+        letter-spacing: 0;
+        color: #FCFCFC;
+        text-decoration: none;
+    }
+}
+
+/* Adaptive */
+@media(min-width: 1620px) and (max-width: 1790px){
+    
+    header{
+  
+    .figure2 img{
+        width: 650px;
+        height: 490px;
+    } 
+
+    .peopleImg{
+        background-size: 437px 345px;
+    }
+
+}
+    
+    main{
+
+    .busStop{
+        top: 1187px;
+        left: -210px;
+    }
+
+    .streetFur{
+        top: 1286px;
+        left: 595px;
+        width: 642px;
+    }
+
+    .lineStreetFur{
+        top: 1347px;
+        left: 595px;
+        width: 430px;
+    }
+
+    .mainText{
+        top: 1335px;
+        left: 1055px;
+    }
+
+    
+}
+
+}
+
+@media(min-width: 1150px) and (max-width: 1620px){
+    header{
+    
+        .figure1{
+            transform: scale(0.65);
+            transform-origin: 0 0;
+        }
+    
+        .headP{
+            top: 13px;
+            left: 21px;
+            width: 375px;
+            height: 20px;
+            font: 14px/16px $font;
+        }
+    
+        .definit{
+            top: 117px;
+            left: 100px;
+            width: 361px;
+            height: 21px;
+            font:12px/17px $font;
+            letter-spacing: 6.1px;
+        }
+    
+        .mainH{
+            top: 140px;
+            left: 100px;
+            width: 660px;
+            height: 183px;
+            font:51px/57px $fontPlay;
+        }
+    
+        .lineTop{
+            top: 372px;
+            left: 100px;
+            width: 371px;
+            border: 2px solid #474749;
+        }
+    
+        .article{
+            top: 363px;
+            left: 487px;
+            width: 371px;
+            height: 210px;
+            font: 13px/21px $font;
+
+        }
+    
+        .lMore{
+            top: 587px;
+            left: 487px;
+            width: 100px;
+            height: 19px;
+            font: bold 15px/22px $font;
+        }
+    
+        .lineLMore{
+            top: 598px;
+            left: 585px;
+            width: 105px;
+            border: 2px solid #474749;
+        }
+    
+        .figure2 img{
+            width: 520px;
+            height: 380px;
+        }
+
+        .people-cover{
+            position: absolute;
+            top: 512px;
+            right: 0px;
+            overflow: hidden;
+        }
+    
+       .peopleImg{
+            position: relative;
+            top: 0px;
+            width: 350px;
+            height: 277px;
+            background-size: 350px 277px;
+            right: 10px;
+       }
+    }
+    
+    main{
+        .figure3{
+            top: 587px;
+            width: 590px;
+            height: 452px;
+        }
+
+        .figure3 img{
+            width: 290px;
+            height: 442px;
+        }
+    
+        .backgroundMain{
+            top: 696px;
+            height: 507px;
+        }
+    
+        .busStop{
+            top: 831px;
+            left: -112px;
+            background-size: 697px 397px;
+            z-index: 3;
+        }
+    
+        .streetFur{
+            top: 900px;
+            left: 487px;
+            width: 449px;
+            height: 26px;
+            font: bold 22px/22px $fontPlay;
+        }
+    
+        .lineStreetFur{
+            top: 943px;
+            left: 457px;
+            width: 291px;
+            border: 2px solid #474749;
+        }
+    
+        .mainText{
+            top: 935px;
+            left: 778px;
+            width: 371px;
+            height: 105px;
+            font: 13px/21px $font;
+        }
+    }
+    
+    nav{
+   
+        .content{
+            top: 1300px;
+            left: 95px;
+            width: 469px;
+            height: 55px;
+            font: bold 50px/57px $fontPlay;
+        }
+    
+        .lineNav{
+            top: 1400px;
+            left: 95px;
+            width: 372px;
+            border: 2px solid #474749;
+        }
+    
+        .contMain{
+            top: 1440px;
+    
+            .container{
+                                
+                .townPlanning, .accesProblem, .futureStreet, .links{
+                    height: 405px;
+                    width: 21.5%;
+                    margin-right: 10px;
+                    padding: 5px;
+                    
+                    &:hover{
+                        outline: 2px solid grey;
+                                        }
+    
+                    &:active{
+                        border: 4px solid grey;
+                        box-shadow: 2px 2px 4px 4px darkgrey;
+                        border-radius: 5px;
+                    }
+                 }
+    
+                 .townPlanning{
+                    background-size: 250px 350px;            
+                }
+    
+                 .townPlanning > img{
+                    @include navImgm;               
+                }
+    
+                .townPlanning > p{
+                    @include navPm;
+                }
+    
+                .accesProblem{
+                    background-size: 250px 350px;   
+                }
+                
+                .accesProblem > img{
+                    @include navImgm;
+                }
+    
+                .accesProblem > p{
+                    @include navPm;
+                }
+    
+                .futureStreet{
+                    background-size: 250px 350px; 
+                }
+                
+                .futureStreet >img{
+                    @include navImgm;
+                }
+    
+                .futureStreet >p{
+                    @include navPm;
+                }
+    
+                .links{
+                    background-size: 250px 350px; 
+                }
+                
+                .links >img{
+                    display: block;
+                    width: 95px;
+                    height: 145px;   
+                    margin: 52px auto 24px auto;
+                }
+    
+                .links >p{
+                    @include navPm;
+                }
+            }
+        }
+    }
+    
+    footer{
+    
+        .figure5{
+            top: 1880px;
+            width: 337px;
+            height: 132px;
+        }
+    
+        .footer{
+            top: 2013px;
+            height: 35px;
+        }
+    
+        .visitMain, .copyright, .backTop{
+            margin: 0 14px;
+            padding: 7px;
+            font: 12px/15px $font;
+        }
+    
+        .visitMain >a, .backTop >a{
+            font: 12px/15px $font;
+        }
+    }
+}
+
+@media(min-width: 760px) and (max-width: 1150px){
+    header{
+    
+        .figure1{
+            transform: scale(0.55);
+            transform-origin: 0 0;
+        }
+    
+        .headP{
+            top: 13px;
+            left: 21px;
+            width: 455px;
+            height: 20px;
+            font: 16px/28px $font;
+        }
+    
+        .definit{
+            top: 82px;
+            left: 70px;
+            width: 253px;
+            height: 14px;
+            font:10px/15px $font;
+            letter-spacing: 4.1px;
+        }
+    
+        .mainH{
+            top: 98px;
+            left: 70px;
+            width: 462px;
+            height: 128px;
+            font:38px/42px $fontPlay;
+        }
+    
+        .lineTop{
+            top: 250px;
+            left: 70px;
+            width: 260px;
+            border: 1px solid #474749;
+        }
+    
+        .article{
+            top: 240px;
+            left: 341px;
+            width: 371px;
+            height: 210px;
+            font: 13px/21px $font;
+
+        }
+    
+        .lMore{
+            top: 460px;
+            left: 340px;
+            width: 100px;
+            height: 19px;
+            font: bold 14px/21px $font;
+        }
+    
+        .lineLMore{
+            top: 470px;
+            left: 430px;
+            width: 100px;
+            border: 1px solid #474749;
+        }
+    
+        .figure2 img{
+            width: 260px;
+            height: 190px;
+        }
+
+        .people-cover{
+            position: absolute;
+            top: 512px;
+            right: 0px;
+            overflow: hidden;
+        }
+    
+       .peopleImg{
+            position: relative;
+            top: 0px;
+            width: 250px;
+            height: 200px;
+            background-size: 250px 200px;
+            right: 10px;
+       }
+    }
+    
+    main{
+        .figure3{
+            top: 487px;
+            width: 490px;
+            height: 352px;
+        }
+
+        .figure3 img{
+            width: 200px;
+            height: 300px;
+        }
+    
+        .backgroundMain{
+            top: 635px;
+            height: 387px;
+        }
+    
+        .busStop{
+            top: 731px;
+            left: -112px;
+            background-size: 497px 297px;
+            z-index: 3;
+            width: 497px;
+            height: 297px;
+        }
+    
+        .streetFur{
+            top: 780px;
+            left: 387px;
+            width: 249px;
+            height: 26px;
+            font: bold 21px/21px $fontPlay;
+        }
+    
+        .lineStreetFur{
+            top: 813px;
+            left: 357px;
+            width: 291px;
+            border: 1px solid #474749;
+        }
+    
+        .mainText{
+            top: 835px;
+            left: 358px;
+            width: 371px;
+            height: 105px;
+            font: 13px/21px $font;
+        }
+    }
+    
+    nav{
+   
+        .content{
+            top: 1000px;
+            left: 75px;
+            width: 369px;
+            height: 35px;
+            font: bold 40px/47px $fontPlay;
+        }
+    
+        .lineNav{
+            top: 1070px;
+            left: 75px;
+            width: 272px;
+            border: 1px solid #474749;
+        }
+    
+        .contMain{
+            top: 1078px;
+    
+            .container{
+                                
+                .townPlanning, .accesProblem, .futureStreet, .links{
+                    height: 305px;
+                    width: 21.5%;
+                    margin-right: 5px;
+                    padding: 3px;
+                    
+                    &:hover{
+                        outline: 1px solid grey;
+                    }
+    
+                    &:active{
+                        border: 1px solid grey;
+                        box-shadow: 1px 1px 2px 2px darkgrey;
+                        border-radius: 3px;
+                    }
+                 }
+    
+                 .townPlanning{
+                    background-size: 150px 250px;            
+                }
+    
+                 .townPlanning > img{
+                    @include navImgP;               
+                }
+    
+                .townPlanning > p{
+                    @include navPP;
+                }
+    
+                .accesProblem{
+                    background-size: 150px 250px;   
+                }
+                
+                .accesProblem > img{
+                    @include navImgP;
+                }
+    
+                .accesProblem > p{
+                    @include navPP;
+                }
+    
+                .futureStreet{
+                    background-size: 150px 250px; 
+                }
+                
+                .futureStreet >img{
+                    @include navImgP;
+                }
+    
+                .futureStreet >p{
+                    @include navPP;
+                }
+    
+                .links{
+                    background-size: 150px 250px; 
+                }
+                
+                .links >img{
+                    display: block;
+                    width: 75px;
+                    height: 110px;   
+                    margin: 72px auto 24px auto;
+                }
+    
+                .links >p{
+                    @include navPP;
+                }
+            }
+        }
+    }
+    
+    footer{
+    
+        .figure5{
+            top: 1390px;
+            width: 237px;
+            height: 82px;
+        }
+    
+        .footer{
+            top: 1473px;
+            height: 25px;
+        }
+    
+        .visitMain, .copyright, .backTop{
+            margin: 0 5px;
+            padding: 3px;
+            font: 10px/12px $font;
+        }
+    
+        .visitMain >a, .backTop >a{
+            font: 10px/12px $font;
+        }
+    }
+
+}
+
+
+@media(min-width: 0px) and (max-width: 760px){
+    header{
+    
+        .figure1{
+            transform: scale(0.4);
+            transform-origin: 0 0;
+        }
+    
+        .headP{
+            top: 3px;
+            width: 345px;
+            height: 20px;
+            font: 22px/28px $font;
+        }
+    
+        .definit{
+            top: 82px;
+            left: 10px;
+            width: 253px;
+            height: 14px;
+            font:10px/15px $font;
+            letter-spacing: 4.1px;
+            z-index: 3;
+        }
+    
+        .mainH{
+            top: 98px;
+            left: 10px;
+            width: 350px;
+            height: 128px;
+            font:28px/32px $fontPlay;
+            z-index: 3;
+        }
+    
+        .lineTop{
+            top: 230px;
+            left: 10px;
+            width: 260px;
+            border: 1px solid #474749;
+        }
+    
+        .article{
+            top: 240px;
+            left: 10px;
+            width: 350px;
+            height: 210px;
+            font: 11px/13px $font;
+        }
+    
+        .lMore{
+            top: 370px;
+            left: 40px;
+            width: 80px;
+            height: 17px;
+            font: bold 13px/15px $font;
+        }
+    
+        .lineLMore{
+            top: 378px;
+            left: 130px;
+            width: 100px;
+            border: 1px solid #474749;
+        }
+    
+        .figure2 img{
+            width: 160px;
+            height: 100px;
+        }
+
+        .people-cover{
+            position: absolute;
+            top: 402px;
+            right: 0px;
+            overflow: hidden;
+        }
+    
+       .peopleImg{
+            position: relative;
+            top: 0px;
+            width: 200px;
+            height: 160px;
+            background-size: 200px 160px;
+            right: 10px;
+       }
+    }
+    
+    main{
+        .figure3{
+            top: 487px;
+            width: 290px;
+            height: 152px;
+        }
+
+        .figure3 img{
+            width: 100px;
+            height: 150px;
+        }
+    
+        .backgroundMain{
+            top: 535px;
+            height: 387px;
+        }
+    
+        .busStop{
+            top: 731px;
+            left: -92px;
+            background-size: 357px 197px;
+            z-index: 3;
+            width: 357px;
+            height: 197px;
+        }
+    
+        .streetFur{
+            top: 580px;
+            left: 107px;
+            width: 200px;
+            height: 22px;
+            font: bold 17px/17px $fontPlay;
+        }
+    
+        .lineStreetFur{
+            top: 613px;
+            left: 107px;
+            width: 191px;
+            border: 1px solid #474749;
+        }
+    
+        .mainText{
+            top: 635px;
+            left: 10px;
+            width: 340px;
+            height: 105px;
+            font: 11px/13px $font;
+        }
+    }
+    
+    nav{
+   
+        .content{
+            top: 870px;
+            left: 5px;
+            width: 300px;
+            height: 25px;
+            font: bold 22px/28px $fontPlay;
+        }
+    
+        .lineNav{
+            top: 900px;
+            left: 5px;
+            width: 172px;
+            border: 1px solid #474749;
+        }
+    
+        .contMain{
+            top: 910px;
+    
+            .container{
+                                
+                .townPlanning, .accesProblem, .futureStreet, .links{
+                    height: 280px;
+                    width: 43%;
+                    margin-right: 5px;
+                    padding: 3px;
+                    
+                    &:hover{
+                        outline: 1px solid grey;
+                    }
+    
+                    &:active{
+                        border: 1px solid grey;
+                        box-shadow: 1px 1px 2px 2px darkgrey;
+                        border-radius: 3px;
+                    }
+                 }
+    
+                 .townPlanning{
+                    background-size: 150px 250px;            
+                }
+    
+                 .townPlanning > img{
+                    @include navImgP;               
+                }
+    
+                .townPlanning > p{
+                    @include navPP;
+                }
+    
+                .accesProblem{
+                    background-size: 150px 250px;   
+                }
+                
+                .accesProblem > img{
+                    @include navImgP;
+                }
+    
+                .accesProblem > p{
+                    @include navPP;
+                }
+    
+                .futureStreet{
+                    background-size: 150px 250px; 
+                }
+                
+                .futureStreet >img{
+                    @include navImgP;
+                }
+    
+                .futureStreet >p{
+                    @include navPP;
+                }
+    
+                .links{
+                    background-size: 150px 250px; 
+                }
+                
+                .links >img{
+                    display: block;
+                    width: 75px;
+                    height: 110px;   
+                    margin: 72px auto 24px auto;
+                }
+    
+                .links >p{
+                    @include navPP;
+                }
+            }
+        }
+    }
+    
+    footer{
+    
+        .figure5{
+            top: 1457px;
+            width: 207px;
+            height: 72px;
+        }
+    
+        .footer{
+            top: 1530px;
+            height: 25px;
+        }
+    
+        .visitMain, .copyright, .backTop{
+            margin: 0 5px;
+            padding: 3px;
+            font: 8px/10px $font;
+        }
+    
+        .visitMain >a, .backTop >a{
+            font: 8px/10px $font;
+        }
+    }
+}

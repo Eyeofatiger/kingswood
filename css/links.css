@@ -1,0 +1,532 @@
+/*Mixins*/
+/*Var*/
+/*main css*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  position: relative;
+}
+
+header .figure1 {
+  width: 555px;
+  height: 82px;
+  opacity: 0.85;
+}
+
+header .headP {
+  position: absolute;
+  top: 20px;
+  left: 31px;
+  width: 494px;
+  height: 30px;
+  text-align: left;
+  font: 16px/21px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #FFFFFF;
+}
+
+header .image-block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+header .tree {
+  position: absolute;
+  top: 200px;
+  right: 140px;
+  width: 367px;
+  height: 599px;
+  z-index: 3;
+}
+
+header .header-mark {
+  position: relative;
+  top: -30px;
+  right: -120px;
+  width: 672px;
+  height: 1026px;
+}
+
+header .top-header {
+  position: absolute;
+  top: 250px;
+  left: 135px;
+  width: 852px;
+  height: 273px;
+  text-align: left;
+  font: bold 74px/84px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+header .top-line {
+  position: absolute;
+  top: 594px;
+  left: 135px;
+  width: 530px;
+  height: 0px;
+  border: 3px solid #474749;
+}
+
+header .top-text {
+  position: absolute;
+  top: 581px;
+  left: 695px;
+  width: 530px;
+  height: 55px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .main-mark {
+  position: absolute;
+  top: 854px;
+  left: 0px;
+  width: 551px;
+  height: 825px;
+}
+
+main .main-header1 {
+  position: absolute;
+  top: 694px;
+  left: 695px;
+  width: 530px;
+  height: 63px;
+  text-align: left;
+  color: #474749;
+}
+
+main .main-link1 {
+  position: absolute;
+  top: 762px;
+  left: 695px;
+  width: 530px;
+  height: 55px;
+  text-align: left;
+  font: 20px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .main-header2 {
+  position: absolute;
+  top: 861px;
+  left: 695px;
+  width: 530px;
+  height: 63px;
+  text-align: left;
+  color: #474749;
+}
+
+main .main-link2 {
+  position: absolute;
+  top: 923px;
+  left: 695px;
+  width: 530px;
+  height: 55px;
+  text-align: left;
+  font: 20px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .main-header3 {
+  position: absolute;
+  top: 1012px;
+  left: 695px;
+  width: 530px;
+  height: 63px;
+  text-align: left;
+  color: #474749;
+}
+
+main .main-link3 {
+  position: absolute;
+  top: 1048px;
+  left: 695px;
+  width: 530px;
+  height: 55px;
+  text-align: left;
+  font: 20px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .main-header4 {
+  position: absolute;
+  top: 1107px;
+  left: 695px;
+  width: 530px;
+  height: 63px;
+  text-align: left;
+  color: #474749;
+}
+
+main .main-link4 {
+  position: absolute;
+  top: 1138px;
+  left: 695px;
+  width: 530px;
+  height: 55px;
+  text-align: left;
+  font: 20px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .main-header5 {
+  position: absolute;
+  top: 1196px;
+  left: 695px;
+  width: 530px;
+  height: 63px;
+  text-align: left;
+  color: #474749;
+}
+
+main .main-link5 {
+  position: absolute;
+  top: 1229px;
+  left: 695px;
+  width: 530px;
+  height: 55px;
+  text-align: left;
+  font: 20px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .main-header6 {
+  position: absolute;
+  top: 1097px;
+  left: 1255px;
+  width: 530px;
+  height: 63px;
+  text-align: left;
+  color: #474749;
+}
+
+main .main-link6 {
+  position: absolute;
+  top: 1130px;
+  left: 1255px;
+  width: 530px;
+  height: 55px;
+  text-align: left;
+  font: 20px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .main-header7 {
+  position: absolute;
+  top: 1219px;
+  left: 1255px;
+  width: 530px;
+  height: 63px;
+  text-align: left;
+  color: #474749;
+}
+
+main .main-link7 {
+  position: absolute;
+  top: 1254px;
+  left: 1255px;
+  width: 530px;
+  height: 55px;
+  text-align: left;
+  font: 20px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .main-header8 {
+  position: absolute;
+  top: 1313px;
+  left: 1255px;
+  width: 530px;
+  height: 63px;
+  text-align: left;
+  color: #474749;
+}
+
+main .main-link8 {
+  position: absolute;
+  top: 1347px;
+  left: 1255px;
+  width: 530px;
+  height: 55px;
+  text-align: left;
+  font: 20px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .main-header9 {
+  position: absolute;
+  top: 1436px;
+  left: 1255px;
+  width: 530px;
+  height: 63px;
+  text-align: left;
+  color: #474749;
+}
+
+main .main-link9 {
+  position: absolute;
+  top: 1466px;
+  left: 1255px;
+  width: 530px;
+  height: 55px;
+  text-align: left;
+  font: 20px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .main-header10 {
+  position: absolute;
+  top: 1527px;
+  left: 1255px;
+  width: 530px;
+  height: 63px;
+  text-align: left;
+  color: #474749;
+}
+
+main .main-link10 {
+  position: absolute;
+  top: 1561px;
+  left: 1255px;
+  width: 530px;
+  height: 55px;
+  text-align: left;
+  font: 20px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .image-left {
+  position: absolute;
+  top: 1722px;
+  left: 43px;
+  width: 440px;
+  height: 395px;
+  z-index: 3;
+}
+
+main .image-middle {
+  position: absolute;
+  top: 1716px;
+  left: 561px;
+  width: 531px;
+  height: 401px;
+  z-index: 3;
+}
+
+main .image-right {
+  position: absolute;
+  top: 1722px;
+  left: 1142px;
+  width: 759px;
+  height: 395px;
+  z-index: 3;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+}
+
+nav .nav-bg {
+  position: absolute;
+  background-image: url("../images/bg-main.png");
+  top: 1977px;
+  height: 1280px;
+  width: 100%;
+}
+
+nav .content {
+  position: absolute;
+  top: 2191px;
+  left: 135px;
+  width: 670px;
+  height: 79px;
+  text-align: left;
+  font: 72px/82px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+nav .lineNav {
+  position: absolute;
+  top: 2329px;
+  left: 135px;
+  width: 531px;
+  height: 0px;
+  border: 3px solid #474749;
+}
+
+nav .contMain {
+  position: relative;
+  top: 2387px;
+  width: 100%;
+}
+
+nav .contMain .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+nav .contMain .container .townPlanning, nav .contMain .container .accesProblem, nav .contMain .container .futureStreet, nav .contMain .container .links {
+  height: 580px;
+  width: 21.5%;
+  margin-right: 15px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+}
+
+nav .contMain .container .townPlanning:hover, nav .contMain .container .accesProblem:hover, nav .contMain .container .futureStreet:hover, nav .contMain .container .links:hover {
+  outline: 3px solid grey;
+}
+
+nav .contMain .container .townPlanning:active, nav .contMain .container .accesProblem:active, nav .contMain .container .futureStreet:active, nav .contMain .container .links:active {
+  border: 5px solid grey;
+  -webkit-box-shadow: 3px 3px 5px 5px darkgrey;
+  box-shadow: 3px 3px 5px 5px darkgrey;
+  border-radius: 5px;
+}
+
+nav .contMain .container .townPlanning {
+  background: transparent url("../images/Group 011.svg") 50% 50% no-repeat padding-box;
+}
+
+nav .contMain .container .townPlanning > img {
+  display: block;
+  width: 191px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .townPlanning > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+nav .contMain .container .accesProblem {
+  background: transparent url("../images/Group 012.svg") 70% 60% no-repeat padding-box;
+}
+
+nav .contMain .container .accesProblem > img {
+  display: block;
+  width: 191px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .accesProblem > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+nav .contMain .container .futureStreet {
+  background: transparent url("../images/Group 013.svg") 70% 50% no-repeat padding-box;
+}
+
+nav .contMain .container .futureStreet > img {
+  display: block;
+  width: 191px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .futureStreet > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+nav .contMain .container .links {
+  background: transparent url("../images/Group 014.svg") 30% 50% no-repeat padding-box;
+}
+
+nav .contMain .container .links > img {
+  display: block;
+  width: 135px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .links > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+
+footer .figure5 {
+  position: absolute;
+  top: 3016px;
+  right: 0px;
+  width: 482px;
+  height: 189px;
+}
+
+footer .footer {
+  position: absolute;
+  width: 100%;
+  top: 3206px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #474749;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+footer .visitMain, footer .copyright, footer .backTop {
+  margin: 0 20px;
+  padding: 10px;
+  font: 16px/21px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #FCFCFC;
+}
+
+footer .visitMain > a, footer .backTop > a {
+  font: 16px/21px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #FCFCFC;
+  text-decoration: none;
+}

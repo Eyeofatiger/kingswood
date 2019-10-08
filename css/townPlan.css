@@ -1,0 +1,564 @@
+/*Var*/
+/*Mixins*/
+/*main css*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  position: relative;
+}
+
+header .figure1 {
+  width: 555px;
+  height: 82px;
+  opacity: 0.85;
+}
+
+header .headP {
+  position: absolute;
+  top: 20px;
+  left: 31px;
+  width: 494px;
+  height: 30px;
+  text-align: left;
+  font: 16px/21px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #FFFFFF;
+}
+
+header .mainH {
+  position: absolute;
+  top: 250px;
+  left: 135px;
+  width: 942px;
+  height: 273px;
+  text-align: left;
+  font: 72px/82px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+header section > h3 {
+  position: absolute;
+  top: 573px;
+  left: 135px;
+  width: 642px;
+  height: 37px;
+  text-align: left;
+  font: bold 32px/32px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+header .lineTop {
+  position: absolute;
+  top: 634px;
+  left: 135px;
+  width: 390px;
+  height: 0px;
+  border: 3px solid #474749;
+}
+
+header .article1 {
+  position: absolute;
+  top: 621px;
+  left: 555px;
+  width: 530px;
+  height: 309px;
+  text-align: left;
+  color: #474749;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+}
+
+header .articleP {
+  font: Italic 18px/30px Futura, Tahoma, sans-serif;
+}
+
+header .article2 {
+  position: absolute;
+  top: 954px;
+  left: 555px;
+  width: 530px;
+  height: 296px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+header .imageMarkTop {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 770px;
+  height: 1055px;
+}
+
+header .busStop {
+  position: absolute;
+  top: 200px;
+  right: 140px;
+  width: 521px;
+  height: 569px;
+}
+
+header .article3 {
+  position: absolute;
+  top: 1143px;
+  left: 1115px;
+  width: 530px;
+  height: 204px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+header .groups1 {
+  position: absolute;
+  top: 1380px;
+  left: 1115px;
+  width: 250px;
+  height: 197px;
+  text-align: left;
+  font: Bold 21px/37px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+header .groups1 > p, header .groups2 > p {
+  padding-bottom: 5px;
+}
+
+header .groups2 {
+  position: absolute;
+  top: 1380px;
+  left: 1395px;
+  width: 250px;
+  height: 197px;
+  text-align: left;
+  font: Bold 21px/37px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+header .article4 {
+  position: absolute;
+  top: 1610px;
+  left: 1115px;
+  width: 530px;
+  height: 325px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+header .finalHeadImage {
+  position: absolute;
+  top: 1443px;
+  left: -160px;
+  width: 995px;
+  height: 492px;
+  background: transparent url("../images/Group 597.png") 0% 0% no-repeat padding-box;
+}
+
+main {
+  position: relative;
+  width: 100%;
+}
+
+main .mainTopH {
+  position: absolute;
+  top: 2096px;
+  left: 135px;
+  width: 530px;
+  height: 91px;
+  text-align: left;
+  font: bold 32px/43px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .topMainLine {
+  position: relative;
+  top: 2217px;
+  left: 135px;
+  width: 530px;
+  height: 0px;
+  border: 3px solid #474749;
+}
+
+main .mainArticle1 {
+  position: relative;
+  top: 2204px;
+  left: 695px;
+  width: 530px;
+  height: 655px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+  z-index: 3;
+}
+
+main .woman {
+  position: absolute;
+  top: 2140px;
+  right: 0px;
+  width: 600px;
+  height: 434px;
+  background: transparent url("../images/Group 598.png") 0% 0% no-repeat padding-box;
+  z-index: 3;
+}
+
+main .markBlue {
+  position: absolute;
+  top: 2389px;
+  left: 0px;
+  width: 350px;
+  height: 540px;
+  z-index: 3;
+}
+
+main .bg-main-top {
+  position: absolute;
+  background-image: url("../images/bg-main.png");
+  top: 2539px;
+  width: 100%;
+  height: 1131px;
+}
+
+main .people-main {
+  position: absolute;
+  top: 3313px;
+  left: 245px;
+  width: 558px;
+  height: 413px;
+  background: transparent url("../images/Group 599.png") 0% 0% no-repeat padding-box;
+}
+
+main .main-article2 {
+  position: absolute;
+  top: 2682px;
+  left: 1255px;
+  width: 530px;
+  height: 504px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+  z-index: 3;
+}
+
+main .main-article3 {
+  position: absolute;
+  top: 3216px;
+  left: 1264px;
+  width: 521px;
+  height: 115px;
+  text-align: left;
+  font: Bold 21px/37px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+  z-index: 3;
+}
+
+main .main-article3 p:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+main .main-article3 p:nth-child(2n) {
+  padding: 10px 0;
+}
+
+main .main-article4 {
+  position: absolute;
+  top: 3365px;
+  left: 1255px;
+  width: 530px;
+  height: 174px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .mainBottomH {
+  position: absolute;
+  top: 3807px;
+  left: 135px;
+  width: 530px;
+  height: 87px;
+  text-align: left;
+  font: bold 32px/43px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+main .bottomMainLine {
+  position: absolute;
+  top: 3918px;
+  left: 135px;
+  width: 530px;
+  height: 0px;
+  border: 3px solid #474749;
+}
+
+main .mark-bottom-right {
+  position: absolute;
+  top: 3770px;
+  right: 0px;
+  width: 600px;
+  height: 520px;
+}
+
+main .mark-bottom-left {
+  position: absolute;
+  top: 4457px;
+  left: 0px;
+  width: 500px;
+  height: 600px;
+  z-index: 3;
+}
+
+main .bottom-article-part1 {
+  position: absolute;
+  top: 3905px;
+  left: 695px;
+  width: 530px;
+  height: 328px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .bottom-article-part2 {
+  position: absolute;
+  top: 4266px;
+  left: 708px;
+  width: 504px;
+  height: 249px;
+  text-align: left;
+  font: Bold 21px/37px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .bottom-article-part2 p:nth-child(odd) {
+  background-color: #F0F0F0;
+}
+
+main .bottom-article-part2 p:nth-child(2n) {
+  padding: 10px 0;
+}
+
+main .bottom-article-part3 {
+  position: absolute;
+  top: 4391px;
+  left: 1255px;
+  width: 530px;
+  height: 628px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+  z-index: 3;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+}
+
+nav .nav-bg {
+  position: absolute;
+  background-image: url("../images/bg-main.png");
+  top: 4177px;
+  height: 1380px;
+  width: 100%;
+}
+
+nav .content {
+  position: absolute;
+  top: 4491px;
+  left: 135px;
+  width: 670px;
+  height: 79px;
+  text-align: left;
+  font: 72px/82px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+nav .lineNav {
+  position: absolute;
+  top: 4629px;
+  left: 135px;
+  width: 531px;
+  height: 0px;
+  border: 3px solid #474749;
+}
+
+nav .contMain {
+  position: relative;
+  top: 4687px;
+  width: 100%;
+}
+
+nav .contMain .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+nav .contMain .container .townPlanning, nav .contMain .container .accesProblem, nav .contMain .container .futureStreet, nav .contMain .container .links {
+  height: 580px;
+  width: 21.5%;
+  margin-right: 15px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+}
+
+nav .contMain .container .townPlanning:hover, nav .contMain .container .accesProblem:hover, nav .contMain .container .futureStreet:hover, nav .contMain .container .links:hover {
+  outline: 3px solid grey;
+}
+
+nav .contMain .container .townPlanning:active, nav .contMain .container .accesProblem:active, nav .contMain .container .futureStreet:active, nav .contMain .container .links:active {
+  border: 5px solid grey;
+  -webkit-box-shadow: 3px 3px 5px 5px darkgrey;
+  box-shadow: 3px 3px 5px 5px darkgrey;
+  border-radius: 5px;
+}
+
+nav .contMain .container .townPlanning {
+  background: transparent url("../images/Group 011.svg") 50% 50% no-repeat padding-box;
+}
+
+nav .contMain .container .townPlanning > img {
+  display: block;
+  width: 191px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .townPlanning > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+nav .contMain .container .accesProblem {
+  background: transparent url("../images/Group 012.svg") 70% 60% no-repeat padding-box;
+}
+
+nav .contMain .container .accesProblem > img {
+  display: block;
+  width: 191px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .accesProblem > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+nav .contMain .container .futureStreet {
+  background: transparent url("../images/Group 013.svg") 70% 50% no-repeat padding-box;
+}
+
+nav .contMain .container .futureStreet > img {
+  display: block;
+  width: 191px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .futureStreet > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+nav .contMain .container .links {
+  background: transparent url("../images/Group 014.svg") 30% 50% no-repeat padding-box;
+}
+
+nav .contMain .container .links > img {
+  display: block;
+  width: 135px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .links > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+
+footer .figure5 {
+  position: absolute;
+  top: 5316px;
+  right: 0px;
+  width: 482px;
+  height: 189px;
+}
+
+footer .footer {
+  position: absolute;
+  width: 100%;
+  top: 5506px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #474749;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+footer .visitMain, footer .copyright, footer .backTop {
+  margin: 0 20px;
+  padding: 10px;
+  font: 16px/21px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #FCFCFC;
+}
+
+footer .visitMain > a, footer .backTop > a {
+  font: 16px/21px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #FCFCFC;
+  text-decoration: none;
+}

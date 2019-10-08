@@ -1,0 +1,1059 @@
+/*Mixins*/
+/*Var*/
+/*main css*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  position: relative;
+}
+
+header .figure1 {
+  width: 555px;
+  height: 82px;
+  opacity: 0.85;
+}
+
+header .headP {
+  position: absolute;
+  top: 20px;
+  left: 31px;
+  width: 494px;
+  height: 30px;
+  text-align: left;
+  font: 16px/21px Futura, Tahoma, sans-serif;
+  color: #FFFFFF;
+}
+
+header .definit {
+  position: absolute;
+  top: 167px;
+  left: 143px;
+  width: 515px;
+  height: 32px;
+  text-align: left;
+  font: 18px/25px Futura, Tahoma, sans-serif;
+  letter-spacing: 7.2px;
+  color: #1C5253;
+}
+
+header .mainH {
+  position: absolute;
+  top: 199px;
+  left: 143px;
+  width: 942px;
+  height: 261px;
+  text-align: left;
+  font: 72px/82px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+header .lineTop {
+  position: absolute;
+  top: 531px;
+  left: 135px;
+  width: 530px;
+  height: 0px;
+  border: 3px solid #474749;
+}
+
+header .article {
+  position: absolute;
+  top: 518px;
+  left: 695px;
+  width: 530px;
+  height: 301px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+header .lMore {
+  position: absolute;
+  top: 839px;
+  left: 695px;
+  width: 130px;
+  height: 27px;
+  text-align: left;
+  font: bold 21px/32px Futura, Tahoma, sans-serif;
+  color: #474749;
+  text-decoration: none;
+}
+
+header .lineLMore {
+  position: absolute;
+  top: 854px;
+  left: 835px;
+  width: 150px;
+  height: 0px;
+  border: 3px solid #474749;
+}
+
+header .figure2 {
+  position: absolute;
+  top: 52px;
+  right: 1px;
+  opacity: 0.6;
+}
+
+header .peopleImg {
+  position: absolute;
+  top: 731px;
+  right: 0px;
+  width: 487px;
+  height: 395px;
+  background: transparent url("../images/Group 595.png") 0% 0% no-repeat padding-box;
+  z-index: 3;
+}
+
+main .figure3 {
+  position: absolute;
+  top: 839px;
+  width: 986px;
+  height: 646px;
+  opacity: 0.6;
+  z-index: 2;
+}
+
+main .backgroundMain {
+  position: absolute;
+  top: 994px;
+  left: 0px;
+  width: 100%;
+  height: 724px;
+  background-image: url("../images/bg-main.png");
+}
+
+main .busStop {
+  position: absolute;
+  top: 1187px;
+  left: -160px;
+  width: 995px;
+  height: 567px;
+  background: transparent url("../images/Group 596.png") 0% 0% no-repeat padding-box;
+}
+
+main .streetFur {
+  position: absolute;
+  top: 1286px;
+  left: 695px;
+  width: 642px;
+  height: 37px;
+  text-align: left;
+  font: bold 32px/32px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+main .lineStreetFur {
+  position: absolute;
+  top: 1347px;
+  left: 695px;
+  width: 530px;
+  height: 0px;
+  border: 3px solid #474749;
+}
+
+main .mainText {
+  position: absolute;
+  top: 1335px;
+  left: 1255px;
+  width: 530px;
+  height: 150px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+}
+
+nav .content {
+  position: absolute;
+  top: 1861px;
+  left: 135px;
+  width: 670px;
+  height: 79px;
+  text-align: left;
+  font: 72px/82px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+nav .lineNav {
+  position: absolute;
+  top: 1999px;
+  left: 135px;
+  width: 531px;
+  height: 0px;
+  border: 3px solid #474749;
+}
+
+nav .contMain {
+  position: relative;
+  top: 2057px;
+  width: 100%;
+}
+
+nav .contMain .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+nav .contMain .container .townPlanning, nav .contMain .container .accesProblem, nav .contMain .container .futureStreet, nav .contMain .container .links {
+  height: 580px;
+  width: 21.5%;
+  margin-right: 15px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+}
+
+nav .contMain .container .townPlanning:hover, nav .contMain .container .accesProblem:hover, nav .contMain .container .futureStreet:hover, nav .contMain .container .links:hover {
+  outline: 3px solid grey;
+}
+
+nav .contMain .container .townPlanning:active, nav .contMain .container .accesProblem:active, nav .contMain .container .futureStreet:active, nav .contMain .container .links:active {
+  border: 5px solid grey;
+  -webkit-box-shadow: 3px 3px 5px 5px darkgrey;
+  box-shadow: 3px 3px 5px 5px darkgrey;
+  border-radius: 5px;
+}
+
+nav .contMain .container .townPlanning {
+  background: transparent url("../images/Group 011.svg") 50% 50% no-repeat padding-box;
+}
+
+nav .contMain .container .townPlanning > img {
+  display: block;
+  width: 191px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .townPlanning > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+nav .contMain .container .accesProblem {
+  background: transparent url("../images/Group 012.svg") 70% 60% no-repeat padding-box;
+}
+
+nav .contMain .container .accesProblem > img {
+  display: block;
+  width: 191px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .accesProblem > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+nav .contMain .container .futureStreet {
+  background: transparent url("../images/Group 013.svg") 70% 50% no-repeat padding-box;
+}
+
+nav .contMain .container .futureStreet > img {
+  display: block;
+  width: 191px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .futureStreet > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+nav .contMain .container .links {
+  background: transparent url("../images/Group 014.svg") 30% 50% no-repeat padding-box;
+}
+
+nav .contMain .container .links > img {
+  display: block;
+  width: 135px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .links > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+
+footer .figure5 {
+  position: absolute;
+  top: 2686px;
+  right: 0px;
+  width: 482px;
+  height: 189px;
+}
+
+footer .footer {
+  position: relative;
+  width: 100%;
+  top: 2876px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #474749;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+footer .visitMain, footer .copyright, footer .backTop {
+  margin: 0 20px;
+  padding: 10px;
+  font: 16px/21px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #FCFCFC;
+}
+
+footer .visitMain > a, footer .backTop > a {
+  font: 16px/21px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #FCFCFC;
+  text-decoration: none;
+}
+
+/* Adaptive */
+@media (min-width: 1620px) and (max-width: 1790px) {
+  header .figure2 img {
+    width: 650px;
+    height: 490px;
+  }
+  header .peopleImg {
+    background-size: 437px 345px;
+  }
+  main .busStop {
+    top: 1187px;
+    left: -210px;
+  }
+  main .streetFur {
+    top: 1286px;
+    left: 595px;
+    width: 642px;
+  }
+  main .lineStreetFur {
+    top: 1347px;
+    left: 595px;
+    width: 430px;
+  }
+  main .mainText {
+    top: 1335px;
+    left: 1055px;
+  }
+}
+
+@media (min-width: 1150px) and (max-width: 1620px) {
+  header .figure1 {
+    -webkit-transform: scale(0.65);
+    -ms-transform: scale(0.65);
+    transform: scale(0.65);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  header .headP {
+    top: 13px;
+    left: 21px;
+    width: 375px;
+    height: 20px;
+    font: 14px/16px Futura, Tahoma, sans-serif;
+  }
+  header .definit {
+    top: 117px;
+    left: 100px;
+    width: 361px;
+    height: 21px;
+    font: 12px/17px Futura, Tahoma, sans-serif;
+    letter-spacing: 6.1px;
+  }
+  header .mainH {
+    top: 140px;
+    left: 100px;
+    width: 660px;
+    height: 183px;
+    font: 51px/57px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .lineTop {
+    top: 372px;
+    left: 100px;
+    width: 371px;
+    border: 2px solid #474749;
+  }
+  header .article {
+    top: 363px;
+    left: 487px;
+    width: 371px;
+    height: 210px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .lMore {
+    top: 587px;
+    left: 487px;
+    width: 100px;
+    height: 19px;
+    font: bold 15px/22px Futura, Tahoma, sans-serif;
+  }
+  header .lineLMore {
+    top: 598px;
+    left: 585px;
+    width: 105px;
+    border: 2px solid #474749;
+  }
+  header .figure2 img {
+    width: 520px;
+    height: 380px;
+  }
+  header .people-cover {
+    position: absolute;
+    top: 512px;
+    right: 0px;
+    overflow: hidden;
+  }
+  header .peopleImg {
+    position: relative;
+    top: 0px;
+    width: 350px;
+    height: 277px;
+    background-size: 350px 277px;
+    right: 10px;
+  }
+  main .figure3 {
+    top: 587px;
+    width: 590px;
+    height: 452px;
+  }
+  main .figure3 img {
+    width: 290px;
+    height: 442px;
+  }
+  main .backgroundMain {
+    top: 696px;
+    height: 507px;
+  }
+  main .busStop {
+    top: 831px;
+    left: -112px;
+    background-size: 697px 397px;
+    z-index: 3;
+  }
+  main .streetFur {
+    top: 900px;
+    left: 487px;
+    width: 449px;
+    height: 26px;
+    font: bold 22px/22px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .lineStreetFur {
+    top: 943px;
+    left: 457px;
+    width: 291px;
+    border: 2px solid #474749;
+  }
+  main .mainText {
+    top: 935px;
+    left: 778px;
+    width: 371px;
+    height: 105px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  nav .content {
+    top: 1300px;
+    left: 95px;
+    width: 469px;
+    height: 55px;
+    font: bold 50px/57px "Playfair Display", Tahoma, sans-serif;
+  }
+  nav .lineNav {
+    top: 1400px;
+    left: 95px;
+    width: 372px;
+    border: 2px solid #474749;
+  }
+  nav .contMain {
+    top: 1440px;
+  }
+  nav .contMain .container .townPlanning, nav .contMain .container .accesProblem, nav .contMain .container .futureStreet, nav .contMain .container .links {
+    height: 405px;
+    width: 21.5%;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  nav .contMain .container .townPlanning:hover, nav .contMain .container .accesProblem:hover, nav .contMain .container .futureStreet:hover, nav .contMain .container .links:hover {
+    outline: 2px solid grey;
+  }
+  nav .contMain .container .townPlanning:active, nav .contMain .container .accesProblem:active, nav .contMain .container .futureStreet:active, nav .contMain .container .links:active {
+    border: 4px solid grey;
+    -webkit-box-shadow: 2px 2px 4px 4px darkgrey;
+    box-shadow: 2px 2px 4px 4px darkgrey;
+    border-radius: 5px;
+  }
+  nav .contMain .container .townPlanning {
+    background-size: 250px 350px;
+  }
+  nav .contMain .container .townPlanning > img {
+    display: block;
+    width: 134px;
+    height: 145px;
+    margin: 52px auto 24px auto;
+  }
+  nav .contMain .container .townPlanning > p {
+    text-align: center;
+    font: bold 22px/27px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .accesProblem {
+    background-size: 250px 350px;
+  }
+  nav .contMain .container .accesProblem > img {
+    display: block;
+    width: 134px;
+    height: 145px;
+    margin: 52px auto 24px auto;
+  }
+  nav .contMain .container .accesProblem > p {
+    text-align: center;
+    font: bold 22px/27px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .futureStreet {
+    background-size: 250px 350px;
+  }
+  nav .contMain .container .futureStreet > img {
+    display: block;
+    width: 134px;
+    height: 145px;
+    margin: 52px auto 24px auto;
+  }
+  nav .contMain .container .futureStreet > p {
+    text-align: center;
+    font: bold 22px/27px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .links {
+    background-size: 250px 350px;
+  }
+  nav .contMain .container .links > img {
+    display: block;
+    width: 95px;
+    height: 145px;
+    margin: 52px auto 24px auto;
+  }
+  nav .contMain .container .links > p {
+    text-align: center;
+    font: bold 22px/27px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  footer .figure5 {
+    top: 1880px;
+    width: 337px;
+    height: 132px;
+  }
+  footer .footer {
+    top: 2013px;
+    height: 35px;
+  }
+  footer .visitMain, footer .copyright, footer .backTop {
+    margin: 0 14px;
+    padding: 7px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  footer .visitMain > a, footer .backTop > a {
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1150px) {
+  header .figure1 {
+    -webkit-transform: scale(0.55);
+    -ms-transform: scale(0.55);
+    transform: scale(0.55);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  header .headP {
+    top: 13px;
+    left: 21px;
+    width: 455px;
+    height: 20px;
+    font: 16px/28px Futura, Tahoma, sans-serif;
+  }
+  header .definit {
+    top: 82px;
+    left: 70px;
+    width: 253px;
+    height: 14px;
+    font: 10px/15px Futura, Tahoma, sans-serif;
+    letter-spacing: 4.1px;
+  }
+  header .mainH {
+    top: 98px;
+    left: 70px;
+    width: 462px;
+    height: 128px;
+    font: 38px/42px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .lineTop {
+    top: 250px;
+    left: 70px;
+    width: 260px;
+    border: 1px solid #474749;
+  }
+  header .article {
+    top: 240px;
+    left: 341px;
+    width: 371px;
+    height: 210px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .lMore {
+    top: 460px;
+    left: 340px;
+    width: 100px;
+    height: 19px;
+    font: bold 14px/21px Futura, Tahoma, sans-serif;
+  }
+  header .lineLMore {
+    top: 470px;
+    left: 430px;
+    width: 100px;
+    border: 1px solid #474749;
+  }
+  header .figure2 img {
+    width: 260px;
+    height: 190px;
+  }
+  header .people-cover {
+    position: absolute;
+    top: 512px;
+    right: 0px;
+    overflow: hidden;
+  }
+  header .peopleImg {
+    position: relative;
+    top: 0px;
+    width: 250px;
+    height: 200px;
+    background-size: 250px 200px;
+    right: 10px;
+  }
+  main .figure3 {
+    top: 487px;
+    width: 490px;
+    height: 352px;
+  }
+  main .figure3 img {
+    width: 200px;
+    height: 300px;
+  }
+  main .backgroundMain {
+    top: 635px;
+    height: 387px;
+  }
+  main .busStop {
+    top: 731px;
+    left: -112px;
+    background-size: 497px 297px;
+    z-index: 3;
+    width: 497px;
+    height: 297px;
+  }
+  main .streetFur {
+    top: 780px;
+    left: 387px;
+    width: 249px;
+    height: 26px;
+    font: bold 21px/21px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .lineStreetFur {
+    top: 813px;
+    left: 357px;
+    width: 291px;
+    border: 1px solid #474749;
+  }
+  main .mainText {
+    top: 835px;
+    left: 358px;
+    width: 371px;
+    height: 105px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  nav .content {
+    top: 1000px;
+    left: 75px;
+    width: 369px;
+    height: 35px;
+    font: bold 40px/47px "Playfair Display", Tahoma, sans-serif;
+  }
+  nav .lineNav {
+    top: 1070px;
+    left: 75px;
+    width: 272px;
+    border: 1px solid #474749;
+  }
+  nav .contMain {
+    top: 1078px;
+  }
+  nav .contMain .container .townPlanning, nav .contMain .container .accesProblem, nav .contMain .container .futureStreet, nav .contMain .container .links {
+    height: 305px;
+    width: 21.5%;
+    margin-right: 5px;
+    padding: 3px;
+  }
+  nav .contMain .container .townPlanning:hover, nav .contMain .container .accesProblem:hover, nav .contMain .container .futureStreet:hover, nav .contMain .container .links:hover {
+    outline: 1px solid grey;
+  }
+  nav .contMain .container .townPlanning:active, nav .contMain .container .accesProblem:active, nav .contMain .container .futureStreet:active, nav .contMain .container .links:active {
+    border: 1px solid grey;
+    -webkit-box-shadow: 1px 1px 2px 2px darkgrey;
+    box-shadow: 1px 1px 2px 2px darkgrey;
+    border-radius: 3px;
+  }
+  nav .contMain .container .townPlanning {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .townPlanning > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .townPlanning > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .accesProblem {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .accesProblem > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .accesProblem > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .futureStreet {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .futureStreet > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .futureStreet > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .links {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .links > img {
+    display: block;
+    width: 75px;
+    height: 110px;
+    margin: 72px auto 24px auto;
+  }
+  nav .contMain .container .links > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  footer .figure5 {
+    top: 1390px;
+    width: 237px;
+    height: 82px;
+  }
+  footer .footer {
+    top: 1473px;
+    height: 25px;
+  }
+  footer .visitMain, footer .copyright, footer .backTop {
+    margin: 0 5px;
+    padding: 3px;
+    font: 10px/12px Futura, Tahoma, sans-serif;
+  }
+  footer .visitMain > a, footer .backTop > a {
+    font: 10px/12px Futura, Tahoma, sans-serif;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 760px) {
+  header .figure1 {
+    -webkit-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    transform: scale(0.4);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  header .headP {
+    top: 3px;
+    width: 345px;
+    height: 20px;
+    font: 22px/28px Futura, Tahoma, sans-serif;
+  }
+  header .definit {
+    top: 82px;
+    left: 10px;
+    width: 253px;
+    height: 14px;
+    font: 10px/15px Futura, Tahoma, sans-serif;
+    letter-spacing: 4.1px;
+    z-index: 3;
+  }
+  header .mainH {
+    top: 98px;
+    left: 10px;
+    width: 350px;
+    height: 128px;
+    font: 28px/32px "Playfair Display", Tahoma, sans-serif;
+    z-index: 3;
+  }
+  header .lineTop {
+    top: 230px;
+    left: 10px;
+    width: 260px;
+    border: 1px solid #474749;
+  }
+  header .article {
+    top: 240px;
+    left: 10px;
+    width: 350px;
+    height: 210px;
+    font: 11px/13px Futura, Tahoma, sans-serif;
+  }
+  header .lMore {
+    top: 370px;
+    left: 40px;
+    width: 80px;
+    height: 17px;
+    font: bold 13px/15px Futura, Tahoma, sans-serif;
+  }
+  header .lineLMore {
+    top: 378px;
+    left: 130px;
+    width: 100px;
+    border: 1px solid #474749;
+  }
+  header .figure2 img {
+    width: 160px;
+    height: 100px;
+  }
+  header .people-cover {
+    position: absolute;
+    top: 402px;
+    right: 0px;
+    overflow: hidden;
+  }
+  header .peopleImg {
+    position: relative;
+    top: 0px;
+    width: 200px;
+    height: 160px;
+    background-size: 200px 160px;
+    right: 10px;
+  }
+  main .figure3 {
+    top: 487px;
+    width: 290px;
+    height: 152px;
+  }
+  main .figure3 img {
+    width: 100px;
+    height: 150px;
+  }
+  main .backgroundMain {
+    top: 535px;
+    height: 387px;
+  }
+  main .busStop {
+    top: 731px;
+    left: -92px;
+    background-size: 357px 197px;
+    z-index: 3;
+    width: 357px;
+    height: 197px;
+  }
+  main .streetFur {
+    top: 580px;
+    left: 107px;
+    width: 200px;
+    height: 22px;
+    font: bold 17px/17px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .lineStreetFur {
+    top: 613px;
+    left: 107px;
+    width: 191px;
+    border: 1px solid #474749;
+  }
+  main .mainText {
+    top: 635px;
+    left: 10px;
+    width: 340px;
+    height: 105px;
+    font: 11px/13px Futura, Tahoma, sans-serif;
+  }
+  nav .content {
+    top: 870px;
+    left: 5px;
+    width: 300px;
+    height: 25px;
+    font: bold 22px/28px "Playfair Display", Tahoma, sans-serif;
+  }
+  nav .lineNav {
+    top: 900px;
+    left: 5px;
+    width: 172px;
+    border: 1px solid #474749;
+  }
+  nav .contMain {
+    top: 910px;
+  }
+  nav .contMain .container .townPlanning, nav .contMain .container .accesProblem, nav .contMain .container .futureStreet, nav .contMain .container .links {
+    height: 280px;
+    width: 43%;
+    margin-right: 5px;
+    padding: 3px;
+  }
+  nav .contMain .container .townPlanning:hover, nav .contMain .container .accesProblem:hover, nav .contMain .container .futureStreet:hover, nav .contMain .container .links:hover {
+    outline: 1px solid grey;
+  }
+  nav .contMain .container .townPlanning:active, nav .contMain .container .accesProblem:active, nav .contMain .container .futureStreet:active, nav .contMain .container .links:active {
+    border: 1px solid grey;
+    -webkit-box-shadow: 1px 1px 2px 2px darkgrey;
+    box-shadow: 1px 1px 2px 2px darkgrey;
+    border-radius: 3px;
+  }
+  nav .contMain .container .townPlanning {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .townPlanning > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .townPlanning > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .accesProblem {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .accesProblem > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .accesProblem > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .futureStreet {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .futureStreet > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .futureStreet > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .links {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .links > img {
+    display: block;
+    width: 75px;
+    height: 110px;
+    margin: 72px auto 24px auto;
+  }
+  nav .contMain .container .links > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  footer .figure5 {
+    top: 1457px;
+    width: 207px;
+    height: 72px;
+  }
+  footer .footer {
+    top: 1530px;
+    height: 25px;
+  }
+  footer .visitMain, footer .copyright, footer .backTop {
+    margin: 0 5px;
+    padding: 3px;
+    font: 8px/10px Futura, Tahoma, sans-serif;
+  }
+  footer .visitMain > a, footer .backTop > a {
+    font: 8px/10px Futura, Tahoma, sans-serif;
+  }
+}

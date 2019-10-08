@@ -1,0 +1,47 @@
+/*Mixins*/
+@mixin positions ($top, $left, $width, $height) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    width: $width;
+    height: $height;    
+}
+
+@mixin navImg {
+    display: block;
+    width: 191px;
+    height: 208px;   
+    margin: 75px auto 35px auto;
+}
+
+@mixin navP {
+    text-align: center;
+    font: bold 32px/39px $fontPlay;
+    color: #474749;
+}
+
+@mixin navImgm {
+    display: block;
+    width: 134px;
+    height: 145px;   
+    margin: 52px auto 24px auto;
+}
+
+@mixin navPm {
+    text-align: center;
+    font: bold 22px/27px $fontPlay;
+    color: #474749;
+}
+
+@mixin navImgP {
+    display: block;
+    width: 104px;
+    height: 110px;   
+    margin: 72px auto 14px auto;
+}
+
+@mixin navPP {
+    text-align: center;
+    font: bold 14px/17px $fontPlay;
+    color: #474749;
+}

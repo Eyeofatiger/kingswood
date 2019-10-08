@@ -1,0 +1,435 @@
+/*Var*/
+/*Mixins*/
+/*main css*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  position: relative;
+}
+
+header .figure1 {
+  width: 555px;
+  height: 82px;
+  opacity: 0.85;
+}
+
+header .headP {
+  position: absolute;
+  top: 20px;
+  left: 31px;
+  width: 494px;
+  height: 30px;
+  text-align: left;
+  font: 16px/21px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #FFFFFF;
+}
+
+header .imageMarkTop {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 770px;
+  height: 1055px;
+  z-index: 1;
+}
+
+header .top-screen {
+  position: absolute;
+  top: 208px;
+  right: 140px;
+  width: 508px;
+  height: 600px;
+  z-index: 3;
+}
+
+header .top-header {
+  position: absolute;
+  top: 250px;
+  left: 135px;
+  width: 942px;
+  height: 199px;
+  text-align: left;
+  font: bold 72px/82px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+header .top-line {
+  position: absolute;
+  top: 521px;
+  left: 135px;
+  width: 530px;
+  height: 0px;
+  border: 3px solid #474749;
+}
+
+header .top-text {
+  position: absolute;
+  top: 508px;
+  left: 695px;
+  width: 530px;
+  height: 236px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .grey-block {
+  position: absolute;
+  top: 962px;
+  width: 100%;
+  height: 1555px;
+  background-image: url("../images/bg-main.png");
+}
+
+main .grey-mark-left {
+  position: absolute;
+  top: 434px;
+  left: 0px;
+  width: 330px;
+  height: 520px;
+}
+
+main .grey-mark-right {
+  position: absolute;
+  top: 280px;
+  right: 0px;
+  width: 330px;
+  height: 555px;
+}
+
+main .grey-header {
+  position: absolute;
+  top: 1143px;
+  left: 135px;
+  width: 530px;
+  height: 86px;
+  text-align: left;
+  font: bold 32px/43px "Playfair Display", Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .grey-line {
+  position: absolute;
+  top: 1253px;
+  left: 135px;
+  width: 530px;
+  height: 0px;
+  border: 3px solid #474749;
+}
+
+main .grey-top-text {
+  position: absolute;
+  top: 1240px;
+  left: 695px;
+  width: 530px;
+  height: 88px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .street-light {
+  position: absolute;
+  top: 1397px;
+  left: 460px;
+  width: 161px;
+  height: 262px;
+}
+
+main .street-light-text {
+  position: absolute;
+  top: 1686px;
+  left: 415px;
+  width: 250px;
+  height: 117px;
+  text-align: center;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .bollard {
+  position: absolute;
+  top: 1449px;
+  left: 705px;
+  width: 230px;
+  height: 211px;
+}
+
+main .bollard-text {
+  position: absolute;
+  top: 1686px;
+  left: 695px;
+  width: 250px;
+  height: 145px;
+  text-align: center;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .seats {
+  position: absolute;
+  top: 1434px;
+  left: 992px;
+  width: 215px;
+  height: 226px;
+}
+
+main .seats-text {
+  position: absolute;
+  top: 1686px;
+  left: 975px;
+  width: 250px;
+  height: 117px;
+  text-align: center;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .traffic-lights {
+  position: absolute;
+  top: 1424px;
+  left: 1295px;
+  width: 171px;
+  height: 236px;
+}
+
+main .traffic-lights-text {
+  position: absolute;
+  top: 1686px;
+  left: 1255px;
+  width: 250px;
+  height: 117px;
+  text-align: center;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .grey-bottom-text {
+  position: absolute;
+  top: 1909px;
+  left: 695px;
+  width: 530px;
+  height: 387px;
+  text-align: left;
+  font: 18px/30px Futura, Tahoma, sans-serif;
+  color: #474749;
+}
+
+main .grey-bottom-left {
+  position: absolute;
+  top: 1879px;
+  left: 52px;
+  width: 555px;
+  height: 695px;
+}
+
+main .grey-bottom-right {
+  position: absolute;
+  top: 2173px;
+  right: 83px;
+  width: 542px;
+  height: 401px;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+}
+
+nav .content {
+  position: absolute;
+  top: 2615px;
+  left: 135px;
+  width: 670px;
+  height: 79px;
+  text-align: left;
+  font: 72px/82px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+nav .lineNav {
+  position: absolute;
+  top: 2753px;
+  left: 135px;
+  width: 531px;
+  height: 0px;
+  border: 3px solid #474749;
+}
+
+nav .contMain {
+  position: relative;
+  top: 2811px;
+  width: 100%;
+}
+
+nav .contMain .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+nav .contMain .container .townPlanning, nav .contMain .container .accesProblem, nav .contMain .container .futureStreet, nav .contMain .container .links {
+  height: 580px;
+  width: 21.5%;
+  margin-right: 15px;
+  padding: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+}
+
+nav .contMain .container .townPlanning:hover, nav .contMain .container .accesProblem:hover, nav .contMain .container .futureStreet:hover, nav .contMain .container .links:hover {
+  outline: 3px solid grey;
+}
+
+nav .contMain .container .townPlanning:active, nav .contMain .container .accesProblem:active, nav .contMain .container .futureStreet:active, nav .contMain .container .links:active {
+  border: 5px solid grey;
+  -webkit-box-shadow: 3px 3px 5px 5px darkgrey;
+  box-shadow: 3px 3px 5px 5px darkgrey;
+  border-radius: 5px;
+}
+
+nav .contMain .container .townPlanning {
+  background: transparent url("../images/Group 011.svg") 50% 50% no-repeat padding-box;
+}
+
+nav .contMain .container .townPlanning > img {
+  display: block;
+  width: 191px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .townPlanning > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+nav .contMain .container .accesProblem {
+  background: transparent url("../images/Group 012.svg") 70% 60% no-repeat padding-box;
+}
+
+nav .contMain .container .accesProblem > img {
+  display: block;
+  width: 191px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .accesProblem > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+nav .contMain .container .futureStreet {
+  background: transparent url("../images/Group 013.svg") 70% 50% no-repeat padding-box;
+}
+
+nav .contMain .container .futureStreet > img {
+  display: block;
+  width: 191px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .futureStreet > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+nav .contMain .container .links {
+  background: transparent url("../images/Group 014.svg") 30% 50% no-repeat padding-box;
+}
+
+nav .contMain .container .links > img {
+  display: block;
+  width: 135px;
+  height: 208px;
+  margin: 75px auto 35px auto;
+}
+
+nav .contMain .container .links > p {
+  text-align: center;
+  font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #474749;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+
+footer .figure5 {
+  position: absolute;
+  top: 3440px;
+  right: 0px;
+  width: 482px;
+  height: 189px;
+}
+
+footer .footer {
+  position: relative;
+  width: 100%;
+  top: 3630px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #474749;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+footer .visitMain, footer .copyright, footer .backTop {
+  margin: 0 20px;
+  padding: 10px;
+  font: 16px/21px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #FCFCFC;
+}
+
+footer .visitMain > a, footer .backTop > a {
+  font: 16px/21px Futura, Tahoma, sans-serif;
+  letter-spacing: 0;
+  color: #FCFCFC;
+  text-decoration: none;
+}
