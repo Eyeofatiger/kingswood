@@ -1,0 +1,1485 @@
+@import 'mixins.scss';
+
+/*Var*/
+$font:Futura, Tahoma, sans-serif;
+$fontPlay: 'Playfair Display', Tahoma, sans-serif;
+$col: #474749;
+
+/*main css*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    position: relative;
+
+    .figure1{
+        width: 555px;
+        height: 82px;
+        opacity: 0.85;
+    }
+
+    .headP{
+        @include positions(20px, 31px, 494px, 30px);
+        text-align: left;
+        font:16px/21px $font;
+        letter-spacing: 0;
+        color: #FFFFFF;
+    }
+    
+    .image-block{
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow: hidden;
+    }    
+
+    .tree{
+        position: absolute;
+        top: 200px;
+        right: 140px;
+        width: 367px;
+        height: 599px;
+        z-index: 3;
+    }
+
+    .header-mark{
+        position: relative;
+        top: -30px;
+        right:-120px;
+        width: 672px;
+        height: 1026px;
+
+    }
+
+    .top-header{
+        @include positions(250px, 135px, 852px, 273px);
+        text-align: left;
+        font: bold 74px/84px $fontPlay;
+        color: $col;
+    }
+
+    .top-line{
+        @include positions(594px, 135px, 530px, 0px);
+        border: 3px solid $col;
+    }
+
+    .top-text{
+        @include positions(581px, 695px, 530px, 55px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+}
+
+main{
+
+    .main-mark{
+        @include positions(854px, 0px, 551px, 825px);
+    }
+
+    .main-header1{
+        @include positions(694px, 695px, 530px, 63px);
+        text-align: left;
+        color: $col;
+    }
+
+    .main-link1{
+        @include positions(762px, 695px, 530px, 55px);
+        text-align: left;
+        font: 20px/30px $font;
+        color: $col;
+    }
+
+    .main-header2{
+        @include positions(861px, 695px, 530px, 63px);
+        text-align: left;
+        color: $col;
+    }
+
+    .main-link2{
+        @include positions(923px, 695px, 530px, 55px);
+        text-align: left;
+        font: 20px/30px $font;
+        color: $col;
+    }
+
+    .main-header3{
+        @include positions(1012px, 695px, 530px, 63px);
+        text-align: left;
+        color: $col;
+    }
+
+    .main-link3{
+        @include positions(1048px, 695px, 530px, 55px);
+        text-align: left;
+        font: 20px/30px $font;
+        color: $col;
+    }
+
+    .main-header4{
+        @include positions(1107px, 695px, 530px, 63px);
+        text-align: left;
+        color: $col;
+    }
+
+    .main-link4{
+        @include positions(1138px, 695px, 530px, 55px);
+        text-align: left;
+        font: 20px/30px $font;
+        color: $col;
+    }
+
+    .main-header5{
+        @include positions(1196px, 695px, 530px, 63px);
+        text-align: left;
+        color: $col;
+    }
+
+    .main-link5{
+        @include positions(1229px, 695px, 530px, 55px);
+        text-align: left;
+        font: 20px/30px $font;
+        color: $col;
+    }
+
+    .main-header6{
+        @include positions(1097px, 1255px, 530px, 63px);
+        text-align: left;
+        color: $col;
+    }
+
+    .main-link6{
+        @include positions(1130px, 1255px, 530px, 55px);
+        text-align: left;
+        font: 20px/30px $font;
+        color: $col;
+    }
+
+    .main-header7{
+        @include positions(1219px, 1255px, 530px, 63px);
+        text-align: left;
+        color: $col;
+    }
+
+    .main-link7{
+        @include positions(1254px, 1255px, 530px, 55px);
+        text-align: left;
+        font: 20px/30px $font;
+        color: $col;
+    }
+
+    .main-header8{
+        @include positions(1313px, 1255px, 530px, 63px);
+        text-align: left;
+        color: $col;
+    }
+
+    .main-link8{
+        @include positions(1347px, 1255px, 530px, 55px);
+        text-align: left;
+        font: 20px/30px $font;
+        color: $col;
+    }
+
+    .main-header9{
+        @include positions(1436px, 1255px, 530px, 63px);
+        text-align: left;
+        color: $col;
+    }
+
+    .main-link9{
+        @include positions(1466px, 1255px, 530px, 55px);
+        text-align: left;
+        font: 20px/30px $font;
+        color: $col;
+    }
+
+    .main-header10{
+        @include positions(1527px, 1255px, 530px, 63px);
+        text-align: left;
+        color: $col;
+    }
+
+    .main-link10{
+        @include positions(1561px, 1255px, 530px, 55px);
+        text-align: left;
+        font: 20px/30px $font;
+        color: $col;
+    }
+
+    .image-left{
+        @include positions(1722px, 43px, 440px, 395px);
+        z-index: 3;
+    }
+
+    .image-middle{
+        @include positions(1716px, 561px, 531px, 401px);
+        z-index: 3;
+    }
+
+    .image-right{
+        @include positions(1722px, 1142px, 759px, 395px);
+        z-index: 3;
+    }
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+
+    .nav-bg{
+        position: absolute;
+        background-image: url('../images/bg-main.png');
+        top: 1977px;
+        height: 1280px;
+        width: 100%;
+    }
+
+
+    .content{
+        @include positions(2191px, 135px, 670px, 79px);
+        text-align: left;
+        font: 72px/82px $fontPlay;
+        letter-spacing: 0;
+        color: $col;
+    }
+
+    .lineNav{
+        @include positions(2329px, 135px, 531px, 0px);
+        border: 3px solid $col;
+    }
+
+    .contMain{
+        position: relative;
+        top: 2387px;
+        width: 100%;
+
+        .container{
+            display:flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            align-content: center;
+            
+            .townPlanning, .accesProblem, .futureStreet, .links{
+                height: 580px;
+                width: 21.5%;
+                margin-right: 15px;
+                padding: 10px;
+                user-select: none;
+                text-decoration: none;
+                
+                &:hover{
+                    outline: 3px solid grey;
+                                    }
+
+                &:active{
+                    border: 5px solid grey;
+                    box-shadow: 3px 3px 5px 5px darkgrey;
+                    border-radius: 5px;
+                }
+             }
+
+             .townPlanning{
+                background: transparent url('../images/Group 011.svg') 50% 50% no-repeat padding-box;            
+            }
+
+             .townPlanning > img{
+                @include navImg;               
+            }
+
+            .townPlanning > p{
+                @include navP;
+            }
+
+            .accesProblem{
+                background: transparent url('../images/Group 012.svg') 70% 60% no-repeat padding-box;  
+            }
+            
+            .accesProblem > img{
+                @include navImg;
+            }
+
+            .accesProblem > p{
+                @include navP;
+            }
+
+            .futureStreet{
+                background: transparent url('../images/Group 013.svg') 70% 50% no-repeat padding-box;
+            }
+            
+            .futureStreet >img{
+                @include navImg;
+            }
+
+            .futureStreet >p{
+                @include navP;
+            }
+
+            .links{
+                background: transparent url('../images/Group 014.svg') 30% 50% no-repeat padding-box;
+            }
+            
+            .links >img{
+                display: block;
+                width: 135px;
+                height: 208px;   
+                margin: 75px auto 35px auto;
+            }
+
+            .links >p{
+                @include navP;
+            }
+        }
+    }
+}
+
+footer{
+    position: relative;
+    width: 100%;
+
+    .figure5{
+        position: absolute;
+        top: 3016px;
+        right: 0px;
+        width: 482px;
+        height: 189px;
+    }
+
+    .footer{
+        position: absolute;
+        width: 100%;
+        top: 3206px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: $col;
+        align-items: center;
+    }
+
+    .visitMain, .copyright, .backTop{
+        margin: 0 20px;
+        padding: 10px;
+        font: 16px/21px $font;
+        letter-spacing: 0;
+        color: #FCFCFC;
+    }
+
+    .visitMain >a, .backTop >a{
+        font: 16px/21px $font;
+        letter-spacing: 0;
+        color: #FCFCFC;
+        text-decoration: none;
+    }
+
+}
+
+/* Adaptive */
+@media(min-width: 1620px) and (max-width: 1790px){
+
+    header{
+    
+        .tree{
+            width: 257px;
+            height: 429px;
+        }
+    
+        .header-mark{
+            width: 512px;
+            height: 776px;    
+        }
+
+        .top-line{
+            left: 55px;
+            width: 430px;
+        }
+    
+        .top-text{
+            left: 545px;
+        }
+    }
+    
+    main{
+
+        .main-header1, .main-link1, .main-header2, .main-link2, .main-header3, .main-link3{
+            left: 545px;
+        }
+    
+        .main-header4, .main-link4, .main-header5, .main-link5{
+            left: 545px;
+        }       
+    
+        .main-header6, .main-link6, .main-header7, .main-link7, .main-header8, .main-link8{
+            left: 1105px;
+            width: 520px;
+        }
+
+  
+        .main-header9, .main-link9, .main-header10, .main-link10{
+            left: 1105px;
+            width: 520px;
+        }      
+    
+        .image-left{
+            top: 1742px;
+            width: 400px;
+            height: 355px;
+        }
+    
+        .image-middle{
+            top: 1736px;
+            left: 441px;
+            width: 478px;
+            height: 360px;
+        }
+    
+        .image-right{
+            top: 1742px;
+            left: 952px;
+            width: 654px;
+            height: 355px;
+        }
+    }
+}
+
+@media(min-width: 1250px) and (max-width: 1620px){
+    
+    header{
+    
+        .figure1{
+            transform: scale(0.7);
+            transform-origin: 0 0;
+        }
+    
+        .headP{
+            font:17px/21px $font;
+        }
+    
+        .tree{
+            top: 140px;
+            right: 98px;
+            width: 257px;
+            height: 419px;
+          }
+    
+        .header-mark{
+            top: -32px;
+            right:-90px;
+            width: 470px;
+            height: 718px;    
+        }
+    
+        .top-header{
+            top: 175px;
+            left: 95px;
+            width: 595px;
+            height: 191px;
+            font: bold 52px/59px $fontPlay;
+        }
+    
+        .top-line{
+            top: 415px;
+            left: 95px;
+            width: 371px;
+            border: 2px solid $col;
+        }
+    
+        .top-text{
+            top: 407px;
+            left: 487px;
+            width: 390px;
+            height: 39px;
+            font: 15px/24px $font;
+        }
+    }
+    
+    main{
+    
+        .main-mark{
+            top: 595px;
+            width: 385px;
+            height: 577px;
+        }
+
+        .main-header1, .main-link1, .main-header2, .main-link2, .main-header3, .main-link3{
+            left: 487px;
+            width: 390px;
+        }
+    
+        .main-header4, .main-link4, .main-header5, .main-link5{
+            left: 487px;
+            width: 390px;
+        }       
+    
+        .main-header6, .main-link6, .main-header7, .main-link7, .main-header8, .main-link8{
+            left: 877px;
+            width: 390px;
+        }
+  
+        .main-header9, .main-link9, .main-header10, .main-link10{
+            left: 877px;
+            width: 390px;
+        }    
+    
+        .main-header1{
+            top: 485px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link1{
+            top: 533px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header2{
+            top: 602px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link2{
+            top: 646px;
+            height: 39px;
+            font: 13.5px/21px $font;
+        }
+    
+        .main-header3{
+            top: 708px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link3{
+            top: 734px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header4{
+            top: 775px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link4{
+            top: 797px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header5{
+            top: 837px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link5{
+            top: 860px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header6{
+            top: 767px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link6{
+            top: 791px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header7{
+            top: 853px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link7{
+            top: 878px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header8{
+            top: 919px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link8{
+            top: 943px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header9{
+            top: 1005px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link9{
+            top: 1026px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header10{
+            top: 1069px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link10{
+            top: 1093px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .image-left{
+            top: 1205px;
+            left: 10px;
+            width: 300px;
+            height: 277px;
+        }
+    
+        .image-middle{
+            top: 1201px;
+            left: 323px;
+            width: 371px;
+            height: 280px;
+        }
+    
+        .image-right{
+            top: 1205px;
+            left: 710px;
+            width: 530px;
+            height: 277px;
+        }
+    }
+    
+    nav{
+    
+        .nav-bg{
+            top: 1358px;
+            height: 870px;
+        }
+   
+        .content{
+            top: 1500px;
+            left: 67px;
+            width: 347px;
+            height: 39px;
+            font: bold 35px/40px $fontPlay;
+        }
+    
+        .lineNav{
+            top: 1600px;
+            left: 67px;
+            width: 372px;
+            border: 2px solid #474749;
+        }
+    
+        .contMain{
+            top: 1640px;
+    
+            .container{
+                                
+                .townPlanning, .accesProblem, .futureStreet, .links{
+                    height: 405px;
+                    width: 21.5%;
+                    margin-right: 10px;
+                    padding: 5px;
+                    
+                    &:hover{
+                        outline: 2px solid grey;
+                                        }
+    
+                    &:active{
+                        border: 4px solid grey;
+                        box-shadow: 2px 2px 4px 4px darkgrey;
+                        border-radius: 5px;
+                    }
+                 }
+    
+                 .townPlanning{
+                    background-size: 250px 350px;            
+                }
+    
+                 .townPlanning > img{
+                    @include navImgm;               
+                }
+    
+                .townPlanning > p{
+                    @include navPm;
+                }
+    
+                .accesProblem{
+                    background-size: 250px 350px;   
+                }
+                
+                .accesProblem > img{
+                    @include navImgm;
+                }
+    
+                .accesProblem > p{
+                    @include navPm;
+                }
+    
+                .futureStreet{
+                    background-size: 250px 350px; 
+                }
+                
+                .futureStreet >img{
+                    @include navImgm;
+                }
+    
+                .futureStreet >p{
+                    @include navPm;
+                }
+    
+                .links{
+                    background-size: 250px 350px; 
+                }
+                
+                .links >img{
+                    display: block;
+                    width: 95px;
+                    height: 145px;   
+                    margin: 52px auto 24px auto;
+                }
+    
+                .links >p{
+                    @include navPm;
+                }
+            }
+        }
+    }
+    
+    footer{
+    
+        .figure5{
+            top: 2080px;
+            width: 337px;
+            height: 132px;
+        }
+    
+        .footer{
+            top: 2213px;
+            height: 35px;
+        }
+    
+        .visitMain, .copyright, .backTop{
+            margin: 0 14px;
+            padding: 7px;
+            font: 12px/15px $font;
+        }
+    
+        .visitMain >a, .backTop >a{
+            font: 12px/15px $font;
+        }
+    }
+}
+
+@media(min-width: 760px) and (max-width: 1250px){
+    header{
+    
+        .figure1{
+            transform: scale(0.55);
+            transform-origin: 0 0;
+        }
+    
+        .headP{
+            font:17px/21px $font;
+        }
+    
+        .tree{
+            top: 70px;
+            right: 58px;
+            width: 180px;
+            height: 293px;
+          }
+    
+        .header-mark{
+            top: -22px;
+            right:-64px;
+            width: 329px;
+            height: 502px;    
+        }
+    
+        .top-header{
+            top: 80px;
+            left: 25px;
+            width: 415px;
+            height: 133px;
+            font: bold 36px/41px $fontPlay;
+        }
+    
+        .top-line{
+            top: 180px;
+            left: 25px;
+            width: 255px;
+            border: 2px solid $col;
+        }
+    
+        .top-text{
+            top: 210px;
+            left: 100px;
+            width: 390px;
+            height: 39px;
+            font: 15px/24px $font;
+        }
+    }
+    
+    main{
+    
+        .main-mark{
+            top: 500px;
+            width: 185px;
+            height: 277px;
+        }
+
+        .main-header1, .main-link1, .main-header2, .main-link2, .main-header3, .main-link3{
+            left: 100px;
+            width: 390px;
+        }
+    
+        .main-header4, .main-link4, .main-header5, .main-link5{
+            left: 100px;
+            width: 390px;
+        }       
+    
+        .main-header6, .main-link6, .main-header7, .main-link7, .main-header8, .main-link8{
+            left: 100px;
+            width: 390px;
+        }
+  
+        .main-header9, .main-link9, .main-header10, .main-link10{
+            left: 100px;
+            width: 390px;
+        }    
+    
+        .main-header1{
+            top: 285px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link1{
+            top: 333px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header2{
+            top: 402px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link2{
+            top: 446px;
+            height: 39px;
+            font: 13.5px/21px $font;
+        }
+    
+        .main-header3{
+            top: 508px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link3{
+            top: 534px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header4{
+            top: 575px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link4{
+            top: 597px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header5{
+            top: 637px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link5{
+            top: 660px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header6{
+            top: 717px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link6{
+            top: 741px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header7{
+            top: 803px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link7{
+            top: 828px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header8{
+            top: 869px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link8{
+            top: 893px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header9{
+            top: 955px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link9{
+            top: 976px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .main-header10{
+            top: 1019px;
+            height: 44px;
+            font-size: 19px;
+        }
+    
+        .main-link10{
+            top: 1043px;
+            height: 39px;
+            font: 14px/21px $font;
+        }
+    
+        .image-left{
+            top: 1125px;
+            left: 10px;
+            width: 150px;
+            height: 137px;
+        }
+    
+        .image-middle{
+            top: 1121px;
+            left: 170px;
+            width: 211px;
+            height: 130px;
+        }
+    
+        .image-right{
+            top: 1125px;
+            left: 330px;
+            width: 350px;
+            height: 127px;
+        }
+    }
+    
+    nav{
+    
+        .nav-bg{
+            top: 1147px;
+            height: 530px;
+        }
+       
+        .content{
+            top: 1200px;
+            left: 75px;
+            width: 369px;
+            height: 35px;
+            font: bold 40px/47px $fontPlay;
+        }
+    
+        .lineNav{
+            top: 1270px;
+            left: 75px;
+            width: 272px;
+            border: 1px solid #474749;
+        }
+    
+        .contMain{
+            top: 1278px;
+    
+            .container{
+                                
+                .townPlanning, .accesProblem, .futureStreet, .links{
+                    height: 305px;
+                    width: 21.5%;
+                    margin-right: 5px;
+                    padding: 3px;
+                    
+                    &:hover{
+                        outline: 1px solid grey;
+                    }
+    
+                    &:active{
+                        border: 1px solid grey;
+                        box-shadow: 1px 1px 2px 2px darkgrey;
+                        border-radius: 3px;
+                    }
+                 }
+    
+                 .townPlanning{
+                    background-size: 150px 250px;            
+                }
+    
+                 .townPlanning > img{
+                    @include navImgP;               
+                }
+    
+                .townPlanning > p{
+                    @include navPP;
+                }
+    
+                .accesProblem{
+                    background-size: 150px 250px;   
+                }
+                
+                .accesProblem > img{
+                    @include navImgP;
+                }
+    
+                .accesProblem > p{
+                    @include navPP;
+                }
+    
+                .futureStreet{
+                    background-size: 150px 250px; 
+                }
+                
+                .futureStreet >img{
+                    @include navImgP;
+                }
+    
+                .futureStreet >p{
+                    @include navPP;
+                }
+    
+                .links{
+                    background-size: 150px 250px; 
+                }
+                
+                .links >img{
+                    display: block;
+                    width: 75px;
+                    height: 110px;   
+                    margin: 72px auto 24px auto;
+                }
+    
+                .links >p{
+                    @include navPP;
+                }
+            }
+        }
+    }
+    
+    footer{
+    
+        .figure5{
+            top: 1590px;
+            width: 237px;
+            height: 82px;
+        }
+    
+        .footer{
+            top: 1673px;
+            height: 25px;
+        }
+    
+        .visitMain, .copyright, .backTop{
+            margin: 0 5px;
+            padding: 3px;
+            font: 10px/12px $font;
+        }
+    
+        .visitMain >a, .backTop >a{
+            font: 10px/12px $font;
+        }
+    }
+
+}
+
+
+@media(min-width: 0px) and (max-width: 760px){
+    header{
+    
+        .figure1{
+            transform: scale(0.5);
+            transform-origin: 0 0;
+        }
+    
+        .headP{
+            font:17px/21px $font;
+        }
+    
+        .tree{
+            top: 20px;
+            right: 28px;
+            width: 80px;
+            height: 143px;
+          }
+    
+        .header-mark{
+            top: -20px;
+            right:-20px;
+            width: 129px;
+            height: 202px;    
+        }
+    
+        .top-header{
+            top: 70px;
+            left: 10px;
+            width: 350px;
+            height: 103px;
+            font: bold 30px/35px $fontPlay;
+        }
+    
+        .top-line{
+            top: 150px;
+            left: 10px;
+            width: 205px;
+            border: 1px solid $col;
+        }
+    
+        .top-text{
+            top: 175px;
+            left: 7px;
+            width: 340px;
+            height: 39px;
+            font: 13px/19px $font;
+        }
+    }
+    
+    main{
+    
+        .main-mark{
+            top: 500px;
+            width: 145px;
+            height: 207px;
+        }
+
+        .main-header1, .main-link1, .main-header2, .main-link2, .main-header3, .main-link3{
+            left: 7px;
+            width: 340px;
+        }
+    
+        .main-header4, .main-link4, .main-header5, .main-link5{
+            left: 7px;
+            width: 340px;
+        }       
+    
+        .main-header6, .main-link6, .main-header7, .main-link7, .main-header8, .main-link8{
+            left: 7px;
+            width: 340px;
+        }
+  
+        .main-header9, .main-link9, .main-header10, .main-link10{
+            left: 7px;
+            width: 340px;
+        }    
+    
+        .main-header1{
+            top: 235px;
+            height: 44px;
+            font-size: 16px;
+        }
+    
+        .main-link1{
+            top: 283px;
+            height: 39px;
+            font: 13px/19px $font;
+        }
+    
+        .main-header2{
+            top: 352px;
+            height: 44px;
+            font-size: 16px;
+        }
+    
+        .main-link2{
+            top: 396px;
+            height: 39px;
+            font: 13px/19px $font;
+        }
+    
+        .main-header3{
+            top: 458px;
+            height: 44px;
+            font-size: 16px;
+        }
+    
+        .main-link3{
+            top: 484px;
+            height: 39px;
+            font: 13px/19px $font;
+        }
+    
+        .main-header4{
+            top: 525px;
+            height: 44px;
+            font-size: 16px;
+        }
+    
+        .main-link4{
+            top: 547px;
+            height: 39px;
+            font: 13px/19px $font;
+        }
+    
+        .main-header5{
+            top: 587px;
+            height: 44px;
+            font-size: 16px;
+        }
+    
+        .main-link5{
+            top: 610px;
+            height: 39px;
+            font: 13px/19px $font;
+        }
+    
+        .main-header6{
+            top: 652px;
+            height: 44px;
+            font-size: 16px;
+        }
+    
+        .main-link6{
+            top: 676px;
+            height: 39px;
+            font: 13px/19px $font;
+        }
+    
+        .main-header7{
+            top: 723px;
+            height: 44px;
+            font-size: 16px;
+        }
+    
+        .main-link7{
+            top: 748px;
+            height: 39px;
+            font: 13px/19px $font;
+        }
+    
+        .main-header8{
+            top: 779px;
+            height: 44px;
+            font-size: 16px;
+        }
+    
+        .main-link8{
+            top: 803px;
+            height: 39px;
+            font: 13px/19px $font;
+        }
+    
+        .main-header9{
+            top: 855px;
+            height: 44px;
+            font-size: 16px;
+        }
+    
+        .main-link9{
+            top: 876px;
+            height: 39px;
+            font: 13px/19px $font;
+        }
+    
+        .main-header10{
+            top: 909px;
+            height: 44px;
+            font-size: 16px;
+        }
+    
+        .main-link10{
+            top: 933px;
+            height: 39px;
+            font: 13px/19px $font;
+        }
+    
+        .image-left{
+            top: 1025px;
+            left: 3px;
+            width: 90px;
+            height: 69px;
+        }
+    
+        .image-middle{
+            top: 1031px;
+            left: 93px;
+            width: 105px;
+            height: 65px;
+        }
+    
+        .image-right{
+            top: 1035px;
+            left: 180px;
+            width: 175px;
+            height: 63px;
+        }
+    }
+    
+    nav{
+    
+        .nav-bg{
+            top: 1005px;
+            height: 530px;
+        }
+       
+        .content{
+            top: 1050px;
+            left: 5px;
+            width: 300px;
+            height: 25px;
+            font: bold 22px/28px $fontPlay;
+        }
+    
+        .lineNav{
+            top: 1100px;
+            left: 5px;
+            width: 172px;
+            border: 1px solid #474749;
+        }
+    
+        .contMain{
+            top: 1110px;
+    
+            .container{
+                                
+                .townPlanning, .accesProblem, .futureStreet, .links{
+                    height: 280px;
+                    width: 43%;
+                    margin-right: 5px;
+                    padding: 3px;
+                    
+                    &:hover{
+                        outline: 1px solid grey;
+                    }
+    
+                    &:active{
+                        border: 1px solid grey;
+                        box-shadow: 1px 1px 2px 2px darkgrey;
+                        border-radius: 3px;
+                    }
+                 }
+    
+                 .townPlanning{
+                    background-size: 150px 250px;            
+                }
+    
+                 .townPlanning > img{
+                    @include navImgP;               
+                }
+    
+                .townPlanning > p{
+                    @include navPP;
+                }
+    
+                .accesProblem{
+                    background-size: 150px 250px;   
+                }
+                
+                .accesProblem > img{
+                    @include navImgP;
+                }
+    
+                .accesProblem > p{
+                    @include navPP;
+                }
+    
+                .futureStreet{
+                    background-size: 150px 250px; 
+                }
+                
+                .futureStreet >img{
+                    @include navImgP;
+                }
+    
+                .futureStreet >p{
+                    @include navPP;
+                }
+    
+                .links{
+                    background-size: 150px 250px; 
+                }
+                
+                .links >img{
+                    display: block;
+                    width: 75px;
+                    height: 110px;   
+                    margin: 72px auto 24px auto;
+                }
+    
+                .links >p{
+                    @include navPP;
+                }
+            }
+        }
+    }
+    
+    footer{
+    
+        .figure5{
+            top: 1657px;
+            width: 207px;
+            height: 72px;
+        }
+    
+        .footer{
+            top: 1730px;
+            height: 25px;
+        }
+    
+        .visitMain, .copyright, .backTop{
+            margin: 0 5px;
+            padding: 3px;
+            font: 8px/10px $font;
+        }
+    
+        .visitMain >a, .backTop >a{
+            font: 8px/10px $font;
+        }
+    }
+}
