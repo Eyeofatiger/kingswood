@@ -3,6 +3,8 @@
 /*Var*/
 $font:Futura, Tahoma, sans-serif;
 $fontPlay: 'Playfair Display', Tahoma, sans-serif;
+$col: #474749;
+
 
 /*main css*/
 *{
@@ -42,12 +44,12 @@ header{
         @include positions(199px, 143px, 942px, 261px);
         text-align: left;
         font:72px/82px $fontPlay;
-        color: #474749;
+        color: $col;
     }
 
     .lineTop{
         @include positions(531px, 135px, 530px, 0px);
-        border: 3px solid #474749;
+        border: 3px solid $col;
     }
 
     .article{
@@ -55,20 +57,20 @@ header{
         text-align: left;
         font: 18px/30px $font;
         letter-spacing: 0;
-        color: #474749;
+        color: $col;
     }
 
     .lMore{
         @include positions(839px, 695px, 130px, 27px);
         text-align: left;
         font: bold 21px/32px $font;
-        color: #474749;
+        color: $col;
         text-decoration: none;
     }
 
     .lineLMore{
         @include positions(854px, 835px, 150px, 0px);
-        border: 3px solid #474749;
+        border: 3px solid $col;
     }
 
     .figure2{
@@ -118,12 +120,12 @@ main{
         text-align: left;
         font: bold 32px/32px $fontPlay;
         letter-spacing: 0;
-        color: #474749;
+        color: $col;
     }
 
     .lineStreetFur{
         @include positions(1347px, 695px, 530px, 0px);
-        border: 3px solid #474749;
+        border: 3px solid $col;
     }
 
     .mainText{
@@ -131,7 +133,7 @@ main{
         text-align: left;
         font: 18px/30px $font;
         letter-spacing: 0;
-        color: #474749;
+        color: $col;
     }
 }
 
@@ -145,12 +147,12 @@ nav{
         text-align: left;
         font: 72px/82px $fontPlay;
         letter-spacing: 0;
-        color: #474749;
+        color: $col;
     }
 
     .lineNav{
         @include positions(1999px, 135px, 531px, 0px);
-        border: 3px solid #474749;
+        border: 3px solid $col;
     }
 
     .contMain{
@@ -260,7 +262,7 @@ footer{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        background-color: #474749;
+        background-color: $col;
         align-items: center;
     }
 
@@ -362,7 +364,7 @@ footer{
             top: 372px;
             left: 100px;
             width: 371px;
-            border: 2px solid #474749;
+            border: 2px solid $col;
         }
     
         .article{
@@ -386,7 +388,7 @@ footer{
             top: 598px;
             left: 585px;
             width: 105px;
-            border: 2px solid #474749;
+            border: 2px solid $col;
         }
     
         .figure2 img{
@@ -447,7 +449,7 @@ footer{
             top: 943px;
             left: 457px;
             width: 291px;
-            border: 2px solid #474749;
+            border: 2px solid $col;
         }
     
         .mainText{
@@ -473,7 +475,7 @@ footer{
             top: 1400px;
             left: 95px;
             width: 372px;
-            border: 2px solid #474749;
+            border: 2px solid $col;
         }
     
         .contMain{
@@ -614,7 +616,7 @@ footer{
             top: 250px;
             left: 70px;
             width: 260px;
-            border: 1px solid #474749;
+            border: 1px solid $col;
         }
     
         .article{
@@ -638,7 +640,7 @@ footer{
             top: 470px;
             left: 430px;
             width: 100px;
-            border: 1px solid #474749;
+            border: 1px solid $col;
         }
     
         .figure2 img{
@@ -701,7 +703,7 @@ footer{
             top: 813px;
             left: 357px;
             width: 291px;
-            border: 1px solid #474749;
+            border: 1px solid $col;
         }
     
         .mainText{
@@ -727,7 +729,7 @@ footer{
             top: 1070px;
             left: 75px;
             width: 272px;
-            border: 1px solid #474749;
+            border: 1px solid $col;
         }
     
         .contMain{
@@ -871,7 +873,7 @@ footer{
             top: 230px;
             left: 10px;
             width: 260px;
-            border: 1px solid #474749;
+            border: 1px solid $col;
         }
     
         .article{
@@ -894,7 +896,7 @@ footer{
             top: 378px;
             left: 130px;
             width: 100px;
-            border: 1px solid #474749;
+            border: 1px solid $col;
         }
     
         .figure2 img{
@@ -957,7 +959,7 @@ footer{
             top: 613px;
             left: 107px;
             width: 191px;
-            border: 1px solid #474749;
+            border: 1px solid $col;
         }
     
         .mainText{
@@ -983,7 +985,7 @@ footer{
             top: 900px;
             left: 5px;
             width: 172px;
-            border: 1px solid #474749;
+            border: 1px solid $col;
         }
     
         .contMain{
