@@ -1,0 +1,1606 @@
+@import 'mixins.scss';
+
+/*Var*/
+$font:Futura, Tahoma, sans-serif;
+$fontPlay: 'Playfair Display', Tahoma, sans-serif;
+$col: #474749;
+/*main css*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    position: relative;
+
+    .figure1{
+        width: 555px;
+        height: 82px;
+        opacity: 0.85;
+    }
+
+    .headP{
+        @include positions(20px, 31px, 494px, 30px);
+        text-align: left;
+        font:16px/21px $font;
+        color: #FFFFFF;
+    }
+
+    .mainH{
+        @include positions(250px, 135px, 942px, 273px);
+        text-align: left;
+        font:72px/82px $fontPlay;
+        color: $col;
+    }
+
+    section > h3{
+        @include positions(573px, 135px, 642px, 37px);
+        text-align: left;
+        font: bold 32px/32px $fontPlay;
+        color: $col;
+    }
+
+    .lineTop{
+        @include positions(634px, 135px, 390px, 0px);
+        border: 3px solid $col;
+    }
+
+    .article1{
+        @include positions(621px, 555px, 530px, 309px);
+        text-align: left;
+        color: $col;
+        font: 18px/30px $font;
+    }
+
+    .articleP{
+        font: Italic 18px/30px $font;
+    }
+
+    .article2{
+        @include positions(954px, 555px, 530px, 296px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .imageMarkTop{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 770px;
+        height: 1055px;
+    }
+
+    .busStop{
+        position: absolute;
+        top: 200px;
+        right: 140px;
+        width: 521px;
+        height: 569px;
+    }
+
+    .article3{
+        @include positions(1143px, 1115px, 530px, 204px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .groups1{
+        @include positions(1380px, 1115px, 250px, 197px);
+        text-align: left;
+        font: Bold 21px/37px $fontPlay;
+        color: $col;
+    }
+
+    .groups1>p, .groups2>p{
+        padding-bottom: 5px;
+    }
+
+    .groups2{
+        @include positions(1380px, 1395px, 250px, 197px);
+        text-align: left;
+        font: Bold 21px/37px $fontPlay;
+        color: $col;
+    }
+
+    .article4{
+        @include positions(1610px, 1115px, 530px, 325px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .finalHeadImage{
+        @include positions(1443px, -160px, 995px, 492px);
+        background: transparent url('../images/Group 597.png') 0% 0% no-repeat padding-box;
+    }    
+}
+
+main{
+    position: relative;
+    width: 100%;
+
+    .mainTopH{
+        @include positions(2096px, 135px, 530px, 91px);
+        text-align: left;
+        font: bold 32px/43px $fontPlay;
+        color: $col;
+    }
+
+    .topMainLine{
+        position: relative;
+        top: 2217px;
+        left: 135px;
+        width: 530px;
+        height: 0px;
+        border: 3px solid $col;
+    }
+
+    .mainArticle1{
+        position: relative;
+        top: 2204px;
+        left: 695px;
+        width: 530px;
+        height: 655px;
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+        z-index: 3;
+    }
+
+    .woman{
+        position: absolute;
+        top: 2140px;
+        right: 0px;
+        width: 600px;
+        height: 434px;
+        background: transparent url('../images/Group 598.png') 0% 0% no-repeat padding-box;
+        z-index: 3;
+    }
+
+    .markBlue{
+        @include positions(2389px, 0px, 350px, 540px);
+        z-index: 3;
+    }
+
+    .bg-main-top{
+        position: absolute;
+        background-image: url('../images/bg-main.png');
+        top: 2539px;
+        width: 100%;
+        height: 1131px;
+    }
+
+    .people-main{
+        @include positions(3313px, 245px, 558px, 413px);
+        background: transparent url('../images/Group 599.png') 0% 0% no-repeat padding-box;
+    }
+
+    .main-article2{
+        @include positions(2682px, 1255px, 530px, 504px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+        z-index: 3;
+    }
+
+    .main-article3{
+        @include positions(3216px, 1264px, 521px, 115px);
+        text-align: left;
+        font: Bold 21px/37px $fontPlay;
+        color: $col;
+        z-index: 3;
+    }
+
+    .main-article3 p:nth-child(odd){
+        background-color: #FFFFFF;
+    }
+    .main-article3 p:nth-child(2n){
+        padding: 10px 0;
+    }
+
+    .main-article4{
+        @include positions(3365px, 1255px, 530px, 174px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .mainBottomH{
+        @include positions(3807px, 135px, 530px, 87px);
+        text-align: left;
+        font:bold 32px/43px $fontPlay;
+        letter-spacing: 0;
+        color: $col;
+    }
+
+    .bottomMainLine{
+        @include positions(3918px, 135px, 530px, 0px);
+        border: 3px solid $col;
+    }
+
+    .mark-bottom-right{
+        position: absolute;
+        top: 3770px;
+        right: 0px;
+        width: 600px;
+        height: 520px;
+    }
+
+    .mark-bottom-left{
+        @include positions(4457px, 0px, 500px, 600px);
+        z-index: 3;
+    }
+
+    .bottom-article-part1{
+        @include positions(3905px, 695px, 530px, 328px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .bottom-article-part2{
+        @include positions(4266px, 708px, 504px, 249px);
+        text-align: left;
+        font: Bold 21px/37px $fontPlay;
+        color: $col;
+    }
+
+    .bottom-article-part2 p:nth-child(odd){
+        background-color: #F0F0F0;
+    }
+    .bottom-article-part2 p:nth-child(2n){
+        padding: 10px 0;
+    }
+
+    .bottom-article-part3{
+        @include positions(4391px, 1255px, 530px, 628px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+        z-index: 3;
+    }
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+
+    .nav-bg{
+        position: absolute;
+        background-image: url('../images/bg-main.png');
+        top: 4177px;
+        height: 1380px;
+        width: 100%;
+    }
+
+
+    .content{
+        @include positions(4491px, 135px, 670px, 79px);
+        text-align: left;
+        font: 72px/82px $fontPlay;
+        letter-spacing: 0;
+        color: $col;
+    }
+
+    .lineNav{
+        @include positions(4629px, 135px, 531px, 0px);
+        border: 3px solid $col;
+    }
+
+    .contMain{
+        position: relative;
+        top: 4687px;
+        width: 100%;
+
+        .container{
+            display:flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            align-content: center;
+            
+            .townPlanning, .accesProblem, .futureStreet, .links{
+                height: 580px;
+                width: 21.5%;
+                margin-right: 15px;
+                padding: 10px;
+                user-select: none;
+                text-decoration: none;
+                
+                &:hover{
+                    outline: 3px solid grey;
+                                    }
+
+                &:active{
+                    border: 5px solid grey;
+                    box-shadow: 3px 3px 5px 5px darkgrey;
+                    border-radius: 5px;
+                }
+             }
+
+             .townPlanning{
+                background: transparent url('../images/Group 011.svg') 50% 50% no-repeat padding-box;            
+            }
+
+             .townPlanning > img{
+                @include navImg;               
+            }
+
+            .townPlanning > p{
+                @include navP;
+            }
+
+            .accesProblem{
+                background: transparent url('../images/Group 012.svg') 70% 60% no-repeat padding-box;  
+            }
+            
+            .accesProblem > img{
+                @include navImg;
+            }
+
+            .accesProblem > p{
+                @include navP;
+            }
+
+            .futureStreet{
+                background: transparent url('../images/Group 013.svg') 70% 50% no-repeat padding-box;
+            }
+            
+            .futureStreet >img{
+                @include navImg;
+            }
+
+            .futureStreet >p{
+                @include navP;
+            }
+
+            .links{
+                background: transparent url('../images/Group 014.svg') 30% 50% no-repeat padding-box;
+            }
+            
+            .links >img{
+                display: block;
+                width: 135px;
+                height: 208px;   
+                margin: 75px auto 35px auto;
+            }
+
+            .links >p{
+                @include navP;
+            }
+        }
+    }
+}
+
+footer{
+    position: relative;
+    width: 100%;
+
+    .figure5{
+        position: absolute;
+        top: 5316px;
+        right: 0px;
+        width: 482px;
+        height: 189px;
+    }
+
+    .footer{
+        position: absolute;
+        width: 100%;
+        top: 5506px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: $col;
+        align-items: center;
+    }
+
+    .visitMain, .copyright, .backTop{
+        margin: 0 20px;
+        padding: 10px;
+        font: 16px/21px $font;
+        letter-spacing: 0;
+        color: #FCFCFC;
+    }
+
+    .visitMain >a, .backTop >a{
+        font: 16px/21px $font;
+        letter-spacing: 0;
+        color: #FCFCFC;
+        text-decoration: none;
+    }
+}
+
+/* Adaptive */
+@media(min-width: 1650px) and (max-width: 1790px){
+    
+    main{
+
+        .mainTopH{
+            left: 100px;
+        }
+    
+        .topMainLine{
+            left: 100px;
+            width: 400px;
+        }
+    
+        .mainArticle1{
+            left: 545px;
+        }
+    
+        .woman{
+            width: 550px;
+            height: 404px;
+
+        }
+    
+       .main-article2{
+            left: 1105px;
+        }
+    
+        .main-article3{
+            left: 1114px;
+        }
+    
+        .main-article4{
+            left: 1105px;
+        }
+    
+        .mainBottomH{
+            left: 100px;
+            width: 500px;
+        }
+    
+        .bottomMainLine{
+            left: 100px;
+            width: 450px;
+        }
+    
+        .mark-bottom-right{
+            width: 550px;
+            height: 490px;
+        }
+    
+        .bottom-article-part1{
+            left: 575px;
+        }
+    
+        .bottom-article-part2{
+            left: 578px;
+        }
+    
+        .bottom-article-part3{
+            left: 1105px;
+        }
+    }
+}
+
+@media(min-width: 1250px) and (max-width: 1650px){
+    
+    header{
+    
+        .figure1{
+            transform: scale(0.7);
+            transform-origin: 0 0;
+        }
+    
+        .headP{
+            font:17px/21px $font;
+        }
+    
+        .mainH{
+            top: 175px;
+            left: 95px;
+            width: 659px;
+            height: 191px;
+            font:50px/57px $fontPlay;
+        }
+    
+        section > h3{
+            top: 401px;
+            left: 95px;
+            width: 449px;
+            height: 26px;
+            font: bold 22px/22px $fontPlay;
+        }
+    
+        .lineTop{
+            top: 444px;
+            left: 95px;
+            width: 273px;
+            border: 2px solid $col;
+        }
+    
+        .article1{
+            top: 434px;
+            left: 388px;
+            width: 371px;
+            height: 216px;
+            font: 13px/21px $font;
+        }
+    
+        .articleP{
+            font: Italic 13px/21px $font;
+        }
+    
+        .article2{
+            top: 667px;
+            left: 388px;
+            width: 371px;
+            height: 207px;
+            font: 13px/21px $font;
+        }
+    
+        .imageMarkTop{
+            width: 519px;
+            height: 700px;
+        }
+    
+        .busStop{
+            top: 140px;
+            right: 98px;
+            width: 344px;
+            height: 378px;
+        }
+    
+        .article3{
+            top: 800px;
+            left: 780px;
+            width: 371px;
+            height: 142px;
+            font: 13px/21px $font;
+        }
+    
+        .groups1{
+            top: 966px;
+            left: 780px;
+            width: 175px;
+            height: 137px;
+            font: Bold 15px/26px $fontPlay;
+        }
+    
+        .groups1>p, .groups2>p{
+            padding-bottom: 4px;
+        }
+    
+        .groups2{
+            top: 966px;
+            left: 976px;
+            width: 175px;
+            height: 137px;
+            font: Bold 15px/26px $fontPlay;
+        }
+    
+        .article4{
+            top: 1127px;
+            left: 780px;
+            width: 371px;
+            height: 227px;
+            font: 13px/21px $font;
+         }
+    
+        .finalHeadImage{
+            top: 1030px;
+            left: -112px;
+            width: 695px;
+            height: 344px;
+            background-size: 695px 344px;
+        }    
+    }
+    
+    main{
+    
+        .mainTopH{
+            top: 1467px;
+            left: 95px;
+            width: 371px;
+            height: 64px;
+            font: bold 22px/30px $fontPlay;
+        }
+    
+        .topMainLine{
+            top: 1551px;
+            left: 95px;
+            width: 371px;
+            border: 2px solid $col;
+        }
+    
+        .mainArticle1{
+            top: 1543px;
+            left: 485px;
+            width: 371px;
+            height: 458px;
+            font: 13px/21px $font;
+        }
+    
+        .woman{
+            top: 1538px;
+            width: 420px;
+            height: 304px;
+            background-size: 420px 304px;
+        }
+    
+        .markBlue{
+            top: 1672px;
+            width: 245px;
+            height: 378px;
+        }
+    
+        .bg-main-top{
+            top: 1825px;
+            height: 751px;
+        }
+    
+        .people-main{
+            top: 2319px;
+            left: 171px;
+            width: 390px;
+            height: 289px;
+            background-size: 390px 289px;
+        }
+    
+        .main-article2{
+            top: 1919px;
+            left: 878px;
+            width: 371px;
+            height: 352px;
+            font: 13px/21px $font;
+        }
+    
+        .main-article3{
+            top: 2291px;
+            left: 884px;
+            width: 365px;
+            height: 78px;
+            font: Bold 15px/24px $fontPlay;
+        }
+
+        .main-article3 p:nth-child(2n){
+            padding: 7px 0;
+        }
+    
+        .main-article4{
+            top: 2395px;
+            left: 879px;
+            width: 371px;
+            height: 121px;
+            font: 13px/21px $font;
+        }
+    
+        .mainBottomH{
+            top: 2665px;
+            left: 95px;
+            width: 371px;
+            height: 61px;
+            font:bold 22px/30px $fontPlay;
+
+        }
+    
+        .bottomMainLine{
+            top: 2742px;
+            left: 95px;
+            width: 371px;
+            border: 2px solid $col;
+        }
+    
+        .mark-bottom-right{
+            top: 2639px;
+            width: 390px;
+            height: 344px;
+        }
+    
+        .mark-bottom-left{
+            top: 3119px;
+            width: 330px;
+            height: 400px;
+        }
+    
+        .bottom-article-part1{
+            top: 2733px;
+            left: 486px;
+            width: 371px;
+            height: 230px;
+            font: 13px/21px $font;
+        }
+    
+        .bottom-article-part2{
+            top: 2986px;
+            left: 490px;
+            width: 353px;
+            height: 174px;
+            font: Bold 15px/25px $fontPlay;
+        }
+    
+        .bottom-article-part2 p:nth-child(2n){
+            padding: 7px 0;
+        }
+    
+        .bottom-article-part3{
+            top: 3073px;
+            left: 878px;
+            width: 371px;
+            height: 440px;
+            font: 13px/21px $font;
+        }
+    }
+    
+    nav{
+    
+        .nav-bg{
+            top: 2924px;
+            height: 920px;
+        }
+    
+    
+        .content{
+            top: 3143px;
+            left: 95px;
+            width: 469px;
+            height: 55px;
+            font: 50px/57px $fontPlay;
+        }
+    
+        .lineNav{
+            top: 3240px;
+            left: 95px;
+            width: 371px;
+            border: 2px solid $col;
+        }
+    
+        .contMain{
+            top: 3270px;
+    
+            .container{
+                                
+                .townPlanning, .accesProblem, .futureStreet, .links{
+                    height: 405px;
+                    width: 21.5%;
+                    margin-right: 10px;
+                    padding: 5px;
+                    
+                    &:hover{
+                        outline: 2px solid grey;
+                                        }
+    
+                    &:active{
+                        border: 4px solid grey;
+                        box-shadow: 2px 2px 4px 4px darkgrey;
+                        border-radius: 5px;
+                    }
+                 }
+    
+                 .townPlanning{
+                    background-size: 250px 350px;            
+                }
+    
+                 .townPlanning > img{
+                    @include navImgm;               
+                }
+    
+                .townPlanning > p{
+                    @include navPm;
+                }
+    
+                .accesProblem{
+                    background-size: 250px 350px;   
+                }
+                
+                .accesProblem > img{
+                    @include navImgm;
+                }
+    
+                .accesProblem > p{
+                    @include navPm;
+                }
+    
+                .futureStreet{
+                    background-size: 250px 350px; 
+                }
+                
+                .futureStreet >img{
+                    @include navImgm;
+                }
+    
+                .futureStreet >p{
+                    @include navPm;
+                }
+    
+                .links{
+                    background-size: 250px 350px; 
+                }
+                
+                .links >img{
+                    display: block;
+                    width: 95px;
+                    height: 145px;   
+                    margin: 52px auto 24px auto;
+                }
+    
+                .links >p{
+                    @include navPm;
+                }
+            }
+        }
+    }
+    
+    footer{
+    
+        .figure5{
+            top: 3710px;
+            width: 337px;
+            height: 132px;
+        }
+    
+        .footer{
+            top: 3843px;
+            height: 35px;
+        }
+    
+        .visitMain, .copyright, .backTop{
+            margin: 0 14px;
+            padding: 7px;
+            font: 12px/15px $font;
+        }
+    
+        .visitMain >a, .backTop >a{
+            font: 12px/15px $font;
+        }
+    }
+}
+
+@media(min-width: 760px) and (max-width: 1250px){
+    
+    header{
+    
+        .figure1{
+            transform: scale(0.55);
+            transform-origin: 0 0;
+        }
+    
+        .headP{
+            font:17px/21px $font;
+        }
+    
+        .mainH{
+            top: 120px;
+            left: 5px;
+            width: 461px;
+            height: 133px;
+            font:35px/40px $fontPlay;
+        }
+    
+        section > h3{
+            top: 280px;
+            left: 5px;
+            width: 314px;
+            height: 26px;
+            font: bold 18px/18px $fontPlay;
+        }
+    
+        .lineTop{
+            top: 318px;
+            left: 5px;
+            width: 191px;
+            border: 2px solid $col;
+        }
+    
+        .article1{
+            top: 324px;
+            left: 100px;
+            width: 371px;
+            height: 216px;
+            font: 13px/21px $font;
+        }
+    
+        .articleP{
+            font: Italic 13px/21px $font;
+        }
+    
+        .article2{
+            top: 557px;
+            left: 100px;
+            width: 371px;
+            height: 207px;
+            font: 13px/21px $font;
+        }
+    
+        .imageMarkTop{
+            width: 219px;
+            height: 300px;
+        }
+    
+        .busStop{
+            top: 40px;
+            right: 28px;
+            width: 154px;
+            height: 178px;
+        }
+    
+        .article3{
+            top: 800px;
+            left: 300px;
+            width: 371px;
+            height: 142px;
+            font: 13px/21px $font;
+        }
+    
+        .groups1{
+            top: 966px;
+            left: 305px;
+            width: 175px;
+            height: 137px;
+            font: Bold 15px/26px $fontPlay;
+        }
+    
+        .groups1>p, .groups2>p{
+            padding-bottom: 3px;
+        }
+    
+        .groups2{
+            top: 966px;
+            left: 490px;
+            width: 175px;
+            height: 137px;
+            font: Bold 15px/26px $fontPlay;
+        }
+    
+        .article4{
+            top: 1127px;
+            left: 300px;
+            width: 371px;
+            height: 227px;
+            font: 13px/21px $font;
+         }
+    
+        .finalHeadImage{
+            top: 1330px;
+            left: -52px;
+            width: 395px;
+            height: 194px;
+            background-size: 395px 194px;
+        }    
+    }
+    
+    main{
+    
+        .mainTopH{
+            top: 1467px;
+            left: 5px;
+            width: 371px;
+            height: 64px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .topMainLine{
+            top: 1521px;
+            left: 5px;
+            width: 291px;
+            border: 2px solid $col;
+        }
+    
+        .mainArticle1{
+            top: 1543px;
+            left: 100px;
+            width: 371px;
+            height: 458px;
+            font: 13px/21px $font;
+            z-index: 5;
+        }
+    
+        .woman{
+            top: 1548px;
+            width: 220px;
+            height: 154px;
+            background-size: 220px 154px;
+        }
+    
+        .markBlue{
+            top: 1672px;
+            width: 125px;
+            height: 178px;
+        }
+    
+        .bg-main-top{
+            top: 1825px;
+            height: 891px;
+        }
+    
+        .people-main{
+            top: 2590px;
+            left: 20px;
+            width: 200px;
+            height: 150px;
+            background-size: 200px 150px;
+        }
+    
+        .main-article2{
+            top: 2079px;
+            left: 300px;
+            width: 371px;
+            height: 352px;
+            font: 13px/21px $font;
+        }
+    
+        .main-article3{
+            top: 2451px;
+            left: 303px;
+            width: 365px;
+            height: 78px;
+            font: Bold 15px/24px $fontPlay;
+        }
+
+        .main-article3 p:nth-child(2n){
+            padding: 5px 0;
+        }
+    
+        .main-article4{
+            top: 2555px;
+            left: 300px;
+            width: 371px;
+            height: 121px;
+            font: 13px/21px $font;
+        }
+    
+        .mainBottomH{
+            top: 2785px;
+            left: 5px;
+            width: 371px;
+            height: 61px;
+            font:bold 18px/24px $fontPlay;
+
+        }
+    
+        .bottomMainLine{
+            top: 2842px;
+            left: 5px;
+            width: 291px;
+            border: 2px solid $col;
+        }
+    
+        .mark-bottom-right{
+            top: 2939px;
+            width: 195px;
+            height: 174px;
+        }
+    
+        .mark-bottom-left{
+            top: 3529px;
+            width: 180px;
+            height: 200px;
+        }
+    
+        .bottom-article-part1{
+            top: 2873px;
+            left: 100px;
+            width: 371px;
+            height: 230px;
+            font: 13px/21px $font;
+        }
+    
+        .bottom-article-part2{
+            top: 3141px;
+            left: 105px;
+            width: 353px;
+            height: 174px;
+            font: Bold 15px/25px $fontPlay;
+        }
+    
+        .bottom-article-part2 p:nth-child(2n){
+            padding: 5px 0;
+        }
+    
+        .bottom-article-part3{
+            top: 3335px;
+            left: 300px;
+            width: 371px;
+            height: 440px;
+            font: 13px/21px $font;
+        }
+    }
+    
+    nav{
+    
+        .nav-bg{
+            top: 3220px;
+            height: 620px;
+        }    
+    
+        .content{
+            top: 3383px;
+            left: 5px;
+            width: 328px;
+            height: 39px;
+            font: 35px/40px $fontPlay;
+        }
+    
+        .lineNav{
+            top: 3440px;
+            left: 5px;
+            width: 271px;
+            border: 2px solid $col;
+        }
+
+        .contMain{
+            top: 3448px;
+    
+            .container{
+                                
+                .townPlanning, .accesProblem, .futureStreet, .links{
+                    height: 305px;
+                    width: 21.5%;
+                    margin-right: 5px;
+                    padding: 3px;
+                    
+                    &:hover{
+                        outline: 1px solid grey;
+                    }
+    
+                    &:active{
+                        border: 1px solid grey;
+                        box-shadow: 1px 1px 2px 2px darkgrey;
+                        border-radius: 3px;
+                    }
+                    }
+    
+                    .townPlanning{
+                    background-size: 150px 250px;            
+                }
+    
+                    .townPlanning > img{
+                    @include navImgP;               
+                }
+    
+                .townPlanning > p{
+                    @include navPP;
+                }
+    
+                .accesProblem{
+                    background-size: 150px 250px;   
+                }
+                
+                .accesProblem > img{
+                    @include navImgP;
+                }
+    
+                .accesProblem > p{
+                    @include navPP;
+                }
+    
+                .futureStreet{
+                    background-size: 150px 250px; 
+                }
+                
+                .futureStreet >img{
+                    @include navImgP;
+                }
+    
+                .futureStreet >p{
+                    @include navPP;
+                }
+    
+                .links{
+                    background-size: 150px 250px; 
+                }
+                
+                .links >img{
+                    display: block;
+                    width: 75px;
+                    height: 110px;   
+                    margin: 72px auto 24px auto;
+                }
+    
+                .links >p{
+                    @include navPP;
+                }
+            }
+        }
+    }
+        
+    footer{
+    
+        .figure5{
+            top: 3750px;
+            width: 207px;
+            height: 72px;
+        }
+    
+        .footer{
+            top: 3823px;
+            height: 25px;
+        }
+    
+        .visitMain, .copyright, .backTop{
+            margin: 0 5px;
+            padding: 3px;
+            font: 10px/12px $font;
+        }
+    
+        .visitMain >a, .backTop >a{
+            font: 10px/12px $font;
+        }
+    }     
+}
+
+@media(min-width: 0px) and (max-width: 760px){
+    
+    header{
+    
+        .figure1{
+            transform: scale(0.5);
+            transform-origin: 0 0;
+        }
+    
+        .headP{
+            font:18px/21px $font;
+        }
+    
+        .mainH{
+            top: 70px;
+            left: 5px;
+            width: 340px;
+            height: 95px;
+            font:bold 26px/31px $fontPlay;
+        }
+    
+        section > h3{
+            top: 230px;
+            left: 5px;
+            width: 254px;
+            height: 21px;
+            font: bold 16px/19px $fontPlay;
+        }
+    
+        .lineTop{
+            top: 258px;
+            left: 5px;
+            width: 151px;
+            border: 1px solid $col;
+        }
+    
+        .article1{
+            top: 304px;
+            left: 10px;
+            width: 340px;
+            height: 216px;
+            font: 12px/15px $font;
+        }
+    
+        .articleP{
+            font: Italic 12px/15px $font;
+        }
+    
+        .article2{
+            top: 470px;
+            left: 10px;
+            width: 340px;
+            height: 207px;
+            font: 12px/15px $font;
+        }
+    
+        .imageMarkTop{
+            top: 100px;
+            width: 110px;
+            height: 170px;
+        }
+    
+        .busStop{
+            top: 112px;
+            right: 8px;
+            width: 94px;
+            height: 108px;
+        }
+    
+        .article3{
+            top: 635px;
+            left: 10px;
+            width: 340px;
+            height: 142px;
+            font: 12px/15px $font;
+        }
+    
+        .groups1{
+            top: 749px;
+            left: 12px;
+            width: 150px;
+            height: 137px;
+            font: Bold 13px/22px $fontPlay;
+        }
+    
+        .groups1>p, .groups2>p{
+            padding-bottom: 2px;
+        }
+    
+        .groups2{
+            top: 749px;
+            left: 174px;
+            width: 150px;
+            height: 137px;
+            font: Bold 13px/22px $fontPlay;
+        }
+    
+        .article4{
+            top: 880px;
+            left: 10px;
+            width: 340px;
+            height: 227px;
+            font: 12px/15px $font;
+         }
+    
+        .finalHeadImage{
+            top: 1070px;
+            left: -45px;
+            width: 275px;
+            height: 134px;
+            background-size: 275px 134px;
+        }    
+    }
+    
+    main{
+    
+        .mainTopH{
+            top: 1157px;
+            left: 5px;
+            width: 340px;
+            height: 64px;
+            font: bold 16px/19px $fontPlay;
+        }
+    
+        .topMainLine{
+            top: 1201px;
+            left: 5px;
+            width: 251px;
+            border: 1px solid $col;
+        }
+    
+        .mainArticle1{
+            top: 1243px;
+            left: 10px;
+            width: 340px;
+            height: 458px;
+            font: 12px/15px $font;
+            z-index: 5;
+        }
+    
+        .woman{
+            top: 1568px;
+            width: 180px;
+            height: 134px;
+            background-size: 180px 134px;
+        }
+    
+        .markBlue{
+            top: 1592px;
+            width: 105px;
+            height: 158px;
+        }
+    
+        .bg-main-top{
+            top: 1680px;
+            height: 621px;
+        }
+    
+        .people-main{
+            top: 2180px;
+            left: 20px;
+            width: 180px;
+            height: 140px;
+            background-size: 180px 140px;
+        }
+    
+        .main-article2{
+            top: 1759px;
+            left: 10px;
+            width: 340px;
+            height: 352px;
+            font: 12px/15px $font;
+        }
+    
+        .main-article3{
+            top: 1995px;
+            left: 12px;
+            width: 335px;
+            height: 78px;
+            font: Bold 13px/19px $fontPlay;
+        }
+
+        .main-article3 p:nth-child(2n){
+            padding: 4px 0;
+        }
+    
+        .main-article4{
+            top: 2072px;
+            left: 10px;
+            width: 340px;
+            height: 121px;
+            font: 12px/15px $font;
+        }
+    
+        .mainBottomH{
+            top: 2345px;
+            left: 5px;
+            width: 340px;
+            height: 61px;
+            font:bold 16px/19px $fontPlay;
+
+        }
+    
+        .bottomMainLine{
+            top: 2392px;
+            left: 5px;
+            width: 251px;
+            border:1px solid $col;
+        }
+    
+        .mark-bottom-right{
+            top: 2409px;
+            width: 155px;
+            height: 144px;
+        }
+    
+        .mark-bottom-left{
+            top: 2829px;
+            width: 150px;
+            height: 170px;
+        }
+    
+        .bottom-article-part1{
+            top: 2409px;
+            left: 10px;
+            width: 340px;
+            height: 230px;
+            font: 12px/15px $font;
+        }
+    
+        .bottom-article-part2{
+            top: 2591px;
+            left: 12px;
+            width: 335px;
+            height: 174px;
+            font: Bold 13px/19px $fontPlay;
+        }
+    
+        .bottom-article-part2 p:nth-child(2n){
+            padding: 4px 0;
+        }
+    
+        .bottom-article-part3{
+            top: 2740px;
+            left: 10px;
+            width: 340px;
+            height: 440px;
+            font: 12px/15px $font;
+        }
+    }
+    
+    nav{
+    
+        .nav-bg{
+            top: 2510px;
+            height: 790px;
+        }    
+    
+        .content{
+            top: 2623px;
+            left: 5px;
+            width: 328px;
+            height: 39px;
+            font:bold 25px/34px $fontPlay;
+        }
+    
+        .lineNav{
+            top: 2660px;
+            left: 5px;
+            width: 191px;
+            border: 1px solid $col;
+        }
+
+        .contMain{
+            top: 2668px;
+    
+            .container{
+                                
+                .townPlanning, .accesProblem, .futureStreet, .links{
+                    height: 280px;
+                    width: 43%;
+                    margin-right: 5px;
+                    padding: 3px;
+                    
+                    &:hover{
+                        outline: 1px solid grey;
+                    }
+    
+                    &:active{
+                        border: 1px solid grey;
+                        box-shadow: 1px 1px 2px 2px darkgrey;
+                        border-radius: 3px;
+                    }
+                 }
+    
+                 .townPlanning{
+                    background-size: 150px 250px;            
+                }
+    
+                 .townPlanning > img{
+                    @include navImgP;               
+                }
+    
+                .townPlanning > p{
+                    @include navPP;
+                }
+    
+                .accesProblem{
+                    background-size: 150px 250px;   
+                }
+                
+                .accesProblem > img{
+                    @include navImgP;
+                }
+    
+                .accesProblem > p{
+                    @include navPP;
+                }
+    
+                .futureStreet{
+                    background-size: 150px 250px; 
+                }
+                
+                .futureStreet >img{
+                    @include navImgP;
+                }
+    
+                .futureStreet >p{
+                    @include navPP;
+                }
+    
+                .links{
+                    background-size: 150px 250px; 
+                }
+                
+                .links >img{
+                    display: block;
+                    width: 75px;
+                    height: 110px;   
+                    margin: 72px auto 24px auto;
+                }
+    
+                .links >p{
+                    @include navPP;
+                }
+            }
+        }
+    }
+    
+    footer{
+    
+        .figure5{
+            top: 3227px;
+            width: 207px;
+            height: 72px;
+        }
+    
+        .footer{
+            top: 3300px;
+            height: 25px;
+        }
+    
+        .visitMain, .copyright, .backTop{
+            margin: 0 5px;
+            padding: 3px;
+            font: 8px/10px $font;
+        }
+    
+        .visitMain >a, .backTop >a{
+            font: 8px/10px $font;
+        }
+    }
+}

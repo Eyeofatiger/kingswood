@@ -1,5 +1,5 @@
-/*Var*/
 /*Mixins*/
+/*Var*/
 /*main css*/
 * {
   padding: 0;
@@ -28,7 +28,6 @@ header .headP {
   height: 30px;
   text-align: left;
   font: 16px/21px Futura, Tahoma, sans-serif;
-  letter-spacing: 0;
   color: #FFFFFF;
 }
 
@@ -51,7 +50,6 @@ header section > h3 {
   height: 37px;
   text-align: left;
   font: bold 32px/32px "Playfair Display", Tahoma, sans-serif;
-  letter-spacing: 0;
   color: #474749;
 }
 
@@ -87,7 +85,6 @@ header .article2 {
   height: 296px;
   text-align: left;
   font: 18px/30px Futura, Tahoma, sans-serif;
-  letter-spacing: 0;
   color: #474749;
 }
 
@@ -458,7 +455,6 @@ nav .contMain .container .townPlanning > img {
 nav .contMain .container .townPlanning > p {
   text-align: center;
   font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
-  letter-spacing: 0;
   color: #474749;
 }
 
@@ -476,7 +472,6 @@ nav .contMain .container .accesProblem > img {
 nav .contMain .container .accesProblem > p {
   text-align: center;
   font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
-  letter-spacing: 0;
   color: #474749;
 }
 
@@ -494,7 +489,6 @@ nav .contMain .container .futureStreet > img {
 nav .contMain .container .futureStreet > p {
   text-align: center;
   font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
-  letter-spacing: 0;
   color: #474749;
 }
 
@@ -512,7 +506,6 @@ nav .contMain .container .links > img {
 nav .contMain .container .links > p {
   text-align: center;
   font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
-  letter-spacing: 0;
   color: #474749;
 }
 
@@ -561,4 +554,1015 @@ footer .visitMain > a, footer .backTop > a {
   letter-spacing: 0;
   color: #FCFCFC;
   text-decoration: none;
+}
+
+/* Adaptive */
+@media (min-width: 1650px) and (max-width: 1790px) {
+  main .mainTopH {
+    left: 100px;
+  }
+  main .topMainLine {
+    left: 100px;
+    width: 400px;
+  }
+  main .mainArticle1 {
+    left: 545px;
+  }
+  main .woman {
+    width: 550px;
+    height: 404px;
+  }
+  main .main-article2 {
+    left: 1105px;
+  }
+  main .main-article3 {
+    left: 1114px;
+  }
+  main .main-article4 {
+    left: 1105px;
+  }
+  main .mainBottomH {
+    left: 100px;
+    width: 500px;
+  }
+  main .bottomMainLine {
+    left: 100px;
+    width: 450px;
+  }
+  main .mark-bottom-right {
+    width: 550px;
+    height: 490px;
+  }
+  main .bottom-article-part1 {
+    left: 575px;
+  }
+  main .bottom-article-part2 {
+    left: 578px;
+  }
+  main .bottom-article-part3 {
+    left: 1105px;
+  }
+}
+
+@media (min-width: 1250px) and (max-width: 1650px) {
+  header .figure1 {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  header .headP {
+    font: 17px/21px Futura, Tahoma, sans-serif;
+  }
+  header .mainH {
+    top: 175px;
+    left: 95px;
+    width: 659px;
+    height: 191px;
+    font: 50px/57px "Playfair Display", Tahoma, sans-serif;
+  }
+  header section > h3 {
+    top: 401px;
+    left: 95px;
+    width: 449px;
+    height: 26px;
+    font: bold 22px/22px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .lineTop {
+    top: 444px;
+    left: 95px;
+    width: 273px;
+    border: 2px solid #474749;
+  }
+  header .article1 {
+    top: 434px;
+    left: 388px;
+    width: 371px;
+    height: 216px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .articleP {
+    font: Italic 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .article2 {
+    top: 667px;
+    left: 388px;
+    width: 371px;
+    height: 207px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .imageMarkTop {
+    width: 519px;
+    height: 700px;
+  }
+  header .busStop {
+    top: 140px;
+    right: 98px;
+    width: 344px;
+    height: 378px;
+  }
+  header .article3 {
+    top: 800px;
+    left: 780px;
+    width: 371px;
+    height: 142px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .groups1 {
+    top: 966px;
+    left: 780px;
+    width: 175px;
+    height: 137px;
+    font: Bold 15px/26px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .groups1 > p, header .groups2 > p {
+    padding-bottom: 4px;
+  }
+  header .groups2 {
+    top: 966px;
+    left: 976px;
+    width: 175px;
+    height: 137px;
+    font: Bold 15px/26px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .article4 {
+    top: 1127px;
+    left: 780px;
+    width: 371px;
+    height: 227px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .finalHeadImage {
+    top: 1030px;
+    left: -112px;
+    width: 695px;
+    height: 344px;
+    background-size: 695px 344px;
+  }
+  main .mainTopH {
+    top: 1467px;
+    left: 95px;
+    width: 371px;
+    height: 64px;
+    font: bold 22px/30px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .topMainLine {
+    top: 1551px;
+    left: 95px;
+    width: 371px;
+    border: 2px solid #474749;
+  }
+  main .mainArticle1 {
+    top: 1543px;
+    left: 485px;
+    width: 371px;
+    height: 458px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .woman {
+    top: 1538px;
+    width: 420px;
+    height: 304px;
+    background-size: 420px 304px;
+  }
+  main .markBlue {
+    top: 1672px;
+    width: 245px;
+    height: 378px;
+  }
+  main .bg-main-top {
+    top: 1825px;
+    height: 751px;
+  }
+  main .people-main {
+    top: 2319px;
+    left: 171px;
+    width: 390px;
+    height: 289px;
+    background-size: 390px 289px;
+  }
+  main .main-article2 {
+    top: 1919px;
+    left: 878px;
+    width: 371px;
+    height: 352px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .main-article3 {
+    top: 2291px;
+    left: 884px;
+    width: 365px;
+    height: 78px;
+    font: Bold 15px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .main-article3 p:nth-child(2n) {
+    padding: 7px 0;
+  }
+  main .main-article4 {
+    top: 2395px;
+    left: 879px;
+    width: 371px;
+    height: 121px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .mainBottomH {
+    top: 2665px;
+    left: 95px;
+    width: 371px;
+    height: 61px;
+    font: bold 22px/30px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .bottomMainLine {
+    top: 2742px;
+    left: 95px;
+    width: 371px;
+    border: 2px solid #474749;
+  }
+  main .mark-bottom-right {
+    top: 2639px;
+    width: 390px;
+    height: 344px;
+  }
+  main .mark-bottom-left {
+    top: 3119px;
+    width: 330px;
+    height: 400px;
+  }
+  main .bottom-article-part1 {
+    top: 2733px;
+    left: 486px;
+    width: 371px;
+    height: 230px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .bottom-article-part2 {
+    top: 2986px;
+    left: 490px;
+    width: 353px;
+    height: 174px;
+    font: Bold 15px/25px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .bottom-article-part2 p:nth-child(2n) {
+    padding: 7px 0;
+  }
+  main .bottom-article-part3 {
+    top: 3073px;
+    left: 878px;
+    width: 371px;
+    height: 440px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  nav .nav-bg {
+    top: 2924px;
+    height: 920px;
+  }
+  nav .content {
+    top: 3143px;
+    left: 95px;
+    width: 469px;
+    height: 55px;
+    font: 50px/57px "Playfair Display", Tahoma, sans-serif;
+  }
+  nav .lineNav {
+    top: 3240px;
+    left: 95px;
+    width: 371px;
+    border: 2px solid #474749;
+  }
+  nav .contMain {
+    top: 3270px;
+  }
+  nav .contMain .container .townPlanning, nav .contMain .container .accesProblem, nav .contMain .container .futureStreet, nav .contMain .container .links {
+    height: 405px;
+    width: 21.5%;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  nav .contMain .container .townPlanning:hover, nav .contMain .container .accesProblem:hover, nav .contMain .container .futureStreet:hover, nav .contMain .container .links:hover {
+    outline: 2px solid grey;
+  }
+  nav .contMain .container .townPlanning:active, nav .contMain .container .accesProblem:active, nav .contMain .container .futureStreet:active, nav .contMain .container .links:active {
+    border: 4px solid grey;
+    -webkit-box-shadow: 2px 2px 4px 4px darkgrey;
+    box-shadow: 2px 2px 4px 4px darkgrey;
+    border-radius: 5px;
+  }
+  nav .contMain .container .townPlanning {
+    background-size: 250px 350px;
+  }
+  nav .contMain .container .townPlanning > img {
+    display: block;
+    width: 134px;
+    height: 145px;
+    margin: 52px auto 24px auto;
+  }
+  nav .contMain .container .townPlanning > p {
+    text-align: center;
+    font: bold 22px/27px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .accesProblem {
+    background-size: 250px 350px;
+  }
+  nav .contMain .container .accesProblem > img {
+    display: block;
+    width: 134px;
+    height: 145px;
+    margin: 52px auto 24px auto;
+  }
+  nav .contMain .container .accesProblem > p {
+    text-align: center;
+    font: bold 22px/27px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .futureStreet {
+    background-size: 250px 350px;
+  }
+  nav .contMain .container .futureStreet > img {
+    display: block;
+    width: 134px;
+    height: 145px;
+    margin: 52px auto 24px auto;
+  }
+  nav .contMain .container .futureStreet > p {
+    text-align: center;
+    font: bold 22px/27px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .links {
+    background-size: 250px 350px;
+  }
+  nav .contMain .container .links > img {
+    display: block;
+    width: 95px;
+    height: 145px;
+    margin: 52px auto 24px auto;
+  }
+  nav .contMain .container .links > p {
+    text-align: center;
+    font: bold 22px/27px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  footer .figure5 {
+    top: 3710px;
+    width: 337px;
+    height: 132px;
+  }
+  footer .footer {
+    top: 3843px;
+    height: 35px;
+  }
+  footer .visitMain, footer .copyright, footer .backTop {
+    margin: 0 14px;
+    padding: 7px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  footer .visitMain > a, footer .backTop > a {
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1250px) {
+  header .figure1 {
+    -webkit-transform: scale(0.55);
+    -ms-transform: scale(0.55);
+    transform: scale(0.55);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  header .headP {
+    font: 17px/21px Futura, Tahoma, sans-serif;
+  }
+  header .mainH {
+    top: 120px;
+    left: 5px;
+    width: 461px;
+    height: 133px;
+    font: 35px/40px "Playfair Display", Tahoma, sans-serif;
+  }
+  header section > h3 {
+    top: 280px;
+    left: 5px;
+    width: 314px;
+    height: 26px;
+    font: bold 18px/18px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .lineTop {
+    top: 318px;
+    left: 5px;
+    width: 191px;
+    border: 2px solid #474749;
+  }
+  header .article1 {
+    top: 324px;
+    left: 100px;
+    width: 371px;
+    height: 216px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .articleP {
+    font: Italic 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .article2 {
+    top: 557px;
+    left: 100px;
+    width: 371px;
+    height: 207px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .imageMarkTop {
+    width: 219px;
+    height: 300px;
+  }
+  header .busStop {
+    top: 40px;
+    right: 28px;
+    width: 154px;
+    height: 178px;
+  }
+  header .article3 {
+    top: 800px;
+    left: 300px;
+    width: 371px;
+    height: 142px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .groups1 {
+    top: 966px;
+    left: 305px;
+    width: 175px;
+    height: 137px;
+    font: Bold 15px/26px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .groups1 > p, header .groups2 > p {
+    padding-bottom: 3px;
+  }
+  header .groups2 {
+    top: 966px;
+    left: 490px;
+    width: 175px;
+    height: 137px;
+    font: Bold 15px/26px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .article4 {
+    top: 1127px;
+    left: 300px;
+    width: 371px;
+    height: 227px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .finalHeadImage {
+    top: 1330px;
+    left: -52px;
+    width: 395px;
+    height: 194px;
+    background-size: 395px 194px;
+  }
+  main .mainTopH {
+    top: 1467px;
+    left: 5px;
+    width: 371px;
+    height: 64px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .topMainLine {
+    top: 1521px;
+    left: 5px;
+    width: 291px;
+    border: 2px solid #474749;
+  }
+  main .mainArticle1 {
+    top: 1543px;
+    left: 100px;
+    width: 371px;
+    height: 458px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+    z-index: 5;
+  }
+  main .woman {
+    top: 1548px;
+    width: 220px;
+    height: 154px;
+    background-size: 220px 154px;
+  }
+  main .markBlue {
+    top: 1672px;
+    width: 125px;
+    height: 178px;
+  }
+  main .bg-main-top {
+    top: 1825px;
+    height: 891px;
+  }
+  main .people-main {
+    top: 2590px;
+    left: 20px;
+    width: 200px;
+    height: 150px;
+    background-size: 200px 150px;
+  }
+  main .main-article2 {
+    top: 2079px;
+    left: 300px;
+    width: 371px;
+    height: 352px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .main-article3 {
+    top: 2451px;
+    left: 303px;
+    width: 365px;
+    height: 78px;
+    font: Bold 15px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .main-article3 p:nth-child(2n) {
+    padding: 5px 0;
+  }
+  main .main-article4 {
+    top: 2555px;
+    left: 300px;
+    width: 371px;
+    height: 121px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .mainBottomH {
+    top: 2785px;
+    left: 5px;
+    width: 371px;
+    height: 61px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .bottomMainLine {
+    top: 2842px;
+    left: 5px;
+    width: 291px;
+    border: 2px solid #474749;
+  }
+  main .mark-bottom-right {
+    top: 2939px;
+    width: 195px;
+    height: 174px;
+  }
+  main .mark-bottom-left {
+    top: 3529px;
+    width: 180px;
+    height: 200px;
+  }
+  main .bottom-article-part1 {
+    top: 2873px;
+    left: 100px;
+    width: 371px;
+    height: 230px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .bottom-article-part2 {
+    top: 3141px;
+    left: 105px;
+    width: 353px;
+    height: 174px;
+    font: Bold 15px/25px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .bottom-article-part2 p:nth-child(2n) {
+    padding: 5px 0;
+  }
+  main .bottom-article-part3 {
+    top: 3335px;
+    left: 300px;
+    width: 371px;
+    height: 440px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  nav .nav-bg {
+    top: 3220px;
+    height: 620px;
+  }
+  nav .content {
+    top: 3383px;
+    left: 5px;
+    width: 328px;
+    height: 39px;
+    font: 35px/40px "Playfair Display", Tahoma, sans-serif;
+  }
+  nav .lineNav {
+    top: 3440px;
+    left: 5px;
+    width: 271px;
+    border: 2px solid #474749;
+  }
+  nav .contMain {
+    top: 3448px;
+  }
+  nav .contMain .container .townPlanning, nav .contMain .container .accesProblem, nav .contMain .container .futureStreet, nav .contMain .container .links {
+    height: 305px;
+    width: 21.5%;
+    margin-right: 5px;
+    padding: 3px;
+  }
+  nav .contMain .container .townPlanning:hover, nav .contMain .container .accesProblem:hover, nav .contMain .container .futureStreet:hover, nav .contMain .container .links:hover {
+    outline: 1px solid grey;
+  }
+  nav .contMain .container .townPlanning:active, nav .contMain .container .accesProblem:active, nav .contMain .container .futureStreet:active, nav .contMain .container .links:active {
+    border: 1px solid grey;
+    -webkit-box-shadow: 1px 1px 2px 2px darkgrey;
+    box-shadow: 1px 1px 2px 2px darkgrey;
+    border-radius: 3px;
+  }
+  nav .contMain .container .townPlanning {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .townPlanning > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .townPlanning > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .accesProblem {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .accesProblem > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .accesProblem > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .futureStreet {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .futureStreet > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .futureStreet > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .links {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .links > img {
+    display: block;
+    width: 75px;
+    height: 110px;
+    margin: 72px auto 24px auto;
+  }
+  nav .contMain .container .links > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  footer .figure5 {
+    top: 3750px;
+    width: 207px;
+    height: 72px;
+  }
+  footer .footer {
+    top: 3823px;
+    height: 25px;
+  }
+  footer .visitMain, footer .copyright, footer .backTop {
+    margin: 0 5px;
+    padding: 3px;
+    font: 10px/12px Futura, Tahoma, sans-serif;
+  }
+  footer .visitMain > a, footer .backTop > a {
+    font: 10px/12px Futura, Tahoma, sans-serif;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 760px) {
+  header .figure1 {
+    -webkit-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  header .headP {
+    font: 18px/21px Futura, Tahoma, sans-serif;
+  }
+  header .mainH {
+    top: 70px;
+    left: 5px;
+    width: 340px;
+    height: 95px;
+    font: bold 26px/31px "Playfair Display", Tahoma, sans-serif;
+  }
+  header section > h3 {
+    top: 230px;
+    left: 5px;
+    width: 254px;
+    height: 21px;
+    font: bold 16px/19px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .lineTop {
+    top: 258px;
+    left: 5px;
+    width: 151px;
+    border: 1px solid #474749;
+  }
+  header .article1 {
+    top: 304px;
+    left: 10px;
+    width: 340px;
+    height: 216px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  header .articleP {
+    font: Italic 12px/15px Futura, Tahoma, sans-serif;
+  }
+  header .article2 {
+    top: 470px;
+    left: 10px;
+    width: 340px;
+    height: 207px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  header .imageMarkTop {
+    top: 100px;
+    width: 110px;
+    height: 170px;
+  }
+  header .busStop {
+    top: 112px;
+    right: 8px;
+    width: 94px;
+    height: 108px;
+  }
+  header .article3 {
+    top: 635px;
+    left: 10px;
+    width: 340px;
+    height: 142px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  header .groups1 {
+    top: 749px;
+    left: 12px;
+    width: 150px;
+    height: 137px;
+    font: Bold 13px/22px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .groups1 > p, header .groups2 > p {
+    padding-bottom: 2px;
+  }
+  header .groups2 {
+    top: 749px;
+    left: 174px;
+    width: 150px;
+    height: 137px;
+    font: Bold 13px/22px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .article4 {
+    top: 880px;
+    left: 10px;
+    width: 340px;
+    height: 227px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  header .finalHeadImage {
+    top: 1070px;
+    left: -45px;
+    width: 275px;
+    height: 134px;
+    background-size: 275px 134px;
+  }
+  main .mainTopH {
+    top: 1157px;
+    left: 5px;
+    width: 340px;
+    height: 64px;
+    font: bold 16px/19px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .topMainLine {
+    top: 1201px;
+    left: 5px;
+    width: 251px;
+    border: 1px solid #474749;
+  }
+  main .mainArticle1 {
+    top: 1243px;
+    left: 10px;
+    width: 340px;
+    height: 458px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+    z-index: 5;
+  }
+  main .woman {
+    top: 1568px;
+    width: 180px;
+    height: 134px;
+    background-size: 180px 134px;
+  }
+  main .markBlue {
+    top: 1592px;
+    width: 105px;
+    height: 158px;
+  }
+  main .bg-main-top {
+    top: 1680px;
+    height: 621px;
+  }
+  main .people-main {
+    top: 2180px;
+    left: 20px;
+    width: 180px;
+    height: 140px;
+    background-size: 180px 140px;
+  }
+  main .main-article2 {
+    top: 1759px;
+    left: 10px;
+    width: 340px;
+    height: 352px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  main .main-article3 {
+    top: 1995px;
+    left: 12px;
+    width: 335px;
+    height: 78px;
+    font: Bold 13px/19px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .main-article3 p:nth-child(2n) {
+    padding: 4px 0;
+  }
+  main .main-article4 {
+    top: 2072px;
+    left: 10px;
+    width: 340px;
+    height: 121px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  main .mainBottomH {
+    top: 2345px;
+    left: 5px;
+    width: 340px;
+    height: 61px;
+    font: bold 16px/19px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .bottomMainLine {
+    top: 2392px;
+    left: 5px;
+    width: 251px;
+    border: 1px solid #474749;
+  }
+  main .mark-bottom-right {
+    top: 2409px;
+    width: 155px;
+    height: 144px;
+  }
+  main .mark-bottom-left {
+    top: 2829px;
+    width: 150px;
+    height: 170px;
+  }
+  main .bottom-article-part1 {
+    top: 2409px;
+    left: 10px;
+    width: 340px;
+    height: 230px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  main .bottom-article-part2 {
+    top: 2591px;
+    left: 12px;
+    width: 335px;
+    height: 174px;
+    font: Bold 13px/19px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .bottom-article-part2 p:nth-child(2n) {
+    padding: 4px 0;
+  }
+  main .bottom-article-part3 {
+    top: 2740px;
+    left: 10px;
+    width: 340px;
+    height: 440px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  nav .nav-bg {
+    top: 2510px;
+    height: 790px;
+  }
+  nav .content {
+    top: 2623px;
+    left: 5px;
+    width: 328px;
+    height: 39px;
+    font: bold 25px/34px "Playfair Display", Tahoma, sans-serif;
+  }
+  nav .lineNav {
+    top: 2660px;
+    left: 5px;
+    width: 191px;
+    border: 1px solid #474749;
+  }
+  nav .contMain {
+    top: 2668px;
+  }
+  nav .contMain .container .townPlanning, nav .contMain .container .accesProblem, nav .contMain .container .futureStreet, nav .contMain .container .links {
+    height: 280px;
+    width: 43%;
+    margin-right: 5px;
+    padding: 3px;
+  }
+  nav .contMain .container .townPlanning:hover, nav .contMain .container .accesProblem:hover, nav .contMain .container .futureStreet:hover, nav .contMain .container .links:hover {
+    outline: 1px solid grey;
+  }
+  nav .contMain .container .townPlanning:active, nav .contMain .container .accesProblem:active, nav .contMain .container .futureStreet:active, nav .contMain .container .links:active {
+    border: 1px solid grey;
+    -webkit-box-shadow: 1px 1px 2px 2px darkgrey;
+    box-shadow: 1px 1px 2px 2px darkgrey;
+    border-radius: 3px;
+  }
+  nav .contMain .container .townPlanning {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .townPlanning > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .townPlanning > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .accesProblem {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .accesProblem > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .accesProblem > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .futureStreet {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .futureStreet > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .futureStreet > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .links {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .links > img {
+    display: block;
+    width: 75px;
+    height: 110px;
+    margin: 72px auto 24px auto;
+  }
+  nav .contMain .container .links > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  footer .figure5 {
+    top: 3227px;
+    width: 207px;
+    height: 72px;
+  }
+  footer .footer {
+    top: 3300px;
+    height: 25px;
+  }
+  footer .visitMain, footer .copyright, footer .backTop {
+    margin: 0 5px;
+    padding: 3px;
+    font: 8px/10px Futura, Tahoma, sans-serif;
+  }
+  footer .visitMain > a, footer .backTop > a {
+    font: 8px/10px Futura, Tahoma, sans-serif;
+  }
 }
