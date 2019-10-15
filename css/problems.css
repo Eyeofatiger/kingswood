@@ -1,5 +1,5 @@
-/*Var*/
 /*Mixins*/
+/*Var*/
 /* Animation */
 .fade {
   -webkit-animation-name: fade;
@@ -695,7 +695,6 @@ main .lift-text {
   height: 54px;
   text-align: center;
   font: 18px/30px Futura, Tahoma, sans-serif;
-  letter-spacing: 0;
   color: #474749;
 }
 
@@ -922,7 +921,7 @@ main .main-tabs-h {
   width: 530px;
   height: 87px;
   text-align: left;
-  font: bold 32px/43px Playfair Display;
+  font: bold 32px/43px "Playfair Display", Tahoma, sans-serif;
   color: #474749;
 }
 
@@ -1152,7 +1151,6 @@ nav .contMain .container .townPlanning > img {
 nav .contMain .container .townPlanning > p {
   text-align: center;
   font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
-  letter-spacing: 0;
   color: #474749;
 }
 
@@ -1170,7 +1168,6 @@ nav .contMain .container .accesProblem > img {
 nav .contMain .container .accesProblem > p {
   text-align: center;
   font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
-  letter-spacing: 0;
   color: #474749;
 }
 
@@ -1188,7 +1185,6 @@ nav .contMain .container .futureStreet > img {
 nav .contMain .container .futureStreet > p {
   text-align: center;
   font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
-  letter-spacing: 0;
   color: #474749;
 }
 
@@ -1206,7 +1202,6 @@ nav .contMain .container .links > img {
 nav .contMain .container .links > p {
   text-align: center;
   font: bold 32px/39px "Playfair Display", Tahoma, sans-serif;
-  letter-spacing: 0;
   color: #474749;
 }
 
@@ -1255,4 +1250,2327 @@ footer .visitMain > a, footer .backTop > a {
   letter-spacing: 0;
   color: #FCFCFC;
   text-decoration: none;
+}
+
+/* Adaptive */
+@media (min-width: 1620px) and (max-width: 1790px) {
+  header .figure1 img {
+    width: 30vw;
+    height: 10vh;
+  }
+  header .headP {
+    left: 20px;
+  }
+  header .header-mark {
+    width: 620px;
+    height: 899px;
+  }
+  header .top-wall {
+    right: 30px;
+    width: 380px;
+    height: 449px;
+  }
+  header .line-top {
+    width: 380px;
+  }
+  header .main-top-text {
+    left: 545px;
+  }
+  header .main-top-text2 {
+    left: 1100px;
+  }
+  main .sign {
+    left: 1452px;
+  }
+  main .sign-text {
+    left: 1390px;
+    width: 240px;
+  }
+  main .main-top-grey-end {
+    top: 2664px;
+    width: 500px;
+    height: 330px;
+  }
+  main .six {
+    left: 38px;
+  }
+  main .per-left {
+    left: 147px;
+  }
+  main .six-text {
+    left: 267px;
+  }
+  main .six-line {
+    left: 550px;
+  }
+  main .sixteen {
+    left: 561px;
+  }
+  main .per-middle {
+    left: 740px;
+  }
+  main .sixteen-text {
+    left: 837px;
+  }
+  main .sixteen-line {
+    left: 1100px;
+  }
+  main .forty-five {
+    left: 1105px;
+  }
+  main .per-right {
+    left: 1294px;
+  }
+  main .forty-five-text {
+    left: 1379px;
+  }
+  main .main-middle-mark-right {
+    width: 425px;
+    height: 625px;
+  }
+  main .cabin {
+    left: 1437px;
+  }
+  main .cabin-text {
+    left: 1375px;
+  }
+  main .woman-right-bottom {
+    width: 605px;
+    height: 284px;
+  }
+  main .bottom-grey-text1 {
+    left: 103px;
+    width: 450px;
+  }
+  main .grey-line2 {
+    left: 580px;
+  }
+  main .bottom-grey-text2 {
+    left: 613px;
+    width: 450px;
+  }
+  main .grey-line3 {
+    left: 1090px;
+  }
+  main .bottom-grey-text3 {
+    left: 1126px;
+    width: 450px;
+  }
+  main .description-text1 {
+    top: 355px;
+    left: 2px;
+  }
+}
+
+@media (min-width: 1158px) and (max-width: 1620px) {
+  header .figure1 img {
+    width: 30vw;
+    height: 7vh;
+  }
+  header .headP {
+    top: 10px;
+    left: 21px;
+    width: 384px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  header .header-mark {
+    top: -71px;
+    right: -30px;
+    width: 30vw;
+    height: 80vh;
+  }
+  header .top-wall {
+    top: 105px;
+    right: 30px;
+    width: 20vw;
+    height: 40vh;
+  }
+  header .main-h {
+    top: 175px;
+    left: 95px;
+    width: 659px;
+    height: 190px;
+    font: bold 51px/57px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .main-h3 {
+    top: 400px;
+    left: 95px;
+    width: 450px;
+    height: 26px;
+    font: bold 22px/22px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .line-top {
+    top: 444px;
+    left: 95px;
+    width: 290px;
+    border: 2px solid #474749;
+  }
+  header .main-top-text {
+    top: 435px;
+    left: 405px;
+    width: 370px;
+    height: 417px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .main-top-text2 {
+    top: 771px;
+    left: 798px;
+    width: 370px;
+    height: 143px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  header .image-block2 {
+    top: 940px;
+  }
+  header .pregnant-woman {
+    right: -30px;
+    width: 40vw;
+    height: 35vh;
+  }
+  header .mark-header-left {
+    top: 850px;
+    width: 20vw;
+    height: 50vh;
+  }
+  main {
+    /* TAbs */
+    /* End tabs */
+  }
+  main .main-top-grey {
+    top: 1150px;
+    height: 790px;
+  }
+  main .main-top-h3 {
+    top: 125px;
+    left: 95px;
+    width: 370px;
+    height: 63px;
+    font: bold 22px/30px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .main-top-line {
+    top: 209px;
+    left: 95px;
+    width: 290px;
+    border: 2px solid #474749;
+  }
+  main .main-top-text {
+    top: 199px;
+    left: 415px;
+    width: 370px;
+    height: 58px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .door {
+    top: 316px;
+    left: 233px;
+    width: 83px;
+    height: 144px;
+  }
+  main .door-text {
+    top: 483px;
+    left: 187px;
+    width: 175px;
+    height: 50px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .screen {
+    top: 317px;
+    left: 414px;
+    width: 124px;
+    height: 145px;
+  }
+  main .screen-text {
+    top: 483px;
+    left: 388px;
+    width: 175px;
+    height: 80px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .lock {
+    top: 364px;
+    left: 590px;
+    width: 159px;
+    height: 99px;
+  }
+  main .lock-text {
+    top: 483px;
+    left: 584px;
+    width: 175px;
+    height: 103px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .crosswalk {
+    top: 382px;
+    left: 780px;
+    width: 175px;
+    height: 80px;
+  }
+  main .crosswalk-text {
+    top: 483px;
+    left: 781px;
+    width: 175px;
+    height: 80px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .sign {
+    top: 308px;
+    left: 1030px;
+    width: 99px;
+    height: 155px;
+  }
+  main .sign-text {
+    top: 483px;
+    left: 990px;
+    width: 175px;
+    height: 21px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .main-top-grey-end {
+    top: 1735px;
+    width: 35vw;
+    height: 35vh;
+  }
+  main .main-top-mark-left {
+    top: 1850px;
+    width: 17vw;
+    height: 35vh;
+  }
+  main .white-top-h {
+    top: 2000px;
+    left: 95px;
+    width: 370px;
+    height: 30px;
+    font: bold 22px/30px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .white-top-line {
+    top: 2047px;
+    left: 95px;
+    width: 290px;
+    border: 2px solid #474749;
+  }
+  main .white-top-text-main {
+    top: 2038px;
+    left: 425px;
+    width: 370px;
+    height: 313px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .main-top-white-mark-right {
+    top: 2225px;
+    width: 20vw;
+    height: 65vh;
+  }
+  main .main-top-white-mark-left {
+    top: 2490px;
+    width: 15vw;
+    height: 75vh;
+  }
+  main .six {
+    top: 2389px;
+    left: 70px;
+    width: 70px;
+    height: 158px;
+    font: bold 120px/159px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .per-left {
+    top: 2432px;
+    left: 147px;
+    width: 38px;
+    height: 71px;
+    font: bold 53px/15px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .six-text {
+    top: 2438px;
+    left: 210px;
+    width: 178px;
+    height: 59px;
+    font: 13px/22px Futura, Tahoma, sans-serif;
+  }
+  main .six-line {
+    top: 2389px;
+    left: 407px;
+    height: 178px;
+    border: 2px solid #474749;
+  }
+  main .sixteen {
+    top: 2385px;
+    left: 415px;
+    width: 121px;
+    height: 164px;
+    font: bold 120px/159px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .per-middle {
+    top: 2431px;
+    left: 540px;
+    width: 38px;
+    height: 71px;
+    font: bold 53px/15px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .sixteen-text {
+    top: 2422px;
+    left: 608px;
+    width: 175px;
+    height: 100px;
+    font: 13px/22px Futura, Tahoma, sans-serif;
+  }
+  main .sixteen-line {
+    top: 2389px;
+    left: 793px;
+    height: 178px;
+    border: 2px solid #474749;
+  }
+  main .forty-five {
+    top: 2369px;
+    left: 803px;
+    width: 128px;
+    height: 164px;
+    font: bold 120px/159px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .per-right {
+    top: 2431px;
+    left: 935px;
+    width: 38px;
+    height: 71px;
+    font: bold 53px/15px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .forty-five-text {
+    top: 2415px;
+    left: 995px;
+    width: 14vw;
+    height: 144px;
+    font: 13px/22px Futura, Tahoma, sans-serif;
+  }
+  main .white-top-text-end {
+    top: 2600px;
+    left: 425px;
+    width: 370px;
+    height: 208px;
+    font: 13px/22px Futura, Tahoma, sans-serif;
+  }
+  main .main-middle-bg {
+    top: 2859px;
+    height: 850px;
+  }
+  main .main-middle-h {
+    top: 2900px;
+    left: 95px;
+    width: 370px;
+    height: 30px;
+    font: bold 22px/30px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .main-middle-line {
+    top: 2948px;
+    left: 95px;
+    width: 370px;
+    border: 2px solid #474749;
+  }
+  main .main-middle-text {
+    top: 2939px;
+    left: 487px;
+    width: 370px;
+    height: 59px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .table-middle {
+    top: 2975px;
+    height: 350px;
+  }
+  main .table-middle td, main .table-middle th {
+    padding: 3px;
+    border: 3px solid #474749;
+    font: 520 16px/22px Futura, Tahoma, sans-serif;
+    width: 170px;
+    padding: 15px 25px;
+  }
+  main .main-middle-text-end {
+    top: 3412px;
+    left: 485px;
+    width: 370px;
+    height: 355px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .main-middle-end {
+    top: 3457px;
+    left: 58px;
+    width: 20vw;
+    height: 40vh;
+  }
+  main .main-middle-mark-right {
+    top: 3612px;
+    width: 25vw;
+    height: 70vh;
+  }
+  main .white-bottom-h {
+    top: 3870px;
+    left: 95px;
+    width: 370px;
+    height: 31px;
+    font: bold 22px/30px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .white-bottom-line {
+    top: 3918px;
+    left: 95px;
+    width: 350px;
+    border: 2px solid #474749;
+  }
+  main .white-bottom-text {
+    top: 3909px;
+    left: 485px;
+    width: 370px;
+    height: 228px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .white-bottom-h2 {
+    top: 4225px;
+    left: 95px;
+    width: 370px;
+    height: 61px;
+    font: bold 22px/30px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .white-bottom-line2 {
+    top: 4300px;
+    left: 95px;
+    width: 350px;
+    border: 2px solid #474749;
+  }
+  main .ramp {
+    top: 4400px;
+    left: 210px;
+    width: 140px;
+    height: 107px;
+  }
+  main .ramp-text {
+    top: 4525px;
+    left: 192px;
+    width: 175px;
+    height: 58px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .chair-lift {
+    top: 4337px;
+    left: 411px;
+    width: 128px;
+    height: 168px;
+  }
+  main .chair-lift-text {
+    top: 4525px;
+    left: 388px;
+    width: 175px;
+    height: 59px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .lift {
+    top: 4330px;
+    left: 600px;
+    width: 142px;
+    height: 175px;
+  }
+  main .lift-text {
+    top: 4525px;
+    left: 584px;
+    width: 175px;
+    height: 37px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .bench {
+    top: 4379px;
+    left: 795px;
+    width: 142px;
+    height: 128px;
+  }
+  main .bench-text {
+    top: 4525px;
+    left: 780px;
+    width: 175px;
+    height: 35px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .cabin {
+    top: 4332px;
+    left: 1020px;
+    width: 87px;
+    height: 174px;
+  }
+  main .cabin-text {
+    top: 4525px;
+    left: 975px;
+    width: 175px;
+    height: 35px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .waySign {
+    top: 4660px;
+    left: 441px;
+    width: 99px;
+    height: 155px;
+  }
+  main .waySign-text {
+    top: 4835px;
+    left: 388px;
+    width: 175px;
+    height: 37px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .edge {
+    top: 4708px;
+    left: 595px;
+    width: 152px;
+    height: 108px;
+  }
+  main .edge-text {
+    top: 4835px;
+    left: 584px;
+    width: 175px;
+    height: 163px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .lamp {
+    top: 4641px;
+    left: 818px;
+    width: 99px;
+    height: 175px;
+  }
+  main .lamp-text {
+    top: 4835px;
+    left: 780px;
+    width: 175px;
+    height: 15px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .woman-right-bottom {
+    top: 4804px;
+    width: 35vw;
+    height: 40vh;
+  }
+  main .white-bottom-mark-left {
+    top: 4654px;
+    width: 27vw;
+    height: 65vh;
+  }
+  main .main-bottom-bg {
+    top: 4957px;
+    height: 830px;
+  }
+  main .main-bottom-grey-h {
+    top: 5111px;
+    left: 95px;
+    width: 370px;
+    height: 59px;
+    font: bold 22px/30px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .grey-line1 {
+    top: 5192px;
+    left: 95px;
+    width: 350px;
+    border: 2px solid #474749;
+  }
+  main .bottom-grey-text1 {
+    top: 5295px;
+    left: 107px;
+    width: 328px;
+    height: 115px;
+    font: 15px/24px Futura, Tahoma, sans-serif;
+  }
+  main .grey-line2 {
+    top: 5239px;
+    left: 455px;
+    height: 254px;
+    border: 2px solid #474749;
+  }
+  main .bottom-grey-text2 {
+    top: 5272px;
+    left: 474px;
+    width: 328px;
+    height: 190px;
+    font: 15px/24px Futura, Tahoma, sans-serif;
+  }
+  main .grey-line3 {
+    top: 5239px;
+    left: 818px;
+    height: 254px;
+    border: 2px solid #474749;
+  }
+  main .bottom-grey-text3 {
+    top: 5321px;
+    left: 838px;
+    width: 328px;
+    height: 68px;
+    font: 15px/24px Futura, Tahoma, sans-serif;
+  }
+  main .bottom-grey-text4 {
+    top: 5543px;
+    left: 450px;
+    width: 370px;
+    height: 95px;
+    font: Italic 22px/29px Futura, Tahoma, sans-serif;
+  }
+  main .bottom-grey-text5 {
+    top: 5662px;
+    left: 487px;
+    width: 288px;
+    height: 37px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .main-tabs-h {
+    top: 5853px;
+    left: 95px;
+    width: 370px;
+    height: 60px;
+    font: bold 22px/30px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .main-tabs-line {
+    top: 5931px;
+    left: 95px;
+    width: 370px;
+    border: 2px solid #474749;
+  }
+  main .main-tabs-preText {
+    top: 5922px;
+    left: 485px;
+    width: 370px;
+    height: 100px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .line-inside-tabs {
+    top: 6080px;
+    left: 475px;
+    height: 339px;
+    border: 2px solid #474749;
+  }
+  main .info-header {
+    top: 6235px;
+    left: 150px;
+    width: 300px;
+    height: 30px;
+    font: bold 22px/30px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .tab-active {
+    font: bold 22px/30px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .info-tabs {
+    top: 6079px;
+  }
+  main .description-image {
+    left: 315px;
+    width: 154px;
+    height: 157px;
+    font: Bold 18px/25px Futura, Tahoma, sans-serif;
+    background-size: 154px 157px;
+  }
+  main .description-image > img {
+    width: 154px;
+    height: 157px;
+  }
+  main .description-title {
+    left: 485px;
+    width: 595px;
+    height: 41px;
+    font: Bold 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .description-text {
+    top: 41px;
+    left: 485px;
+    width: 370px;
+    height: 331px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .description-text1 {
+    left: 385px;
+    width: 25vw;
+    height: 119px;
+    font: 13px/21px Futura, Tahoma, sans-serif;
+  }
+  main .mark-bottom-right {
+    top: 6335px;
+    width: 15vw;
+    height: 55vh;
+  }
+  /*NAvbar */
+  nav .nav-bg {
+    top: 6078px;
+    height: 787px;
+  }
+  nav .content {
+    top: 6132px;
+    left: 95px;
+    width: 470px;
+    height: 55px;
+    font: 50px/57px "Playfair Display", Tahoma, sans-serif;
+  }
+  nav .lineNav {
+    top: 6209px;
+    left: 95px;
+    width: 401px;
+    border: 2px solid #474749;
+  }
+  nav .contMain {
+    top: 6285px;
+  }
+  nav .contMain .container .townPlanning, nav .contMain .container .accesProblem, nav .contMain .container .futureStreet, nav .contMain .container .links {
+    height: 405px;
+    width: 21.5%;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  nav .contMain .container .townPlanning:hover, nav .contMain .container .accesProblem:hover, nav .contMain .container .futureStreet:hover, nav .contMain .container .links:hover {
+    outline: 2px solid grey;
+  }
+  nav .contMain .container .townPlanning:active, nav .contMain .container .accesProblem:active, nav .contMain .container .futureStreet:active, nav .contMain .container .links:active {
+    border: 4px solid grey;
+    -webkit-box-shadow: 2px 2px 4px 4px darkgrey;
+    box-shadow: 2px 2px 4px 4px darkgrey;
+    border-radius: 5px;
+  }
+  nav .contMain .container .townPlanning {
+    background-size: 250px 350px;
+  }
+  nav .contMain .container .townPlanning > img {
+    display: block;
+    width: 134px;
+    height: 145px;
+    margin: 52px auto 24px auto;
+  }
+  nav .contMain .container .townPlanning > p {
+    text-align: center;
+    font: bold 22px/27px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .accesProblem {
+    background-size: 250px 350px;
+  }
+  nav .contMain .container .accesProblem > img {
+    display: block;
+    width: 134px;
+    height: 145px;
+    margin: 52px auto 24px auto;
+  }
+  nav .contMain .container .accesProblem > p {
+    text-align: center;
+    font: bold 22px/27px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .futureStreet {
+    background-size: 250px 350px;
+  }
+  nav .contMain .container .futureStreet > img {
+    display: block;
+    width: 134px;
+    height: 145px;
+    margin: 52px auto 24px auto;
+  }
+  nav .contMain .container .futureStreet > p {
+    text-align: center;
+    font: bold 22px/27px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .links {
+    background-size: 250px 350px;
+  }
+  nav .contMain .container .links > img {
+    display: block;
+    width: 95px;
+    height: 145px;
+    margin: 52px auto 24px auto;
+  }
+  nav .contMain .container .links > p {
+    text-align: center;
+    font: bold 22px/27px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  footer .figure5 {
+    top: 6700px;
+    width: 337px;
+    height: 132px;
+  }
+  footer .footer {
+    top: 6832px;
+    height: 35px;
+  }
+  footer .visitMain, footer .copyright, footer .backTop {
+    margin: 0 14px;
+    padding: 7px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  footer .visitMain > a, footer .backTop > a {
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1158px) {
+  header .figure1 img {
+    width: 47vw;
+    height: 7vh;
+  }
+  header .headP {
+    top: 10px;
+    left: 21px;
+    width: 384px;
+    font: 12px/14px Futura, Tahoma, sans-serif;
+  }
+  header .header-mark {
+    top: -61px;
+    right: -20px;
+    width: 32vw;
+    height: 60vh;
+  }
+  header .top-wall {
+    top: 45px;
+    right: 30px;
+    width: 20vw;
+    height: 30vh;
+  }
+  header .main-h {
+    top: 75px;
+    left: 15px;
+    width: 461px;
+    height: 133px;
+    font: bold 35px/40px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .main-h3 {
+    top: 250px;
+    left: 15px;
+    width: 320px;
+    height: 20px;
+    font: bold 18px/18px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .line-top {
+    top: 290px;
+    left: 15px;
+    width: 200px;
+    border: 2px solid #474749;
+  }
+  header .main-top-text {
+    top: 282px;
+    left: 235px;
+    width: 350px;
+    height: 417px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  header .main-top-text2 {
+    top: 661px;
+    left: 350px;
+    width: 350px;
+    height: 143px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  header .image-block2 {
+    top: 800px;
+  }
+  header .pregnant-woman {
+    right: -20px;
+    width: 45vw;
+    height: 30vh;
+  }
+  header .mark-header-left {
+    top: 720px;
+    width: 25vw;
+    height: 43vh;
+  }
+  main {
+    /* TAbs */
+    /* End tabs */
+  }
+  main .main-top-grey {
+    top: 950px;
+    height: 700px;
+  }
+  main .main-top-h3 {
+    top: 75px;
+    left: 15px;
+    width: 300px;
+    height: 53px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .main-top-line {
+    top: 149px;
+    left: 15px;
+    width: 200px;
+    border: 2px solid #474749;
+  }
+  main .main-top-text {
+    top: 139px;
+    left: 235px;
+    width: 350px;
+    height: 48px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .door {
+    top: 245px;
+    left: 40px;
+    width: 83px;
+    height: 144px;
+  }
+  main .door-text {
+    top: 413px;
+    left: 5px;
+    width: 150px;
+    height: 50px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .screen {
+    top: 247px;
+    left: 177px;
+    width: 124px;
+    height: 145px;
+  }
+  main .screen-text {
+    top: 413px;
+    left: 165px;
+    width: 150px;
+    height: 80px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .lock {
+    top: 307px;
+    left: 330px;
+    width: 139px;
+    height: 89px;
+  }
+  main .lock-text {
+    top: 413px;
+    left: 325px;
+    width: 150px;
+    height: 103px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .crosswalk {
+    top: 322px;
+    left: 490px;
+    width: 135px;
+    height: 65px;
+  }
+  main .crosswalk-text {
+    top: 413px;
+    left: 485px;
+    width: 150px;
+    height: 80px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .sign {
+    top: 258px;
+    left: 660px;
+    width: 89px;
+    height: 135px;
+  }
+  main .sign-text {
+    top: 413px;
+    left: 635px;
+    width: 133px;
+    height: 21px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .main-top-grey-end {
+    top: 1495px;
+    width: 35vw;
+    height: 30vh;
+  }
+  main .main-top-mark-left {
+    top: 1580px;
+    width: 17vw;
+    height: 35vh;
+  }
+  main .white-top-h {
+    top: 1700px;
+    left: 15px;
+    width: 350px;
+    height: 30px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .white-top-line {
+    top: 1747px;
+    left: 15px;
+    width: 200px;
+    border: 2px solid #474749;
+  }
+  main .white-top-text-main {
+    top: 1738px;
+    left: 235px;
+    width: 350px;
+    height: 313px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .main-top-white-mark-right {
+    top: 1905px;
+    width: 20vw;
+    height: 50vh;
+  }
+  main .main-top-white-mark-left {
+    top: 2190px;
+    width: 30vw;
+    height: 65vh;
+  }
+  main .six {
+    top: 2089px;
+    left: 5px;
+    width: 40px;
+    height: 108px;
+    font: bold 84px/100px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .per-left {
+    top: 2112px;
+    left: 50px;
+    width: 28px;
+    height: 71px;
+    font: bold 33px/15px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .six-text {
+    top: 2108px;
+    left: 90px;
+    width: 140px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .six-line {
+    top: 2059px;
+    left: 235px;
+    height: 180px;
+    border: 2px solid #474749;
+  }
+  main .sixteen {
+    top: 2089px;
+    left: 245px;
+    width: 71px;
+    height: 114px;
+    font: bold 84px/100px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .per-middle {
+    top: 2111px;
+    left: 315px;
+    width: 38px;
+    height: 51px;
+    font: bold 33px/15px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .sixteen-text {
+    top: 2102px;
+    left: 360px;
+    width: 140px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .sixteen-line {
+    top: 2059px;
+    left: 510px;
+    height: 180px;
+    border: 2px solid #474749;
+  }
+  main .forty-five {
+    top: 2079px;
+    left: 520px;
+    width: 78px;
+    height: 104px;
+    font: bold 84px/100px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .per-right {
+    top: 2115px;
+    left: 597px;
+    width: 38px;
+    height: 71px;
+    font: bold 33px/15px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .forty-five-text {
+    top: 2102px;
+    left: 640px;
+    width: 17vw;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .white-top-text-end {
+    top: 2300px;
+    left: 235px;
+    width: 350px;
+    height: 208px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .main-middle-bg {
+    top: 2559px;
+    height: 670px;
+  }
+  main .main-middle-h {
+    top: 2600px;
+    left: 15px;
+    width: 280px;
+    height: 30px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .main-middle-line {
+    top: 2658px;
+    left: 15px;
+    width: 200px;
+    border: 2px solid #474749;
+  }
+  main .main-middle-text {
+    top: 2649px;
+    left: 235px;
+    width: 350px;
+    height: 59px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .table-middle {
+    top: 2655px;
+    height: 350px;
+  }
+  main .table-middle td, main .table-middle th {
+    padding: 3px;
+    border: 3px solid #474749;
+    font: 520 13px/16px Futura, Tahoma, sans-serif;
+    width: 150px;
+    padding: 10px 15px;
+  }
+  main .main-middle-text-end {
+    top: 2978px;
+    left: 235px;
+    width: 350px;
+    height: 355px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .main-middle-end {
+    top: 3117px;
+    left: 58px;
+    width: 15vw;
+    height: 15vh;
+  }
+  main .main-middle-mark-right {
+    top: 3192px;
+    width: 15vw;
+    height: 35vh;
+  }
+  main .white-bottom-h {
+    top: 3340px;
+    left: 15px;
+    width: 220px;
+    height: 31px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .white-bottom-line {
+    top: 3400px;
+    left: 15px;
+    width: 200px;
+    border: 2px solid #474749;
+  }
+  main .white-bottom-text {
+    top: 3392px;
+    left: 235px;
+    width: 350px;
+    height: 228px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .white-bottom-h2 {
+    top: 3625px;
+    left: 15px;
+    width: 230px;
+    height: 61px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .white-bottom-line2 {
+    top: 3690px;
+    left: 15px;
+    width: 200px;
+    border: 2px solid #474749;
+  }
+  main .ramp {
+    top: 3770px;
+    left: 25px;
+    width: 120px;
+    height: 97px;
+  }
+  main .ramp-text {
+    top: 3870px;
+    left: 20px;
+    width: 140px;
+    height: 58px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .chair-lift {
+    top: 3710px;
+    left: 170px;
+    width: 118px;
+    height: 148px;
+  }
+  main .chair-lift-text {
+    top: 3870px;
+    left: 170px;
+    width: 140px;
+    height: 59px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .lift {
+    top: 3715px;
+    left: 325px;
+    width: 122px;
+    height: 145px;
+  }
+  main .lift-text {
+    top: 3870px;
+    left: 320px;
+    width: 140px;
+    height: 37px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .bench {
+    top: 3750px;
+    left: 480px;
+    width: 112px;
+    height: 108px;
+  }
+  main .bench-text {
+    top: 3870px;
+    left: 470px;
+    width: 140px;
+    height: 35px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .cabin {
+    top: 3710px;
+    left: 640px;
+    width: 77px;
+    height: 144px;
+  }
+  main .cabin-text {
+    top: 3870px;
+    left: 620px;
+    width: 140px;
+    height: 35px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .waySign {
+    top: 3980px;
+    left: 195px;
+    width: 89px;
+    height: 135px;
+  }
+  main .waySign-text {
+    top: 4135px;
+    left: 170px;
+    width: 140px;
+    height: 37px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .edge {
+    top: 4028px;
+    left: 325px;
+    width: 132px;
+    height: 88px;
+  }
+  main .edge-text {
+    top: 4135px;
+    left: 320px;
+    width: 140px;
+    height: 163px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .lamp {
+    top: 3975px;
+    left: 498px;
+    width: 84px;
+    height: 145px;
+  }
+  main .lamp-text {
+    top: 4135px;
+    left: 470px;
+    width: 140px;
+    height: 15px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .woman-right-bottom {
+    top: 4114px;
+    width: 35vw;
+    height: 20vh;
+  }
+  main .white-bottom-mark-left {
+    top: 4074px;
+    width: 17vw;
+    height: 25vh;
+  }
+  main .main-bottom-bg {
+    top: 4257px;
+    height: 620px;
+  }
+  main .main-bottom-grey-h {
+    top: 4351px;
+    left: 15px;
+    width: 250px;
+    height: 59px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .grey-line1 {
+    top: 4412px;
+    left: 15px;
+    width: 200px;
+    border: 2px solid #474749;
+  }
+  main .bottom-grey-text1 {
+    top: 4475px;
+    left: 20px;
+    width: 240px;
+    height: 115px;
+    font: 14px/18px Futura, Tahoma, sans-serif;
+  }
+  main .grey-line2 {
+    top: 4430px;
+    left: 265px;
+    height: 220px;
+    border: 2px solid #474749;
+  }
+  main .bottom-grey-text2 {
+    top: 4440px;
+    left: 272px;
+    width: 240px;
+    height: 190px;
+    font: 14px/18px Futura, Tahoma, sans-serif;
+  }
+  main .grey-line3 {
+    top: 4430px;
+    left: 517px;
+    height: 220px;
+    border: 2px solid #474749;
+  }
+  main .bottom-grey-text3 {
+    top: 4521px;
+    left: 524px;
+    width: 240px;
+    height: 68px;
+    font: 14px/18px Futura, Tahoma, sans-serif;
+  }
+  main .bottom-grey-text4 {
+    top: 4687px;
+    left: 245px;
+    width: 300px;
+    height: 95px;
+    font: Italic 18px/24px Futura, Tahoma, sans-serif;
+  }
+  main .bottom-grey-text5 {
+    top: 4792px;
+    left: 277px;
+    width: 240px;
+    height: 37px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .main-tabs-h {
+    top: 4920px;
+    left: 15px;
+    width: 300px;
+    height: 60px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .main-tabs-line {
+    top: 4981px;
+    left: 15px;
+    width: 200px;
+    border: 2px solid #474749;
+  }
+  main .main-tabs-preText {
+    top: 4972px;
+    left: 235px;
+    width: 340px;
+    height: 100px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .line-inside-tabs {
+    top: 5120px;
+    left: 275px;
+    height: 339px;
+    border: 2px solid #474749;
+  }
+  main .info-header {
+    top: 5275px;
+    left: 20px;
+    width: 240px;
+    height: 30px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .tab-active {
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .info-tabs {
+    top: 5119px;
+    left: -190px;
+  }
+  main .description-image > p {
+    padding-top: 20px;
+  }
+  main .description-image {
+    left: 315px;
+    width: 144px;
+    height: 147px;
+    font: Bold 15px/21px Futura, Tahoma, sans-serif;
+    background-size: 154px 157px;
+  }
+  main .description-image > img {
+    width: 144px;
+    height: 147px;
+  }
+  main .description-title {
+    left: 485px;
+    width: 380px;
+    height: 41px;
+    font: Bold 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .description-text {
+    top: 41px;
+    left: 485px;
+    width: 340px;
+    height: 331px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .description-text1 {
+    top: 235px;
+    left: 0px;
+    width: 340px;
+    height: 119px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .mark-bottom-right {
+    top: 5385px;
+    width: 25vw;
+    height: 55vh;
+  }
+  /*NAvbar */
+  nav .nav-bg {
+    top: 5150px;
+    height: 570px;
+  }
+  nav .content {
+    top: 5192px;
+    left: 15px;
+    width: 370px;
+    height: 55px;
+    font: 38px/47px "Playfair Display", Tahoma, sans-serif;
+  }
+  nav .lineNav {
+    top: 5250px;
+    left: 15px;
+    width: 301px;
+    border: 2px solid #474749;
+  }
+  nav .contMain {
+    top: 5285px;
+  }
+  nav .contMain .container .townPlanning, nav .contMain .container .accesProblem, nav .contMain .container .futureStreet, nav .contMain .container .links {
+    height: 305px;
+    width: 21.5%;
+    margin-right: 5px;
+    padding: 3px;
+  }
+  nav .contMain .container .townPlanning:hover, nav .contMain .container .accesProblem:hover, nav .contMain .container .futureStreet:hover, nav .contMain .container .links:hover {
+    outline: 1px solid grey;
+  }
+  nav .contMain .container .townPlanning:active, nav .contMain .container .accesProblem:active, nav .contMain .container .futureStreet:active, nav .contMain .container .links:active {
+    border: 1px solid grey;
+    -webkit-box-shadow: 1px 1px 2px 2px darkgrey;
+    box-shadow: 1px 1px 2px 2px darkgrey;
+    border-radius: 3px;
+  }
+  nav .contMain .container .townPlanning {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .townPlanning > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .townPlanning > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .accesProblem {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .accesProblem > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .accesProblem > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .futureStreet {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .futureStreet > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .futureStreet > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .links {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .links > img {
+    display: block;
+    width: 75px;
+    height: 110px;
+    margin: 72px auto 24px auto;
+  }
+  nav .contMain .container .links > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  footer .figure5 {
+    top: 5620px;
+    width: 237px;
+    height: 82px;
+  }
+  footer .footer {
+    top: 5703px;
+    height: 25px;
+  }
+  footer .visitMain, footer .copyright, footer .backTop {
+    margin: 0 5px;
+    padding: 3px;
+    font: 10px/12px Futura, Tahoma, sans-serif;
+  }
+  footer .visitMain > a, footer .backTop > a {
+    font: 10px/12px Futura, Tahoma, sans-serif;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 760px) {
+  header .figure1 {
+    width: 240px;
+  }
+  header .figure1 img {
+    width: 60vw;
+    height: 7vh;
+  }
+  header .headP {
+    top: 5px;
+    left: 5px;
+    width: 220px;
+    font: 10px/14px Futura, Tahoma, sans-serif;
+  }
+  header .header-mark {
+    top: -41px;
+    right: -10px;
+    width: 32vw;
+    height: 40vh;
+  }
+  header .top-wall {
+    top: 15px;
+    right: 10px;
+    width: 20vw;
+    height: 25vh;
+  }
+  header .main-h {
+    top: 65px;
+    left: 5px;
+    width: 280px;
+    height: 133px;
+    font: bold 23px/29px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .main-h3 {
+    top: 200px;
+    left: 5px;
+    width: 320px;
+    height: 20px;
+    font: bold 18px/18px "Playfair Display", Tahoma, sans-serif;
+  }
+  header .line-top {
+    top: 240px;
+    left: 5px;
+    width: 200px;
+    border: 1px solid #474749;
+  }
+  header .main-top-text {
+    top: 262px;
+    left: 5px;
+    width: 350px;
+    height: 417px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  header .main-top-text2 {
+    top: 641px;
+    left: 5px;
+    width: 350px;
+    height: 143px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  header .image-block2 {
+    top: 770px;
+  }
+  header .pregnant-woman {
+    right: -20px;
+    width: 55vw;
+    height: 25vh;
+  }
+  header .mark-header-left {
+    top: 750px;
+    width: 25vw;
+    height: 33vh;
+  }
+  main {
+    /* TAbs */
+    /* End tabs */
+  }
+  main .main-top-grey {
+    top: 880px;
+    height: 950px;
+  }
+  main .main-top-h3 {
+    top: 75px;
+    left: 5px;
+    width: 300px;
+    height: 53px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .main-top-line {
+    top: 140px;
+    left: 5px;
+    width: 200px;
+    border: 1px solid #474749;
+  }
+  main .main-top-text {
+    top: 159px;
+    left: 5px;
+    width: 350px;
+    height: 48px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .door {
+    top: 245px;
+    left: 40px;
+    width: 73px;
+    height: 124px;
+  }
+  main .door-text {
+    top: 390px;
+    left: 5px;
+    width: 150px;
+    height: 50px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .screen {
+    top: 247px;
+    left: 187px;
+    width: 104px;
+    height: 125px;
+  }
+  main .screen-text {
+    top: 390px;
+    left: 165px;
+    width: 150px;
+    height: 80px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .lock {
+    top: 507px;
+    left: 20px;
+    width: 119px;
+    height: 79px;
+  }
+  main .lock-text {
+    top: 603px;
+    left: 5px;
+    width: 150px;
+    height: 103px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .crosswalk {
+    top: 527px;
+    left: 180px;
+    width: 115px;
+    height: 55px;
+  }
+  main .crosswalk-text {
+    top: 603px;
+    left: 165px;
+    width: 150px;
+    height: 80px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .sign {
+    top: 748px;
+    left: 125px;
+    width: 79px;
+    height: 125px;
+  }
+  main .sign-text {
+    top: 893px;
+    left: 90px;
+    width: 150px;
+    height: 21px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .main-top-grey-end {
+    top: 1725px;
+    width: 35vw;
+    height: 20vh;
+  }
+  main .main-top-mark-left {
+    top: 1730px;
+    width: 20vw;
+    height: 25vh;
+  }
+  main .white-top-h {
+    top: 1870px;
+    left: 5px;
+    width: 340px;
+    height: 30px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .white-top-line {
+    top: 1907px;
+    left: 5px;
+    width: 200px;
+    border: 1px solid #474749;
+  }
+  main .white-top-text-main {
+    top: 1938px;
+    left: 5px;
+    width: 350px;
+    height: 313px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .main-top-white-mark-right {
+    top: 2155px;
+    width: 20vw;
+    height: 30vh;
+  }
+  main .main-top-white-mark-left {
+    top: 2390px;
+    width: 30vw;
+    height: 35vh;
+  }
+  main .six {
+    top: 2200px;
+    left: 25px;
+    width: 40px;
+    height: 108px;
+    font: bold 54px/70px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .per-left {
+    top: 2215px;
+    left: 53px;
+    width: 28px;
+    height: 71px;
+    font: bold 18px/15px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .six-text {
+    top: 2270px;
+    left: 5px;
+    width: 110px;
+    font: 11px/18px Futura, Tahoma, sans-serif;
+  }
+  main .six-line {
+    top: 2210px;
+    left: 120px;
+    height: 220px;
+    border: 1px solid #474749;
+  }
+  main .sixteen {
+    top: 2200px;
+    left: 125px;
+    width: 71px;
+    height: 114px;
+    font: bold 54px/70px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .per-middle {
+    top: 2215px;
+    left: 185px;
+    width: 38px;
+    height: 51px;
+    font: bold 18px/15px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .sixteen-text {
+    top: 2270px;
+    left: 132px;
+    width: 110px;
+    font: 11px/18px Futura, Tahoma, sans-serif;
+  }
+  main .sixteen-line {
+    top: 2210px;
+    left: 247px;
+    height: 220px;
+    border: 1px solid #474749;
+  }
+  main .forty-five {
+    top: 2190px;
+    left: 240px;
+    width: 78px;
+    height: 104px;
+    font: bold 54px/70px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .per-right {
+    top: 2215px;
+    left: 307px;
+    width: 38px;
+    height: 71px;
+    font: bold 18px/15px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .forty-five-text {
+    top: 2270px;
+    left: 257px;
+    width: 110px;
+    font: 11px/18px Futura, Tahoma, sans-serif;
+  }
+  main .white-top-text-end {
+    top: 2480px;
+    left: 5px;
+    width: 350px;
+    height: 208px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+    z-index: 3;
+  }
+  main .main-middle-bg {
+    top: 2680px;
+    height: 670px;
+  }
+  main .main-middle-h {
+    top: 2700px;
+    left: 5px;
+    width: 200px;
+    height: 30px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .main-middle-line {
+    top: 2760px;
+    left: 5px;
+    width: 200px;
+    border: 1px solid #474749;
+  }
+  main .main-middle-text {
+    top: 2785px;
+    left: 5px;
+    width: 340px;
+    height: 59px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .table-middle {
+    top: 2765px;
+    height: 350px;
+  }
+  main .table-middle td, main .table-middle th {
+    padding: 2px;
+    border: 2px solid #474749;
+    font: 520 11px/14px Futura, Tahoma, sans-serif;
+    width: 140px;
+    padding: 5px 5px;
+  }
+  main .main-middle-text-end {
+    top: 3100px;
+    left: 5px;
+    width: 350px;
+    height: 355px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+    z-index: 3;
+  }
+  main .main-middle-end {
+    top: 3417px;
+    left: 8px;
+    width: 25vw;
+    height: 15vh;
+  }
+  main .main-middle-mark-right {
+    top: 3400px;
+    width: 25vw;
+    height: 35vh;
+  }
+  main .white-bottom-h {
+    top: 3540px;
+    left: 5px;
+    width: 200px;
+    height: 31px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .white-bottom-line {
+    top: 3600px;
+    left: 5px;
+    width: 200px;
+    border: 1px solid #474749;
+  }
+  main .white-bottom-text {
+    top: 3622px;
+    left: 5px;
+    width: 340px;
+    height: 228px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .white-bottom-h2 {
+    top: 3870px;
+    left: 5px;
+    width: 230px;
+    height: 61px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .white-bottom-line2 {
+    top: 3930px;
+    left: 5px;
+    width: 200px;
+    border: 2px solid #474749;
+  }
+  main .ramp {
+    top: 3990px;
+    left: 25px;
+    width: 100px;
+    height: 77px;
+  }
+  main .ramp-text {
+    top: 4080px;
+    left: 5px;
+    width: 140px;
+    height: 58px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .chair-lift {
+    top: 3950px;
+    left: 180px;
+    width: 98px;
+    height: 118px;
+  }
+  main .chair-lift-text {
+    top: 4080px;
+    left: 160px;
+    width: 140px;
+    height: 59px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .lift {
+    top: 4175px;
+    left: 25px;
+    width: 102px;
+    height: 125px;
+  }
+  main .lift-text {
+    top: 4320px;
+    left: 5px;
+    width: 140px;
+    height: 37px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .bench {
+    top: 4220px;
+    left: 180px;
+    width: 92px;
+    height: 88px;
+  }
+  main .bench-text {
+    top: 4320px;
+    left: 160px;
+    width: 140px;
+    height: 35px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .cabin {
+    top: 4400px;
+    left: 40px;
+    width: 67px;
+    height: 124px;
+  }
+  main .cabin-text {
+    top: 4545px;
+    left: 5px;
+    width: 140px;
+    height: 35px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .waySign {
+    top: 4415px;
+    left: 195px;
+    width: 79px;
+    height: 115px;
+  }
+  main .waySign-text {
+    top: 4545px;
+    left: 160px;
+    width: 140px;
+    height: 37px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .edge {
+    top: 4658px;
+    left: 25px;
+    width: 112px;
+    height: 78px;
+  }
+  main .edge-text {
+    top: 4755px;
+    left: 5px;
+    width: 140px;
+    height: 163px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+    z-index: 5;
+  }
+  main .lamp {
+    top: 4615px;
+    left: 198px;
+    width: 74px;
+    height: 125px;
+  }
+  main .lamp-text {
+    top: 4755px;
+    left: 160px;
+    width: 140px;
+    height: 15px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .woman-right-bottom {
+    top: 4840px;
+    width: 45vw;
+    height: 20vh;
+  }
+  main .white-bottom-mark-left {
+    top: 4824px;
+    width: 27vw;
+    height: 25vh;
+  }
+  main .main-bottom-bg {
+    top: 4927px;
+    height: 620px;
+  }
+  main .main-bottom-grey-h {
+    top: 4990px;
+    left: 5px;
+    width: 250px;
+    height: 59px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .grey-line1 {
+    top: 5055px;
+    left: 5px;
+    width: 200px;
+    border: 1px solid #474749;
+  }
+  main .bottom-grey-text1 {
+    top: 5075px;
+    left: 5px;
+    width: 110px;
+    height: 115px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  main .grey-line2 {
+    top: 5075px;
+    left: 120px;
+    height: 300px;
+    border: 1px solid #474749;
+  }
+  main .bottom-grey-text2 {
+    top: 5075px;
+    left: 127px;
+    width: 110px;
+    height: 190px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  main .grey-line3 {
+    top: 5075px;
+    left: 242px;
+    height: 300px;
+    border: 1px solid #474749;
+  }
+  main .bottom-grey-text3 {
+    top: 5075px;
+    left: 249px;
+    width: 110px;
+    height: 68px;
+    font: 12px/15px Futura, Tahoma, sans-serif;
+  }
+  main .bottom-grey-text4 {
+    top: 5407px;
+    left: 60px;
+    width: 240px;
+    height: 95px;
+    font: Italic 15px/22px Futura, Tahoma, sans-serif;
+  }
+  main .bottom-grey-text5 {
+    top: 5492px;
+    left: 90px;
+    width: 190px;
+    height: 37px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .main-tabs-h {
+    top: 5590px;
+    left: 5px;
+    width: 300px;
+    height: 60px;
+    font: bold 18px/24px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .main-tabs-line {
+    top: 5657px;
+    left: 5px;
+    width: 200px;
+    border: 1px solid #474749;
+  }
+  main .main-tabs-preText {
+    top: 5682px;
+    left: 5px;
+    width: 340px;
+    height: 100px;
+    font: 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .line-inside-tabs {
+    top: 5820px;
+    left: 125px;
+    height: 399px;
+    border: 1px solid #474749;
+  }
+  main .info-header {
+    top: 5965px;
+    left: 0px;
+    width: 110px;
+    height: 30px;
+    font: bold 15px/18px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .tab-active {
+    font: bold 16px/19px "Playfair Display", Tahoma, sans-serif;
+  }
+  main .info-tabs {
+    top: 5819px;
+    left: -345px;
+  }
+  main .description-image > p {
+    padding-top: 40px;
+  }
+  main .description-image {
+    left: 355px;
+    width: 104px;
+    height: 107px;
+    font: Bold 15px/21px Futura, Tahoma, sans-serif;
+    background-size: 154px 157px;
+  }
+  main .description-image > img {
+    width: 104px;
+    height: 107px;
+  }
+  main .description-title {
+    left: 485px;
+    width: 230px;
+    height: 41px;
+    font: Bold 12px/18px Futura, Tahoma, sans-serif;
+  }
+  main .description-text {
+    top: 60px;
+    left: 485px;
+    width: 230px;
+    height: 331px;
+    font: 11px/16px Futura, Tahoma, sans-serif;
+  }
+  main .description-text1 {
+    top: 275px;
+    left: 0px;
+    width: 230px;
+    height: 119px;
+    font: 11px/16px Futura, Tahoma, sans-serif;
+    z-index: 5;
+  }
+  main .mark-bottom-right {
+    top: 6125px;
+    width: 25vw;
+    height: 45vh;
+  }
+  /*NAvbar */
+  nav .nav-bg {
+    top: 5900px;
+    height: 570px;
+  }
+  nav .content {
+    top: 5912px;
+    left: 15px;
+    width: 370px;
+    height: 55px;
+    font: 28px/37px "Playfair Display", Tahoma, sans-serif;
+  }
+  nav .lineNav {
+    top: 5970px;
+    left: 15px;
+    width: 201px;
+    border: 1px solid #474749;
+  }
+  nav .contMain {
+    top: 5985px;
+  }
+  nav .contMain .container .townPlanning, nav .contMain .container .accesProblem, nav .contMain .container .futureStreet, nav .contMain .container .links {
+    height: 280px;
+    width: 43%;
+    margin-right: 5px;
+    padding: 3px;
+  }
+  nav .contMain .container .townPlanning:hover, nav .contMain .container .accesProblem:hover, nav .contMain .container .futureStreet:hover, nav .contMain .container .links:hover {
+    outline: 1px solid grey;
+  }
+  nav .contMain .container .townPlanning:active, nav .contMain .container .accesProblem:active, nav .contMain .container .futureStreet:active, nav .contMain .container .links:active {
+    border: 1px solid grey;
+    -webkit-box-shadow: 1px 1px 2px 2px darkgrey;
+    box-shadow: 1px 1px 2px 2px darkgrey;
+    border-radius: 3px;
+  }
+  nav .contMain .container .townPlanning {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .townPlanning > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .townPlanning > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .accesProblem {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .accesProblem > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .accesProblem > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .futureStreet {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .futureStreet > img {
+    display: block;
+    width: 104px;
+    height: 110px;
+    margin: 72px auto 14px auto;
+  }
+  nav .contMain .container .futureStreet > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  nav .contMain .container .links {
+    background-size: 150px 250px;
+  }
+  nav .contMain .container .links > img {
+    display: block;
+    width: 75px;
+    height: 110px;
+    margin: 72px auto 24px auto;
+  }
+  nav .contMain .container .links > p {
+    text-align: center;
+    font: bold 14px/17px "Playfair Display", Tahoma, sans-serif;
+    color: #474749;
+  }
+  footer .figure5 {
+    top: 6597px;
+    width: 207px;
+    height: 72px;
+  }
+  footer .footer {
+    top: 6670px;
+    height: 25px;
+  }
+  footer .visitMain, footer .copyright, footer .backTop {
+    margin: 0 5px;
+    padding: 3px;
+    font: 8px/10px Futura, Tahoma, sans-serif;
+  }
+  footer .visitMain > a, footer .backTop > a {
+    font: 8px/10px Futura, Tahoma, sans-serif;
+  }
 }

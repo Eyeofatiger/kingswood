@@ -1,0 +1,3621 @@
+@import 'mixins.scss';
+
+/*Var*/
+$font:Futura, Tahoma, sans-serif;
+$fontPlay: 'Playfair Display', Tahoma, sans-serif;
+$col: #474749;
+
+/* Animation */
+
+.fade {
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 2.5s;
+            animation-duration: 2.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2.5s;
+  }
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: 0.1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+/*main css*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    position: relative;
+
+    .figure1{
+        width: 555px;
+        height: 82px;
+        opacity: 0.85;
+    }
+
+    .headP{
+        @include positions(20px, 31px, 494px, 30px);
+        text-align: left;
+        font:16px/21px $font;
+        color: #FFFFFF;
+    }
+
+    .image-block{
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow: hidden;
+    }
+
+    .header-mark{
+        position: relative;
+        top: -121px;
+        right: -50px;
+        width: 800px;
+        height: 1179px;
+
+    }
+
+    .top-wall{
+        position: absolute;
+        top: 215px;
+        right: 80px;
+        width: 480px;
+        height: 569px;
+    }
+
+    .main-h{
+        @include positions(250px, 135px, 942px, 273px);
+        text-align: left;
+        font: bold 72px/82px $fontPlay;
+        color: $col;
+    }
+
+    .main-h3{
+        @include positions(573px, 135px, 642px, 37px);
+        text-align: left;
+        font: bold 32px/32px $fontPlay;
+        color: $col;
+    }
+
+    .line-top{
+        @include positions(634px, 135px, 530px, 0px);
+        border: 3px solid $col;
+    }
+
+    .main-top-text{
+        @include positions(621px, 695px, 530px, 597px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+    
+    .main-top-text2{
+        @include positions(1102px, 1255px, 530px, 204px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .image-block2{
+        position: absolute;
+        top: 1434px;
+        right: 0;
+        overflow: hidden;
+    }
+
+    .pregnant-woman{
+        position: relative;
+        right: -50px;
+        width: 1041px;
+        height: 492px;
+        z-index: 3;
+    }
+
+    .mark-header-left{
+        @include positions(1243px, 0px, 489px, 670px);
+        z-index: 3;
+    }
+} 
+
+main{
+    width: 100%;
+
+    .main-top-grey{
+        position: absolute;
+        top: 1790px;
+        width: 100%;
+        height: 1131px;
+        background-image: url('../images/bg-main.png');
+    }
+
+    .main-top-h3{
+        @include positions(250px, 135px, 530px, 91px);
+        text-align: left;
+        font:bold 32px/43px $fontPlay;
+        color: $col;
+    }
+
+    .main-top-line{
+        @include positions(371px, 135px, 530px, 0px);
+        border: 3px solid $col;
+    }
+
+    .main-top-text{
+        @include positions(356px, 695px, 530px, 84px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .door{
+        @include positions(527px, 333px, 118px, 206px);
+    }
+
+    .door-text{
+        @include positions(762px, 275px, 250px, 72px);
+        text-align: center;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .screen{
+        @include positions(524px, 592px, 177px, 209px);
+    }
+
+    .screen-text{
+        @include positions(762px, 555px, 250px, 114px);
+        text-align: center;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .lock{
+        @include positions(591px, 844px, 228px, 142px);
+    }
+
+    .lock-text{
+        @include positions(762px, 835px, 250px, 148px);
+        text-align: center;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .crosswalk{
+        @include positions(618px, 1115px, 252px, 115px);
+    }
+
+    .crosswalk-text{
+        @include positions(762px, 1117px, 250px, 114px);
+        text-align: center;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .sign{
+        @include positions(512px, 1472px, 142px, 223px);
+    }
+
+    .sign-text{
+        @include positions(762px, 1418px, 250px, 30px);
+        text-align: center;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .main-top-grey-end{
+        position: absolute;
+        top: 2624px;
+        right: 0px;
+        width: 600px;
+        height: 390px;
+    }
+
+    .main-top-mark-left{
+        @include positions(2689px, 0px, 415px, 642px);
+    }
+
+    .white-top-h{
+        @include positions(3000px, 135px, 530px, 44px);
+        text-align: left;
+        font: bold 32px/43px $fontPlay;
+        color: $col;
+    }
+
+    .white-top-line{
+        @include positions(3068px, 135px, 530px, 0px);
+        border: 3px solid $col;
+    }
+
+    .white-top-text-main{
+        @include positions(3055px, 695px, 530px, 448px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .main-top-white-mark-right{
+        position: absolute;
+        top: 3308px;
+        right: 0px;
+        width: 405px;
+        height: 650px;
+    }
+
+    .main-top-white-mark-left{
+        @include positions(3627px, 0px, 450px, 1030px);
+        z-index: 3;
+    }
+
+    .six{
+        @include positions(3556px, 158px, 100px, 227px);
+        text-align: center;
+        font: bold 170px/227px $fontPlay;
+        color: $col;
+    }
+
+    .per-left{
+        @include positions(3617px, 267px, 54px, 101px);
+        text-align: center;
+        font: bold 76px/22px $fontPlay;
+        color: $col;
+    }
+
+    .six-text{
+        @include positions(3627px, 387px, 255px, 85px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .six-line{
+        @include positions(3556px, 680px, 0px, 255px);
+        transform: matrix(-1, 0, 0, -1, 0, 0);
+        border: 3px solid $col;
+    }
+
+    .sixteen{
+        @include positions(3551px, 701px, 173px, 234px);
+        text-align: right;
+        font: bold 176px/234px $fontPlay;
+        letter-spacing: 0;
+        color: $col;
+    }
+
+    .per-middle{
+        @include positions(3617px, 880px, 54px, 101px);
+        text-align: center;
+        font: bold 76px/22px $fontPlay;
+        color: $col;
+    }
+
+    .sixteen-text{
+        @include positions(3604px, 977px, 250px, 144px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .sixteen-line{
+        @include positions(3556px, 1240px, 0px, 255px);
+        transform: matrix(-1, 0, 0, -1, 0, 0);
+        border: 3px solid $col;
+    }
+
+    .forty-five{
+        @include positions(3528px, 1255px, 183px, 234px);
+        text-align: right;
+        font: bold 176px/234px $fontPlay;
+        color: $col;
+    }
+
+    .per-right{
+        @include positions(3617px, 1444px, 54px, 101px);
+        text-align: center;
+        font: bold 76px/22px $fontPlay;
+        color: $col;
+    }
+
+    .forty-five-text{
+        @include positions(3602px, 1529px, 250px, 205px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .white-top-text-end{
+        @include positions(3879px, 695px, 530px, 298px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .main-middle-bg{
+        position: absolute;
+        top: 4270px;
+        width: 100%;
+        height: 1185px;
+        background-image: url('../images/bg-main.png');
+    }
+
+    .main-middle-h{
+        @include positions(4323px, 135px, 530px, 44px);
+        text-align: left;
+        font: bold 32px/43px $fontPlay;
+        color: $col;
+        z-index: 5;
+    }
+
+    .main-middle-line{
+        @include positions(4391px, 135px, 530px, 0px);
+        border: 3px solid $col;
+        z-index: 5;
+    }
+
+    .main-middle-text{
+        @include positions(4378px, 695px, 530px, 85px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .table-middle{
+        position: relative;
+        top: 4430px;
+        height: 500px;
+        margin: 0 auto;
+
+    }
+
+    .table-middle table {
+        border-collapse: collapse; 
+        border: 9px solid #F3F3F3;
+        margin: 0 auto;
+    }
+
+    .table-middle td, .table-middle th {
+        padding: 3px;
+        border: 4px solid $col;
+        text-align: center;
+        vertical-align: center;
+        font: 520 22px/32px $font;
+        color: $col;
+        width: 225px;
+        padding: 25px 35px;
+    }
+
+    .main-middle-text-end{
+        @include positions(5053px, 695px, 530px, 509px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .main-middle-end{
+        @include positions(5118px, 83px, 422px, 403px);
+    }
+
+    .main-middle-mark-right{
+        position: absolute;
+        top: 5339px;
+        right: 0px;
+        width: 525px;
+        height: 825px;
+    }
+
+    .white-bottom-h{
+        @include positions(5708px, 135px, 530px, 44px);
+        text-align: left;
+        font: bold 32px/43px $fontPlay;
+        color: $col;
+    }
+
+    .white-bottom-line{
+        @include positions(5777px, 135px, 530px, 0px);
+        border: 3px solid $col;
+    }
+
+    .white-bottom-text{
+        @include positions(5764px, 695px, 530px, 326px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .white-bottom-h2{
+        @include positions(6251px, 135px, 530px, 87px);
+        text-align: left;
+        font: bold 32px/43px $fontPlay;
+        color: $col;
+    }
+
+    .white-bottom-line2{
+        @include positions(6363px, 135px, 530px, 0px);
+        border: 3px solid $col;
+    }
+
+    .ramp{
+        @include positions(6499px, 300px, 201px, 153px);
+    }
+
+    .ramp-text{
+        @include positions(6679px, 275px, 250px, 84px);
+        text-align: center;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .chair-lift{
+        @include positions(6411px, 588px, 184px, 241px);
+    }
+
+    .chair-lift-text{
+        @include positions(6679px, 555px, 250px, 85px);
+        text-align: center;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .lift{
+        @include positions(6400px, 858px, 203px, 252px);
+    }
+
+    .lift-text{
+        @include positions(6679px, 835px, 250px, 54px);
+        text-align: center;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .bench{
+        @include positions(6470px, 1138px, 204px, 183px);
+    }
+
+    .bench-text{
+        @include positions(6679px, 1115px, 250px, 54px);
+        text-align: center;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .cabin{
+        @include positions(6404px, 1457px, 125px, 249px);
+    }
+
+    .cabin-text{
+        @include positions(6679px, 1395px, 250px, 54px);
+        text-align: center;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .waySign{
+        @include positions(6872px, 630px, 142px, 223px);
+    }
+
+    .waySign-text{
+        @include positions(7123px, 555px, 250px, 54px);
+        text-align: center;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .edge{
+        @include positions(6941px, 851px, 218px, 155px);
+    }
+
+    .edge-text{
+        @include positions(7123px, 835px, 250px, 234px);
+        text-align: center;
+        font: 18px/30px $font;
+        color: $col;
+        z-index: 3;
+    }
+
+    .lamp{
+        @include positions(6845px, 1169px, 142px, 251px);
+    }
+
+    .lamp-text{
+        @include positions(7123px, 1115px, 250px, 22px);
+        text-align: center;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .woman-right-bottom{
+        position: absolute;
+        top: 7078px;
+        right: 0px;
+        width: 755px;
+        height: 364px;
+        z-index: 3;
+    }
+
+    .white-bottom-mark-left{
+        @include positions(6864px, 0px, 415px, 622px);
+        z-index: 3;
+    }
+
+    .main-bottom-bg{
+        position: absolute;
+        top: 7291px;
+        width: 100%;
+        height: 1185px;
+        background-image: url('../images/bg-main.png');
+    }
+
+    .main-bottom-grey-h{
+        @include positions(7516px, 135px, 530px, 86px);
+        text-align: left;
+        font: bold 32px/43px $fontPlay;
+        color: $col;
+    }
+
+    .grey-line1{
+        @include positions(7632px, 135px, 530px, 0px);
+        border: 3px solid $col;
+    }
+
+    .bottom-grey-text1{
+        @include positions(7779px, 153px, 498px, 166px);
+        text-align: center;
+        font: 22px/34px $font;
+        color: $col;
+    }
+
+    .grey-line2{
+        @include positions(7699px, 680px, 0px, 363px);
+        border: 3px solid $col;
+    }
+
+    .bottom-grey-text2{
+        @include positions(7747px, 713px, 498px, 272px);
+        text-align: center;
+        font: 22px/34px $font;
+        color: $col;
+    }
+
+    .grey-line3{
+        @include positions(7699px, 1240px, 0px, 363px);
+        border: 3px solid $col;
+    }
+
+    .bottom-grey-text3{
+        @include positions(7817px, 1276px, 498px, 98px);
+        text-align: center;
+        font: 22px/34px $font;
+        color: $col;
+    }
+
+    .bottom-grey-text4{
+        @include positions(8134px, 695px, 530px, 137px);
+        text-align: center;
+        font: Italic 32px/42px $font;
+        color: $col;
+    }
+
+    .bottom-grey-text5{
+        @include positions(8303px, 754px, 412px, 54px);
+        text-align: center;
+        font: 18px/30px $font;
+        letter-spacing: 0;
+        color: $col;
+    }
+    
+    .main-tabs-h{
+        @include positions(8576px, 135px, 530px, 87px);
+        text-align: left;
+        font: bold 32px/43px $fontPlay;
+        color: $col;
+    }
+
+    .main-tabs-line{
+        @include positions(8688px, 135px, 530px, 0px);
+        border: 3px solid $col;
+    }
+
+    .main-tabs-preText{
+        @include positions(8675px, 695px, 530px, 144px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .line-inside-tabs{
+        @include positions(8900px, 680px, 0px, 485px);
+        border: 3px solid $col;
+    }
+
+    /* TAbs */
+
+    .info-header{
+        @include positions(9123px, 215px, 430px, 43px);
+        text-align: right;
+        font: bold 32px/43px $fontPlay;
+        color: #b4b4b4;
+    }
+
+    .info-header-tab{
+        margin: 15px 0;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .tab-active{
+        font: bold 32px/43px $fontPlay;
+        color: $col;
+    }
+
+    .hide {
+        display: none;
+    }
+    .show {
+        display: flex;
+    }
+
+    .info-tabs{
+        position: absolute;
+        top: 8899px;
+    }
+
+    .description-image{
+        position: absolute;
+        left: 450px;
+        width: 220px;
+        height: 225px;
+        font: Bold 25px/35px $font;
+        color: $col;
+        text-align: center;
+    }
+
+    .description-image>p{
+        position: relative;
+        text-align: center;
+        z-index: 1;
+        bottom: 115px;
+    }
+
+    .description-title{
+        position: absolute;
+        left: 695px;
+        width: 850px;
+        height: 59px;
+        text-align: left;
+        font: Bold 18px/30px $font;
+        color: $col;
+    }
+
+    .description-text{
+        @include positions(59px, 695px, 530px, 474px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    .description-text1{
+        @include positions(0px, 550px, 530px, 170px);
+        text-align: left;
+        font: 18px/30px $font;
+        color: $col;
+    }
+
+    /* End tabs */
+
+    .mark-bottom-right{
+        position: absolute;
+        top: 9337px;
+        right: 0px;
+        width: 365px;
+        height: 622px;
+        z-index: 3;
+    }
+}
+
+/*NAvbar */    
+
+nav{
+    position: absolute;
+    width: 100%;
+
+    .nav-bg{
+        position: absolute;
+        background-image: url('../images/bg-main.png');
+        top: 9027px;
+        height: 1300px;
+        width: 100%;
+    }
+
+
+    .content{
+        @include positions(9261px, 135px, 670px, 79px);
+        text-align: left;
+        font: 72px/82px $fontPlay;
+        letter-spacing: 0;
+        color: $col;
+    }
+
+    .lineNav{
+        @include positions(9399px, 135px, 531px, 0px);
+        border: 3px solid $col;
+    }
+
+    .contMain{
+        position: relative;
+        top: 9457px;
+        width: 100%;
+
+        .container{
+            display:flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            align-content: center;
+            
+            .townPlanning, .accesProblem, .futureStreet, .links{
+                height: 580px;
+                width: 21.5%;
+                margin-right: 15px;
+                padding: 10px;
+                user-select: none;
+                text-decoration: none;
+                
+                &:hover{
+                    outline: 3px solid grey;
+                                    }
+
+                &:active{
+                    border: 5px solid grey;
+                    box-shadow: 3px 3px 5px 5px darkgrey;
+                    border-radius: 5px;
+                }
+             }
+
+             .townPlanning{
+                background: transparent url('../images/Group 011.svg') 50% 50% no-repeat padding-box;            
+            }
+
+             .townPlanning > img{
+                @include navImg;               
+            }
+
+            .townPlanning > p{
+                @include navP;
+            }
+
+            .accesProblem{
+                background: transparent url('../images/Group 012.svg') 70% 60% no-repeat padding-box;  
+            }
+            
+            .accesProblem > img{
+                @include navImg;
+            }
+
+            .accesProblem > p{
+                @include navP;
+            }
+
+            .futureStreet{
+                background: transparent url('../images/Group 013.svg') 70% 50% no-repeat padding-box;
+            }
+            
+            .futureStreet >img{
+                @include navImg;
+            }
+
+            .futureStreet >p{
+                @include navP;
+            }
+
+            .links{
+                background: transparent url('../images/Group 014.svg') 30% 50% no-repeat padding-box;
+            }
+            
+            .links >img{
+                display: block;
+                width: 135px;
+                height: 208px;   
+                margin: 75px auto 35px auto;
+            }
+
+            .links >p{
+                @include navP;
+            }
+        }
+    }
+}
+
+footer{
+    position: relative;
+    width: 100%;
+
+    .figure5{
+        position: absolute;
+        top: 10086px;
+        right: 0px;
+        width: 482px;
+        height: 189px;
+    }
+
+    .footer{
+        position: absolute;
+        width: 100%;
+        top: 10276px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: $col;
+        align-items: center;
+    }
+
+    .visitMain, .copyright, .backTop{
+        margin: 0 20px;
+        padding: 10px;
+        font: 16px/21px $font;
+        letter-spacing: 0;
+        color: #FCFCFC;
+    }
+
+    .visitMain >a, .backTop >a{
+        font: 16px/21px $font;
+        letter-spacing: 0;
+        color: #FCFCFC;
+        text-decoration: none;
+    }
+
+}
+
+/* Adaptive */
+@media(min-width: 1620px) and (max-width: 1790px){
+    header{
+    
+        .figure1 img{
+            width: 30vw;
+            height: 10vh;
+        } 
+    
+        .headP{
+            left: 20px;
+        }
+
+    
+        .header-mark{
+            width: 620px;
+            height: 899px;    
+        }
+    
+        .top-wall{
+            right: 30px;
+            width: 380px;
+            height: 449px;
+        }
+    
+        .line-top{
+            width: 380px;
+        }
+    
+        .main-top-text{
+            left: 545px;
+        }
+        
+        .main-top-text2{
+            left: 1100px;
+        }
+    }
+
+    main{
+     
+        .sign{
+            left: 1452px;
+        }
+    
+        .sign-text{
+            left: 1390px;
+            width: 240px;
+        }
+    
+        .main-top-grey-end{
+            top: 2664px;
+            width: 500px;
+            height: 330px;
+        }
+    
+        .six{
+            left: 38px;
+        }
+    
+        .per-left{
+            left: 147px;
+        }
+    
+        .six-text{
+            left: 267px;
+        }
+    
+        .six-line{
+            left: 550px;
+        }
+    
+        .sixteen{
+            left: 561px;
+        }
+    
+        .per-middle{
+            left: 740px;
+        }
+    
+        .sixteen-text{
+            left: 837px;
+        }
+    
+        .sixteen-line{
+            left: 1100px;
+        }
+    
+        .forty-five{
+            left: 1105px;
+        }
+    
+        .per-right{
+            left: 1294px;
+        }
+    
+        .forty-five-text{
+            left: 1379px;
+        }
+    
+        .main-middle-mark-right{
+            width: 425px;
+            height: 625px;
+        }    
+    
+        .cabin{
+            left: 1437px;
+        }
+    
+        .cabin-text{
+            left: 1375px;
+        }
+    
+        .woman-right-bottom{
+            width: 605px;
+            height: 284px;
+        }
+    
+        .bottom-grey-text1{
+            left: 103px;
+            width: 450px;
+        }
+    
+        .grey-line2{
+            left: 580px;
+        }
+    
+        .bottom-grey-text2{
+            left: 613px;
+            width: 450px;
+        }
+    
+        .grey-line3{
+            left: 1090px;
+        }
+    
+        .bottom-grey-text3{
+            left: 1126px;
+            width: 450px;
+        }
+    
+        .description-text1{
+            top: 355px;
+            left: 2px;
+        }
+    }
+}
+
+@media(min-width: 1158px) and (max-width: 1620px){
+    header{
+    
+        .figure1 img{
+            width: 30vw;
+            height: 7vh;
+        }
+    
+        .headP{
+            top: 10px;
+            left: 21px;
+            width: 384px;
+            font:12px/15px $font;
+        }
+    
+        .header-mark{
+            top: -71px;
+            right: -30px;
+            width: 30vw;
+            height: 80vh;    
+        }
+    
+        .top-wall{
+            top: 105px;
+            right: 30px;
+            width: 20vw;
+            height: 40vh;
+        }
+    
+        .main-h{
+            top: 175px;
+            left: 95px;
+            width: 659px;
+            height: 190px;
+            font: bold 51px/57px $fontPlay;
+        }
+    
+        .main-h3{
+            top: 400px;
+            left: 95px;
+            width: 450px;
+            height: 26px;
+            font: bold 22px/22px $fontPlay;
+        }
+    
+        .line-top{
+            top: 444px;
+            left: 95px;
+            width: 290px;
+            border: 2px solid $col;
+        }
+    
+        .main-top-text{
+            top: 435px;
+            left: 405px;
+            width: 370px;
+            height: 417px;
+            font: 13px/21px $font;
+        }
+        
+        .main-top-text2{
+            top: 771px;
+            left: 798px;
+            width: 370px;
+            height: 143px;
+            font: 13px/21px $font;
+        }
+    
+        .image-block2{
+            top: 940px;
+        }
+    
+        .pregnant-woman{
+            right: -30px;
+            width: 40vw;
+            height: 35vh;
+        }
+    
+        .mark-header-left{
+            top: 850px;
+            width: 20vw;
+            height: 50vh;
+        }
+    } 
+    
+    main{
+    
+        .main-top-grey{
+            top: 1150px;
+            height: 790px;
+        }
+    
+        .main-top-h3{
+            top: 125px;
+            left: 95px;
+            width: 370px;
+            height: 63px;
+            font:bold 22px/30px $fontPlay;
+        }
+    
+        .main-top-line{
+            top: 209px;
+            left: 95px;
+            width: 290px;
+            border: 2px solid $col;
+        }
+    
+        .main-top-text{
+            top: 199px;
+            left: 415px;
+            width: 370px;
+            height: 58px;
+            font: 13px/21px $font;
+        }
+    
+        .door{
+            top: 316px;
+            left: 233px;
+            width: 83px;
+            height: 144px;
+        }
+    
+        .door-text{
+            top: 483px;
+            left: 187px;
+            width: 175px;
+            height: 50px;
+            font: 13px/21px $font;
+        }
+    
+        .screen{
+            top: 317px;
+            left: 414px;
+            width: 124px;
+            height: 145px;
+        }
+    
+        .screen-text{
+            top: 483px;
+            left: 388px;
+            width: 175px;
+            height: 80px;
+            font: 13px/21px $font;
+        }
+    
+        .lock{
+            top: 364px;
+            left: 590px;
+            width: 159px;
+            height: 99px;
+        }
+    
+        .lock-text{
+            top: 483px;
+            left: 584px;
+            width: 175px;
+            height: 103px;
+            font: 13px/21px $font;
+        }
+    
+        .crosswalk{
+            top: 382px;
+            left: 780px;
+            width: 175px;
+            height: 80px;
+        }
+    
+        .crosswalk-text{
+            top: 483px;
+            left: 781px;
+            width: 175px;
+            height: 80px;
+            font: 13px/21px $font;
+        }
+    
+        .sign{
+            top: 308px;
+            left: 1030px;
+            width: 99px;
+            height: 155px;
+        }
+    
+        .sign-text{
+            top: 483px;
+            left: 990px;
+            width: 175px;
+            height: 21px;
+            font: 13px/21px $font;
+        }
+    
+        .main-top-grey-end{
+            top: 1735px;
+            width: 35vw;
+            height: 35vh;
+        }
+    
+        .main-top-mark-left{
+            top: 1850px;
+            width: 17vw;
+            height: 35vh;
+        }
+    
+        .white-top-h{
+            top: 2000px;
+            left: 95px;
+            width: 370px;
+            height: 30px;
+            font: bold 22px/30px $fontPlay;
+        }
+    
+        .white-top-line{
+            top: 2047px;
+            left: 95px;
+            width: 290px;
+            border: 2px solid $col;
+        }
+    
+        .white-top-text-main{
+            top: 2038px;
+            left: 425px; 
+            width: 370px;
+            height: 313px;
+            font: 13px/21px $font;
+        }
+    
+        .main-top-white-mark-right{
+            top: 2225px;
+            width: 20vw;
+            height: 65vh;
+        }
+    
+        .main-top-white-mark-left{
+            top: 2490px;
+            width: 15vw;
+            height: 75vh;
+        }
+    
+        .six{
+            top: 2389px;
+            left: 70px;
+            width: 70px;
+            height: 158px;
+            font: bold 120px/159px $fontPlay;
+        }
+    
+        .per-left{
+            top: 2432px;
+            left: 147px;
+            width: 38px;
+            height: 71px;
+            font: bold 53px/15px $fontPlay;
+        }
+    
+        .six-text{
+            top: 2438px;
+            left: 210px;
+            width: 178px;
+            height: 59px;
+            font: 13px/22px $font;
+        }
+    
+        .six-line{
+            top: 2389px;
+            left: 407px;
+            height: 178px;
+            border: 2px solid $col;
+        }
+    
+        .sixteen{
+            top: 2385px;
+            left: 415px;
+            width: 121px;
+            height: 164px;
+            font: bold 120px/159px $fontPlay;
+        }
+    
+        .per-middle{
+            top: 2431px;
+            left: 540px;
+            width: 38px;
+            height: 71px;
+            font: bold 53px/15px $fontPlay;
+        }
+    
+        .sixteen-text{
+            top: 2422px;
+            left: 608px;
+            width: 175px;
+            height: 100px;
+            font: 13px/22px $font;
+        }
+    
+        .sixteen-line{
+            top: 2389px;
+            left: 793px;
+            height: 178px;
+            border: 2px solid $col;
+        }
+    
+        .forty-five{
+            top: 2369px;
+            left: 803px;
+            width: 128px;
+            height: 164px;
+            font: bold 120px/159px $fontPlay;
+        }
+    
+        .per-right{
+            top: 2431px;
+            left: 935px;
+            width: 38px;
+            height: 71px;
+            font: bold 53px/15px $fontPlay;
+        }
+    
+        .forty-five-text{
+            top: 2415px;
+            left: 995px;
+            width: 14vw;
+            height: 144px;
+            font: 13px/22px $font;
+        }
+    
+        .white-top-text-end{
+            top: 2600px;
+            left: 425px;
+            width: 370px;
+            height: 208px;
+            font: 13px/22px $font;
+        }
+    
+        .main-middle-bg{
+            top: 2859px;
+            height: 850px;
+        }
+    
+        .main-middle-h{
+            top: 2900px;
+            left: 95px;
+            width: 370px;
+            height: 30px;
+            font: bold 22px/30px $fontPlay;
+        }
+    
+        .main-middle-line{
+            top: 2948px;
+            left: 95px;
+            width: 370px;
+            border: 2px solid $col;
+        }
+    
+        .main-middle-text{
+            top: 2939px;
+            left: 487px;
+            width: 370px;
+            height: 59px;
+            font: 13px/21px $font;
+        }
+    
+        .table-middle{
+            top: 2975px;
+            height: 350px;
+    
+        }
+    
+        .table-middle td, .table-middle th {
+            padding: 3px;
+            border: 3px solid $col;
+            font: 520 16px/22px $font;
+            width: 170px;
+            padding: 15px 25px;
+        }
+    
+        .main-middle-text-end{
+            top: 3412px;
+            left: 485px;
+            width: 370px;
+            height: 355px;
+            font: 13px/21px $font;
+        }
+    
+        .main-middle-end{
+            top: 3457px;
+            left: 58px;
+            width: 20vw;
+            height: 40vh;
+    
+        }
+    
+        .main-middle-mark-right{
+            top: 3612px;
+            width: 25vw;
+            height: 70vh;
+        }
+    
+        .white-bottom-h{
+            top: 3870px;
+            left: 95px;
+            width: 370px;
+            height: 31px;
+            font: bold 22px/30px $fontPlay;
+        }
+    
+        .white-bottom-line{
+            top: 3918px;
+            left: 95px;
+            width: 350px;
+            border: 2px solid $col;
+        }
+    
+        .white-bottom-text{
+            top: 3909px;
+            left: 485px;
+            width: 370px;
+            height: 228px;
+            font: 13px/21px $font;
+        }
+    
+        .white-bottom-h2{
+            top: 4225px;
+            left: 95px;
+            width: 370px;
+            height: 61px;
+            font: bold 22px/30px $fontPlay;
+        }
+    
+        .white-bottom-line2{
+            top: 4300px;
+            left: 95px;
+            width: 350px;
+            border: 2px solid $col;
+        }
+    
+        .ramp{
+            top: 4400px;
+            left: 210px;
+            width: 140px;
+            height: 107px;
+        }
+    
+        .ramp-text{
+            top: 4525px;
+            left: 192px;
+            width: 175px;
+            height: 58px;
+            font: 13px/21px $font;
+        }
+    
+        .chair-lift{
+            top: 4337px;
+            left: 411px;
+            width: 128px;
+            height: 168px;
+        }
+    
+        .chair-lift-text{
+            top: 4525px;
+            left: 388px;
+            width: 175px;
+            height: 59px;
+            font: 13px/21px $font;
+        }
+    
+        .lift{
+            top: 4330px;
+            left: 600px;
+            width: 142px;
+            height: 175px;
+        }
+    
+        .lift-text{
+            top: 4525px;
+            left: 584px;
+            width: 175px;
+            height: 37px;
+            font: 13px/21px $font;
+        }
+    
+        .bench{
+            top: 4379px;
+            left: 795px;
+            width: 142px;
+            height: 128px;
+        }
+    
+        .bench-text{
+            top: 4525px;
+            left: 780px;
+            width: 175px;
+            height: 35px;
+            font: 13px/21px $font;
+        }
+    
+        .cabin{
+            top: 4332px;
+            left: 1020px;
+            width: 87px;
+            height: 174px;
+        }
+    
+        .cabin-text{
+            top: 4525px;
+            left: 975px;
+            width: 175px;
+            height: 35px;
+            font: 13px/21px $font;
+        }
+    
+        .waySign{
+            top: 4660px;
+            left: 441px;
+            width: 99px;
+            height: 155px;
+        }
+    
+        .waySign-text{
+            top: 4835px;
+            left: 388px;
+            width: 175px;
+            height: 37px;
+            font: 13px/21px $font;
+        }
+    
+        .edge{
+            top: 4708px;
+            left: 595px;
+            width: 152px;
+            height: 108px;
+        }
+    
+        .edge-text{
+            top: 4835px;
+            left: 584px;
+            width: 175px;
+            height: 163px;
+            font: 13px/21px $font;
+        }
+    
+        .lamp{
+            top: 4641px;
+            left: 818px;
+            width: 99px;
+            height: 175px;
+        }
+    
+        .lamp-text{
+            top: 4835px;
+            left: 780px;
+            width: 175px;
+            height: 15px;
+            font: 13px/21px $font;
+        }
+    
+        .woman-right-bottom{
+            top: 4804px;
+            width: 35vw;
+            height: 40vh;
+        }
+    
+        .white-bottom-mark-left{
+            top: 4654px;
+            width: 27vw;
+            height: 65vh;
+        }
+    
+        .main-bottom-bg{
+            top: 4957px;
+            height: 830px;
+        }
+    
+        .main-bottom-grey-h{
+            top: 5111px;
+            left: 95px;
+            width: 370px;
+            height: 59px;
+            font: bold 22px/30px $fontPlay;
+        }
+    
+        .grey-line1{
+            top: 5192px;
+            left: 95px;
+            width: 350px;
+            border: 2px solid $col;
+        }
+    
+        .bottom-grey-text1{
+            top: 5295px;
+            left: 107px;
+            width: 328px;
+            height: 115px;
+            font: 15px/24px $font;
+        }
+    
+        .grey-line2{
+            top: 5239px;
+            left: 455px;
+            height: 254px;
+            border: 2px solid $col;
+        }
+    
+        .bottom-grey-text2{
+            top: 5272px;
+            left: 474px;
+            width: 328px;
+            height: 190px;
+            font: 15px/24px $font;
+        }
+    
+        .grey-line3{
+            top: 5239px;
+            left: 818px;
+            height: 254px;
+            border: 2px solid $col;
+        }
+    
+        .bottom-grey-text3{
+            top: 5321px;
+            left: 838px;
+            width: 328px;
+            height: 68px;
+            font: 15px/24px $font;
+        }
+    
+        .bottom-grey-text4{
+            top: 5543px;
+            left: 450px;
+            width: 370px;
+            height: 95px;
+            font: Italic 22px/29px $font;
+        }
+    
+        .bottom-grey-text5{
+            top: 5662px;
+            left: 487px;
+            width: 288px;
+            height: 37px;
+            font: 13px/21px $font;
+        }
+        
+        .main-tabs-h{
+            top: 5853px;
+            left: 95px;
+            width: 370px;
+            height: 60px;
+            font: bold 22px/30px $fontPlay;
+        }
+    
+        .main-tabs-line{
+            top: 5931px;
+            left: 95px;
+            width: 370px;
+            border: 2px solid $col;
+        }
+    
+        .main-tabs-preText{
+            top: 5922px;
+            left: 485px;
+            width: 370px;
+            height: 100px;
+            font: 13px/21px $font;
+        }
+    
+        .line-inside-tabs{
+            top: 6080px;
+            left: 475px;
+            height: 339px;
+            border: 2px solid $col;
+        }
+    
+        /* TAbs */
+    
+        .info-header{
+            top: 6235px;
+            left: 150px;
+            width: 300px;
+            height: 30px;
+            font: bold 22px/30px $fontPlay;
+        }
+    
+        .tab-active{
+            font: bold 22px/30px $fontPlay;
+        }
+    
+        .info-tabs{
+            top: 6079px;
+        }
+    
+        .description-image{
+            left: 315px;
+            width: 154px;
+            height: 157px;
+            font: Bold 18px/25px $font;
+            background-size: 154px 157px;
+        }
+
+        .description-image>img{
+            width: 154px;
+            height: 157px;
+        }
+    
+        .description-title{
+            left: 485px;
+            width: 595px;
+            height: 41px;
+            font: Bold 13px/21px $font;
+        }
+    
+        .description-text{
+            top: 41px;
+            left: 485px;
+            width: 370px;
+            height: 331px;
+            font: 13px/21px $font;
+        }
+    
+        .description-text1{
+            left: 385px;
+            width: 25vw;
+            height: 119px;
+            font: 13px/21px $font;
+        }
+    
+        /* End tabs */
+    
+        .mark-bottom-right{
+            top: 6335px;
+            width: 15vw;
+            height: 55vh;
+        }
+    }
+    
+    /*NAvbar */    
+    
+    nav{
+
+        .nav-bg{
+            top: 6078px;
+            height: 787px;
+        }
+    
+    
+        .content{
+            top: 6132px;
+            left: 95px;
+            width: 470px;
+            height: 55px;
+            font: 50px/57px $fontPlay;
+        }
+    
+        .lineNav{
+            top: 6209px;
+            left: 95px;
+            width: 401px;
+            border: 2px solid $col;
+        }
+    
+        .contMain{
+            top: 6285px;
+    
+            .container{
+                                
+                .townPlanning, .accesProblem, .futureStreet, .links{
+                    height: 405px;
+                    width: 21.5%;
+                    margin-right: 10px;
+                    padding: 5px;
+                    
+                    &:hover{
+                        outline: 2px solid grey;
+                                        }
+    
+                    &:active{
+                        border: 4px solid grey;
+                        box-shadow: 2px 2px 4px 4px darkgrey;
+                        border-radius: 5px;
+                    }
+                 }
+    
+                 .townPlanning{
+                    background-size: 250px 350px;            
+                }
+    
+                 .townPlanning > img{
+                    @include navImgm;               
+                }
+    
+                .townPlanning > p{
+                    @include navPm;
+                }
+    
+                .accesProblem{
+                    background-size: 250px 350px;   
+                }
+                
+                .accesProblem > img{
+                    @include navImgm;
+                }
+    
+                .accesProblem > p{
+                    @include navPm;
+                }
+    
+                .futureStreet{
+                    background-size: 250px 350px; 
+                }
+                
+                .futureStreet >img{
+                    @include navImgm;
+                }
+    
+                .futureStreet >p{
+                    @include navPm;
+                }
+    
+                .links{
+                    background-size: 250px 350px; 
+                }
+                
+                .links >img{
+                    display: block;
+                    width: 95px;
+                    height: 145px;   
+                    margin: 52px auto 24px auto;
+                }
+    
+                .links >p{
+                    @include navPm;
+                }
+            }
+        }
+    }
+    
+    footer{
+    
+        .figure5{
+            top: 6700px;
+            width: 337px;
+            height: 132px;
+        }
+    
+        .footer{
+            top: 6832px;
+            height: 35px;
+        }
+    
+        .visitMain, .copyright, .backTop{
+            margin: 0 14px;
+            padding: 7px;
+            font: 12px/15px $font;
+        }
+    
+        .visitMain >a, .backTop >a{
+            font: 12px/15px $font;
+        }
+    }
+}
+
+@media(min-width: 760px) and (max-width: 1158px){
+    header{
+    
+        .figure1 img{
+            width: 47vw;
+            height: 7vh;
+        }
+    
+        .headP{
+            top: 10px;
+            left: 21px;
+            width: 384px;
+            font:12px/14px $font;
+        }
+    
+        .header-mark{
+            top: -61px;
+            right: -20px;
+            width: 32vw;
+            height: 60vh;    
+        }
+    
+        .top-wall{
+            top: 45px;
+            right: 30px;
+            width: 20vw;
+            height: 30vh;
+        }
+    
+        .main-h{
+            top: 75px;
+            left: 15px;
+            width: 461px;
+            height: 133px;
+            font: bold 35px/40px $fontPlay;
+        }
+    
+        .main-h3{
+            top: 250px;
+            left: 15px;
+            width: 320px;
+            height: 20px;
+            font: bold 18px/18px $fontPlay;
+        }
+    
+        .line-top{
+            top: 290px;
+            left: 15px;
+            width: 200px;
+            border: 2px solid $col;
+        }
+    
+        .main-top-text{
+            top: 282px;
+            left: 235px;
+            width: 350px;
+            height: 417px;
+            font: 12px/18px $font;
+        }
+        
+        .main-top-text2{
+            top: 661px;
+            left: 350px;
+            width: 350px;
+            height: 143px;
+            font: 12px/18px $font;
+        }
+    
+        .image-block2{
+            top: 800px;
+        }
+    
+        .pregnant-woman{
+            right: -20px;
+            width: 45vw;
+            height: 30vh;
+        }
+    
+        .mark-header-left{
+            top: 720px;
+            width: 25vw;
+            height: 43vh;
+        }
+    } 
+    
+    main{
+    
+        .main-top-grey{
+            top: 950px;
+            height: 700px;
+        }
+    
+        .main-top-h3{
+            top: 75px;
+            left: 15px;
+            width: 300px;
+            height: 53px;
+            font:bold 18px/24px $fontPlay;
+        }
+    
+        .main-top-line{
+            top: 149px;
+            left: 15px;
+            width: 200px;
+            border: 2px solid $col;
+        }
+    
+        .main-top-text{
+            top: 139px;
+            left: 235px;
+            width: 350px;
+            height: 48px;
+            font: 12px/18px $font;
+        }
+    
+        .door{
+            top: 245px;
+            left: 40px;
+            width: 83px;
+            height: 144px;
+        }
+    
+        .door-text{
+            top: 413px;
+            left: 5px;
+            width: 150px;
+            height: 50px;
+            font: 12px/18px $font;
+        }
+    
+        .screen{
+            top: 247px;
+            left: 177px;
+            width: 124px;
+            height: 145px;
+        }
+    
+        .screen-text{
+            top: 413px;
+            left: 165px;
+            width: 150px;
+            height: 80px;
+            font: 12px/18px $font;
+        }
+    
+        .lock{
+            top: 307px;
+            left: 330px;
+            width: 139px;
+            height: 89px;
+        }
+    
+        .lock-text{
+            top: 413px;
+            left: 325px;
+            width: 150px;
+            height: 103px;
+            font: 12px/18px $font;
+        }
+    
+        .crosswalk{
+            top: 322px;
+            left: 490px;
+            width: 135px;
+            height: 65px;
+        }
+    
+        .crosswalk-text{
+            top: 413px;
+            left: 485px;
+            width: 150px;
+            height: 80px;
+            font: 12px/18px $font;
+        }
+    
+        .sign{
+            top: 258px;
+            left: 660px;
+            width: 89px;
+            height: 135px;
+        }
+    
+        .sign-text{
+            top: 413px;
+            left: 635px;
+            width: 133px;
+            height: 21px;
+            font: 12px/18px $font;
+        }
+    
+        .main-top-grey-end{
+            top: 1495px;
+            width: 35vw;
+            height: 30vh;
+        }
+    
+        .main-top-mark-left{
+            top: 1580px;
+            width: 17vw;
+            height: 35vh;
+        }
+    
+        .white-top-h{
+            top: 1700px;
+            left: 15px;
+            width: 350px;
+            height: 30px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .white-top-line{
+            top: 1747px;
+            left: 15px;
+            width: 200px;
+            border: 2px solid $col;
+        }
+    
+        .white-top-text-main{
+            top: 1738px;
+            left: 235px; 
+            width: 350px;
+            height: 313px;
+            font: 12px/18px $font;
+        }
+    
+        .main-top-white-mark-right{
+            top: 1905px;
+            width: 20vw;
+            height: 50vh;
+        }
+    
+        .main-top-white-mark-left{
+            top: 2190px;
+            width: 30vw;
+            height: 65vh;
+        }
+    
+        .six{
+            top: 2089px;
+            left: 5px;
+            width: 40px;
+            height: 108px;
+            font: bold 84px/100px $fontPlay;
+        }
+    
+        .per-left{
+            top: 2112px;
+            left: 50px;
+            width: 28px;
+            height: 71px;
+            font: bold 33px/15px $fontPlay;
+        }
+    
+        .six-text{
+            top: 2108px;
+            left: 90px;
+            width: 140px;
+            font: 12px/18px $font;
+        }
+    
+        .six-line{
+            top: 2059px;
+            left: 235px;
+            height: 180px;
+            border: 2px solid $col;
+        }
+    
+        .sixteen{
+            top: 2089px;
+            left: 245px;
+            width: 71px;
+            height: 114px;
+            font: bold 84px/100px $fontPlay;
+        }
+    
+        .per-middle{
+            top: 2111px;
+            left: 315px;
+            width: 38px;
+            height: 51px;
+            font: bold 33px/15px $fontPlay;
+        }
+    
+        .sixteen-text{
+            top: 2102px;
+            left: 360px;
+            width: 140px;
+            font: 12px/18px $font;
+        }
+    
+        .sixteen-line{
+            top: 2059px;
+            left: 510px;
+            height: 180px;
+            border: 2px solid $col;
+        }
+    
+        .forty-five{
+            top: 2079px;
+            left: 520px;
+            width: 78px;
+            height: 104px;
+            font: bold 84px/100px $fontPlay;
+        }
+    
+        .per-right{
+            top: 2115px;
+            left: 597px;
+            width: 38px;
+            height: 71px;
+            font: bold 33px/15px $fontPlay;
+        }
+    
+        .forty-five-text{
+            top: 2102px;
+            left: 640px;
+            width: 17vw;
+            font: 12px/18px $font;
+        }
+    
+        .white-top-text-end{
+            top: 2300px;
+            left: 235px;
+            width: 350px;
+            height: 208px;
+            font: 12px/18px $font;
+        }
+    
+        .main-middle-bg{
+            top: 2559px;
+            height: 670px;
+        }
+    
+        .main-middle-h{
+            top: 2600px;
+            left: 15px;
+            width: 280px;
+            height: 30px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .main-middle-line{
+            top: 2658px;
+            left: 15px;
+            width: 200px;
+            border: 2px solid $col;
+        }
+    
+        .main-middle-text{
+            top: 2649px;
+            left: 235px;
+            width: 350px;
+            height: 59px;
+            font: 12px/18px $font;
+        }
+    
+        .table-middle{
+            top: 2655px;
+            height: 350px;
+    
+        }
+    
+        .table-middle td, .table-middle th {
+            padding: 3px;
+            border: 3px solid $col;
+            font: 520 13px/16px $font;
+            width: 150px;
+            padding: 10px 15px;
+        }
+    
+        .main-middle-text-end{
+            top: 2978px;
+            left: 235px;
+            width: 350px;
+            height: 355px;
+            font: 12px/18px $font;
+        }
+    
+        .main-middle-end{
+            top: 3117px;
+            left: 58px;
+            width: 15vw;
+            height: 15vh;
+    
+        }
+    
+        .main-middle-mark-right{
+            top: 3192px;
+            width: 15vw;
+            height: 35vh;
+        }
+    
+        .white-bottom-h{
+            top: 3340px;
+            left: 15px;
+            width: 220px;
+            height: 31px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .white-bottom-line{
+            top: 3400px;
+            left: 15px;
+            width: 200px;
+            border: 2px solid $col;
+        }
+    
+        .white-bottom-text{
+            top: 3392px;
+            left: 235px;
+            width: 350px;
+            height: 228px;
+            font: 12px/18px $font;
+        }
+    
+        .white-bottom-h2{
+            top: 3625px;
+            left: 15px;
+            width: 230px;
+            height: 61px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .white-bottom-line2{
+            top: 3690px;
+            left: 15px;
+            width: 200px;
+            border: 2px solid $col;
+        }
+    
+        .ramp{
+            top: 3770px;
+            left: 25px;
+            width: 120px;
+            height: 97px;
+        }
+    
+        .ramp-text{
+            top: 3870px;
+            left: 20px;
+            width: 140px;
+            height: 58px;
+            font: 12px/18px $font;
+        }
+    
+        .chair-lift{
+            top: 3710px;
+            left: 170px;
+            width: 118px;
+            height: 148px;
+        }
+    
+        .chair-lift-text{
+            top: 3870px;
+            left: 170px;
+            width: 140px;
+            height: 59px;
+            font: 12px/18px $font;
+        }
+    
+        .lift{
+            top: 3715px;
+            left: 325px;
+            width: 122px;
+            height: 145px;
+        }
+    
+        .lift-text{
+            top: 3870px;
+            left: 320px;
+            width: 140px;
+            height: 37px;
+            font: 12px/18px $font;
+        }
+    
+        .bench{
+            top: 3750px;
+            left: 480px;
+            width: 112px;
+            height: 108px;
+        }
+    
+        .bench-text{
+            top: 3870px;
+            left: 470px;
+            width: 140px;
+            height: 35px;
+            font: 12px/18px $font;
+        }
+    
+        .cabin{
+            top: 3710px;
+            left: 640px;
+            width: 77px;
+            height: 144px;
+        }
+    
+        .cabin-text{
+            top: 3870px;
+            left: 620px;
+            width: 140px;
+            height: 35px;
+            font: 12px/18px $font;
+        }
+    
+        .waySign{
+            top: 3980px;
+            left: 195px;
+            width: 89px;
+            height: 135px;
+        }
+    
+        .waySign-text{
+            top: 4135px;
+            left: 170px;
+            width: 140px;
+            height: 37px;
+            font: 12px/18px $font;
+        }
+    
+        .edge{
+            top: 4028px;
+            left: 325px;
+            width: 132px;
+            height: 88px;
+        }
+    
+        .edge-text{
+            top: 4135px;
+            left: 320px;
+            width: 140px;
+            height: 163px;
+            font: 12px/18px $font;
+        }
+    
+        .lamp{
+            top: 3975px;
+            left: 498px;
+            width: 84px;
+            height: 145px;
+        }
+    
+        .lamp-text{
+            top: 4135px;
+            left: 470px;
+            width: 140px;
+            height: 15px;
+            font: 12px/18px $font;
+        }
+    
+        .woman-right-bottom{
+            top: 4114px;
+            width: 35vw;
+            height: 20vh;
+        }
+    
+        .white-bottom-mark-left{
+            top: 4074px;
+            width: 17vw;
+            height: 25vh;
+        }
+    
+        .main-bottom-bg{
+            top: 4257px;
+            height: 620px;
+        }
+    
+        .main-bottom-grey-h{
+            top: 4351px;
+            left: 15px;
+            width: 250px;
+            height: 59px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .grey-line1{
+            top: 4412px;
+            left: 15px;
+            width: 200px;
+            border: 2px solid $col;
+        }
+    
+        .bottom-grey-text1{
+            top: 4475px;
+            left: 20px;
+            width: 240px;
+            height: 115px;
+            font: 14px/18px $font;
+        }
+    
+        .grey-line2{
+            top: 4430px;
+            left: 265px;
+            height: 220px;
+            border: 2px solid $col;
+        }
+    
+        .bottom-grey-text2{
+            top: 4440px;
+            left: 272px;
+            width: 240px;
+            height: 190px;
+            font: 14px/18px $font;
+        }
+    
+        .grey-line3{
+            top: 4430px;
+            left: 517px;
+            height: 220px;
+            border: 2px solid $col;
+        }
+    
+        .bottom-grey-text3{
+            top: 4521px;
+            left: 524px;
+            width: 240px;
+            height: 68px;
+            font: 14px/18px $font;
+        }
+    
+        .bottom-grey-text4{
+            top: 4687px;
+            left: 245px;
+            width: 300px;
+            height: 95px;
+            font: Italic 18px/24px $font;
+        }
+    
+        .bottom-grey-text5{
+            top: 4792px;
+            left: 277px;
+            width: 240px;
+            height: 37px;
+            font: 12px/18px $font;
+        }
+        
+        .main-tabs-h{
+            top: 4920px;
+            left: 15px;
+            width: 300px;
+            height: 60px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .main-tabs-line{
+            top: 4981px;
+            left: 15px;
+            width: 200px;
+            border: 2px solid $col;
+        }
+    
+        .main-tabs-preText{
+            top: 4972px;
+            left: 235px;
+            width: 340px;
+            height: 100px;
+            font: 12px/18px $font;
+        }
+    
+        .line-inside-tabs{
+            top: 5120px;
+            left: 275px;
+            height: 339px;
+            border: 2px solid $col;
+        }
+    
+        /* TAbs */
+    
+        .info-header{
+            top: 5275px;
+            left: 20px;
+            width: 240px;
+            height: 30px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .tab-active{
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .info-tabs{
+            top: 5119px;
+            left: -190px;
+        }
+
+        .description-image > p{
+            padding-top: 20px;
+        }
+    
+        .description-image{
+            left: 315px;
+            width: 144px;
+            height: 147px;
+            font: Bold 15px/21px $font;
+            background-size: 154px 157px;
+        }
+
+        .description-image>img{
+            width: 144px;
+            height: 147px;
+        }
+    
+        .description-title{
+            left: 485px;
+            width: 380px;
+            height: 41px;
+            font: Bold 12px/18px $font;
+        }
+    
+        .description-text{
+            top: 41px;
+            left: 485px;
+            width: 340px;
+            height: 331px;
+            font: 12px/18px $font;
+        }
+    
+        .description-text1{
+            top: 235px;
+            left: 0px;
+            width: 340px;
+            height: 119px;
+            font: 12px/18px $font;
+        }
+    
+        /* End tabs */
+    
+        .mark-bottom-right{
+            top: 5385px;
+            width: 25vw;
+            height: 55vh;
+        }
+    }
+    
+    /*NAvbar */    
+    
+    nav{
+
+        .nav-bg{
+            top: 5150px;
+            height: 570px;
+        }
+    
+    
+        .content{
+            top: 5192px;
+            left: 15px;
+            width: 370px;
+            height: 55px;
+            font: 38px/47px $fontPlay;
+        }
+    
+        .lineNav{
+            top: 5250px;
+            left: 15px;
+            width: 301px;
+            border: 2px solid $col;
+        }
+    
+        .contMain{
+            top: 5285px;
+    
+            .container{
+                                
+                .townPlanning, .accesProblem, .futureStreet, .links{
+                    height: 305px;
+                    width: 21.5%;
+                    margin-right: 5px;
+                    padding: 3px;
+                    
+                    &:hover{
+                        outline: 1px solid grey;
+                    }
+    
+                    &:active{
+                        border: 1px solid grey;
+                        box-shadow: 1px 1px 2px 2px darkgrey;
+                        border-radius: 3px;
+                    }
+                 }
+    
+                 .townPlanning{
+                    background-size: 150px 250px;            
+                }
+    
+                 .townPlanning > img{
+                    @include navImgP;               
+                }
+    
+                .townPlanning > p{
+                    @include navPP;
+                }
+    
+                .accesProblem{
+                    background-size: 150px 250px;   
+                }
+                
+                .accesProblem > img{
+                    @include navImgP;
+                }
+    
+                .accesProblem > p{
+                    @include navPP;
+                }
+    
+                .futureStreet{
+                    background-size: 150px 250px; 
+                }
+                
+                .futureStreet >img{
+                    @include navImgP;
+                }
+    
+                .futureStreet >p{
+                    @include navPP;
+                }
+    
+                .links{
+                    background-size: 150px 250px; 
+                }
+                
+                .links >img{
+                    display: block;
+                    width: 75px;
+                    height: 110px;   
+                    margin: 72px auto 24px auto;
+                }
+    
+                .links >p{
+                    @include navPP;
+                }
+            }
+        }
+    }
+    
+    footer{
+    
+        .figure5{
+            top: 5620px;
+            width: 237px;
+            height: 82px;
+        }
+    
+        .footer{
+            top: 5703px;
+            height: 25px;
+        }
+    
+        .visitMain, .copyright, .backTop{
+            margin: 0 5px;
+            padding: 3px;
+            font: 10px/12px $font;
+        }
+    
+        .visitMain >a, .backTop >a{
+            font: 10px/12px $font;
+        }
+    }
+
+}
+
+
+@media(min-width: 0px) and (max-width: 760px){
+    header{
+        
+        .figure1{
+            width: 240px;
+        }
+
+        .figure1 img{
+            width: 60vw;
+            height: 7vh;
+        }
+    
+        .headP{
+            top: 5px;
+            left: 5px;
+            width: 220px;
+            font:10px/14px $font;
+        }
+        
+        .header-mark{
+            top: -41px;
+            right: -10px;
+            width: 32vw;
+            height: 40vh;    
+        }
+    
+        .top-wall{
+            top: 15px;
+            right: 10px;
+            width: 20vw;
+            height: 25vh;
+        }
+    
+        .main-h{
+            top: 65px;
+            left: 5px;
+            width: 280px;
+            height: 133px;
+            font: bold 23px/29px $fontPlay;
+        }
+    
+        .main-h3{
+            top: 200px;
+            left: 5px;
+            width: 320px;
+            height: 20px;
+            font: bold 18px/18px $fontPlay;
+        }
+    
+        .line-top{
+            top: 240px;
+            left: 5px;
+            width: 200px;
+            border: 1px solid $col;
+        }
+    
+        .main-top-text{
+            top: 262px;
+            left: 5px;
+            width: 350px;
+            height: 417px;
+            font: 12px/18px $font;
+        }
+        
+        .main-top-text2{
+            top: 641px;
+            left: 5px;
+            width: 350px;
+            height: 143px;
+            font: 12px/18px $font;
+        }
+    
+        .image-block2{
+            top: 770px;
+        }
+    
+        .pregnant-woman{
+            right: -20px;
+            width: 55vw;
+            height: 25vh;
+        }
+    
+        .mark-header-left{
+            top: 750px;
+            width: 25vw;
+            height: 33vh;
+        }
+    } 
+    
+    main{
+    
+        .main-top-grey{
+            top: 880px;
+            height: 950px;
+        }
+    
+        .main-top-h3{
+            top: 75px;
+            left: 5px;
+            width: 300px;
+            height: 53px;
+            font:bold 18px/24px $fontPlay;
+        }
+    
+        .main-top-line{
+            top: 140px;
+            left: 5px;
+            width: 200px;
+            border: 1px solid $col;
+        }
+    
+        .main-top-text{
+            top: 159px;
+            left: 5px;
+            width: 350px;
+            height: 48px;
+            font: 12px/18px $font;
+        }
+    
+        .door{
+            top: 245px;
+            left: 40px;
+            width: 73px;
+            height: 124px;
+        }
+    
+        .door-text{
+            top: 390px;
+            left: 5px;
+            width: 150px;
+            height: 50px;
+            font: 12px/18px $font;
+        }
+    
+        .screen{
+            top: 247px;
+            left: 187px;
+            width: 104px;
+            height: 125px;
+        }
+    
+        .screen-text{
+            top: 390px;
+            left: 165px;
+            width: 150px;
+            height: 80px;
+            font: 12px/18px $font;
+        }
+    
+        .lock{
+            top: 507px;
+            left: 20px;
+            width: 119px;
+            height: 79px;
+        }
+    
+        .lock-text{
+            top: 603px;
+            left: 5px;
+            width: 150px;
+            height: 103px;
+            font: 12px/18px $font;
+        }
+    
+        .crosswalk{
+            top: 527px;
+            left: 180px;
+            width: 115px;
+            height: 55px;
+        }
+    
+        .crosswalk-text{
+            top: 603px;
+            left: 165px;
+            width: 150px;
+            height: 80px;
+            font: 12px/18px $font;
+        }
+    
+        .sign{
+            top: 748px;
+            left: 125px;
+            width: 79px;
+            height: 125px;
+        }
+    
+        .sign-text{
+            top: 893px;
+            left: 90px;
+            width: 150px;
+            height: 21px;
+            font: 12px/18px $font;
+        }
+    
+        .main-top-grey-end{
+            top: 1725px;
+            width: 35vw;
+            height: 20vh;
+        }
+    
+        .main-top-mark-left{
+            top: 1730px;
+            width: 20vw;
+            height: 25vh;
+        }
+    
+        .white-top-h{
+            top: 1870px;
+            left: 5px;
+            width: 340px;
+            height: 30px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .white-top-line{
+            top: 1907px;
+            left: 5px;
+            width: 200px;
+            border: 1px solid $col;
+        }
+    
+        .white-top-text-main{
+            top: 1938px;
+            left: 5px; 
+            width: 350px;
+            height: 313px;
+            font: 12px/18px $font;
+        }
+    
+        .main-top-white-mark-right{
+            top: 2155px;
+            width: 20vw;
+            height: 30vh;
+        }
+    
+        .main-top-white-mark-left{
+            top: 2390px;
+            width: 30vw;
+            height: 35vh;
+        }
+    
+        .six{
+            top: 2200px;
+            left: 25px;
+            width: 40px;
+            height: 108px;
+            font: bold 54px/70px $fontPlay;
+        }
+    
+        .per-left{
+            top: 2215px;
+            left: 53px;
+            width: 28px;
+            height: 71px;
+            font: bold 18px/15px $fontPlay;
+        }
+    
+        .six-text{
+            top: 2270px;
+            left: 5px;
+            width: 110px;
+            font: 11px/18px $font;
+        }
+    
+        .six-line{
+            top: 2210px;
+            left: 120px;
+            height: 220px;
+            border: 1px solid $col;
+        }
+    
+        .sixteen{
+            top: 2200px;
+            left: 125px;
+            width: 71px;
+            height: 114px;
+            font: bold 54px/70px $fontPlay;
+        }
+    
+        .per-middle{
+            top: 2215px;
+            left: 185px;
+            width: 38px;
+            height: 51px;
+            font: bold 18px/15px $fontPlay;
+        }
+    
+        .sixteen-text{
+            top: 2270px;
+            left: 132px;
+            width: 110px;
+            font: 11px/18px $font;
+        }
+    
+        .sixteen-line{
+            top: 2210px;
+            left: 247px;
+            height: 220px;
+            border: 1px solid $col;
+        }
+    
+        .forty-five{
+            top: 2190px;
+            left: 240px;
+            width: 78px;
+            height: 104px;
+            font: bold 54px/70px $fontPlay;
+        }
+    
+        .per-right{
+            top: 2215px;
+            left: 307px;
+            width: 38px;
+            height: 71px;
+            font: bold 18px/15px $fontPlay;
+        }
+    
+        .forty-five-text{
+            top: 2270px;
+            left: 257px;
+            width: 110px;
+            font: 11px/18px $font;
+        }
+    
+        .white-top-text-end{
+            top: 2480px;
+            left: 5px;
+            width: 350px;
+            height: 208px;
+            font: 12px/18px $font;
+            z-index: 3;
+        }
+    
+        .main-middle-bg{
+            top: 2680px;
+            height: 670px;
+        }
+    
+        .main-middle-h{
+            top: 2700px;
+            left: 5px;
+            width: 200px;
+            height: 30px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .main-middle-line{
+            top: 2760px;
+            left: 5px;
+            width: 200px;
+            border: 1px solid $col;
+        }
+    
+        .main-middle-text{
+            top: 2785px;
+            left: 5px;
+            width: 340px;
+            height: 59px;
+            font: 12px/18px $font;
+        }
+    
+        .table-middle{
+            top: 2765px;
+            height: 350px;
+    
+        }
+    
+        .table-middle td, .table-middle th {
+            padding: 2px;
+            border: 2px solid $col;
+            font: 520 11px/14px $font;
+            width: 140px;
+            padding: 5px 5px;
+        }
+    
+        .main-middle-text-end{
+            top: 3100px;
+            left: 5px;
+            width: 350px;
+            height: 355px;
+            font: 12px/18px $font;
+            z-index: 3;
+        }
+    
+        .main-middle-end{
+            top: 3417px;
+            left: 8px;
+            width: 25vw;
+            height: 15vh;    
+        }
+    
+        .main-middle-mark-right{
+            top: 3400px;
+            width: 25vw;
+            height: 35vh;
+        }
+    
+        .white-bottom-h{
+            top: 3540px;
+            left: 5px;
+            width: 200px;
+            height: 31px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .white-bottom-line{
+            top: 3600px;
+            left: 5px;
+            width: 200px;
+            border: 1px solid $col;
+        }
+    
+        .white-bottom-text{
+            top: 3622px;
+            left: 5px;
+            width: 340px;
+            height: 228px;
+            font: 12px/18px $font;
+        }
+    
+        .white-bottom-h2{
+            top: 3870px;
+            left: 5px;
+            width: 230px;
+            height: 61px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .white-bottom-line2{
+            top: 3930px;
+            left: 5px;
+            width: 200px;
+            border: 2px solid $col;
+        }
+    
+        .ramp{
+            top: 3990px;
+            left: 25px;
+            width: 100px;
+            height: 77px;
+        }
+    
+        .ramp-text{
+            top: 4080px;
+            left: 5px;
+            width: 140px;
+            height: 58px;
+            font: 12px/18px $font;
+        }
+    
+        .chair-lift{
+            top: 3950px;
+            left: 180px;
+            width: 98px;
+            height: 118px;
+        }
+    
+        .chair-lift-text{
+            top: 4080px;
+            left: 160px;
+            width: 140px;
+            height: 59px;
+            font: 12px/18px $font;
+        }
+    
+        .lift{
+            top: 4175px;
+            left: 25px;
+            width: 102px;
+            height: 125px;
+        }
+    
+        .lift-text{
+            top: 4320px;
+            left: 5px;
+            width: 140px;
+            height: 37px;
+            font: 12px/18px $font;
+        }
+    
+        .bench{
+            top: 4220px;
+            left: 180px;
+            width: 92px;
+            height: 88px;
+        }
+    
+        .bench-text{
+            top: 4320px;
+            left: 160px;
+            width: 140px;
+            height: 35px;
+            font: 12px/18px $font;
+        }
+    
+        .cabin{
+            top: 4400px;
+            left: 40px;
+            width: 67px;
+            height: 124px;
+        }
+    
+        .cabin-text{
+            top: 4545px;
+            left: 5px;
+            width: 140px;
+            height: 35px;
+            font: 12px/18px $font;
+        }
+    
+        .waySign{
+            top: 4415px;
+            left: 195px;
+            width: 79px;
+            height: 115px;
+        }
+    
+        .waySign-text{
+            top: 4545px;
+            left: 160px;
+            width: 140px;
+            height: 37px;
+            font: 12px/18px $font;
+        }
+    
+        .edge{
+            top: 4658px;
+            left: 25px;
+            width: 112px;
+            height: 78px;
+        }
+    
+        .edge-text{
+            top: 4755px;
+            left: 5px;
+            width: 140px;
+            height: 163px;
+            font: 12px/18px $font;
+            z-index: 5;
+        }
+    
+        .lamp{
+            top: 4615px;
+            left: 198px;
+            width: 74px;
+            height: 125px;
+        }
+    
+        .lamp-text{
+            top: 4755px;
+            left: 160px;
+            width: 140px;
+            height: 15px;
+            font: 12px/18px $font;
+        }
+    
+        .woman-right-bottom{
+            top: 4840px;
+            width: 45vw;
+            height: 20vh;
+        }
+    
+        .white-bottom-mark-left{
+            top: 4824px;
+            width: 27vw;
+            height: 25vh;
+        }
+    
+        .main-bottom-bg{
+            top: 4927px;
+            height: 620px;
+        }
+    
+        .main-bottom-grey-h{
+            top: 4990px;
+            left: 5px;
+            width: 250px;
+            height: 59px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .grey-line1{
+            top: 5055px;
+            left: 5px;
+            width: 200px;
+            border: 1px solid $col;
+        }
+    
+        .bottom-grey-text1{
+            top: 5075px;
+            left: 5px;
+            width: 110px;
+            height: 115px;
+            font: 12px/15px $font;
+        }
+    
+        .grey-line2{
+            top: 5075px;
+            left: 120px;
+            height: 300px;
+            border: 1px solid $col;
+        }
+    
+        .bottom-grey-text2{
+            top: 5075px;
+            left: 127px;
+            width: 110px;
+            height: 190px;
+            font: 12px/15px $font;
+        }
+    
+        .grey-line3{
+            top: 5075px;
+            left: 242px;
+            height: 300px;
+            border: 1px solid $col;
+        }
+    
+        .bottom-grey-text3{
+            top: 5075px;
+            left: 249px;
+            width: 110px;
+            height: 68px;
+            font: 12px/15px $font;
+        }
+    
+        .bottom-grey-text4{
+            top: 5407px;
+            left: 60px;
+            width: 240px;
+            height: 95px;
+            font: Italic 15px/22px $font;
+        }
+    
+        .bottom-grey-text5{
+            top: 5492px;
+            left: 90px;
+            width: 190px;
+            height: 37px;
+            font: 12px/18px $font;
+        }
+        
+        .main-tabs-h{
+            top: 5590px;
+            left: 5px;
+            width: 300px;
+            height: 60px;
+            font: bold 18px/24px $fontPlay;
+        }
+    
+        .main-tabs-line{
+            top: 5657px;
+            left: 5px;
+            width: 200px;
+            border: 1px solid $col;
+        }
+    
+        .main-tabs-preText{
+            top: 5682px;
+            left: 5px;
+            width: 340px;
+            height: 100px;
+            font: 12px/18px $font;
+        }
+    
+        .line-inside-tabs{
+            top: 5820px;
+            left: 125px;
+            height: 399px;
+            border: 1px solid $col;
+        }
+    
+        /* TAbs */
+    
+        .info-header{
+            top: 5965px;
+            left: 0px;
+            width: 110px;
+            height: 30px;
+            font: bold 15px/18px $fontPlay;
+        }
+    
+        .tab-active{
+            font: bold 16px/19px $fontPlay;
+        }
+    
+        .info-tabs{
+            top: 5819px;
+            left: -345px;
+        }
+
+        .description-image > p{
+            padding-top: 40px;
+        }
+    
+        .description-image{
+            left: 355px;
+            width: 104px;
+            height: 107px;
+            font: Bold 15px/21px $font;
+            background-size: 154px 157px;
+        }
+
+        .description-image>img{
+            width: 104px;
+            height: 107px;
+        }
+    
+        .description-title{
+            left: 485px;
+            width: 230px;
+            height: 41px;
+            font: Bold 12px/18px $font;
+        }
+    
+        .description-text{
+            top: 60px;
+            left: 485px;
+            width: 230px;
+            height: 331px;
+            font: 11px/16px $font;
+        }
+    
+        .description-text1{
+            top: 275px;
+            left: 0px;
+            width: 230px;
+            height: 119px;
+            font: 11px/16px $font;
+            z-index: 5;
+        }
+    
+        /* End tabs */
+    
+        .mark-bottom-right{
+            top: 6125px;
+            width: 25vw;
+            height: 45vh;
+        }
+    }
+    
+    /*NAvbar */    
+    
+    nav{
+
+        .nav-bg{
+            top: 5900px;
+            height: 570px;
+        }
+    
+    
+        .content{
+            top: 5912px;
+            left: 15px;
+            width: 370px;
+            height: 55px;
+            font: 28px/37px $fontPlay;
+        }
+    
+        .lineNav{
+            top: 5970px;
+            left: 15px;
+            width: 201px;
+            border: 1px solid $col;
+        }
+    
+        .contMain{
+            top: 5985px;
+    
+            .container{
+                                
+                .townPlanning, .accesProblem, .futureStreet, .links{
+                    height: 280px;
+                    width: 43%;
+                    margin-right: 5px;
+                    padding: 3px;
+                    
+                    &:hover{
+                        outline: 1px solid grey;
+                    }
+    
+                    &:active{
+                        border: 1px solid grey;
+                        box-shadow: 1px 1px 2px 2px darkgrey;
+                        border-radius: 3px;
+                    }
+                 }
+    
+                 .townPlanning{
+                    background-size: 150px 250px;            
+                }
+    
+                 .townPlanning > img{
+                    @include navImgP;               
+                }
+    
+                .townPlanning > p{
+                    @include navPP;
+                }
+    
+                .accesProblem{
+                    background-size: 150px 250px;   
+                }
+                
+                .accesProblem > img{
+                    @include navImgP;
+                }
+    
+                .accesProblem > p{
+                    @include navPP;
+                }
+    
+                .futureStreet{
+                    background-size: 150px 250px; 
+                }
+                
+                .futureStreet >img{
+                    @include navImgP;
+                }
+    
+                .futureStreet >p{
+                    @include navPP;
+                }
+    
+                .links{
+                    background-size: 150px 250px; 
+                }
+                
+                .links >img{
+                    display: block;
+                    width: 75px;
+                    height: 110px;   
+                    margin: 72px auto 24px auto;
+                }
+    
+                .links >p{
+                    @include navPP;
+                }
+            }
+        }
+    }
+    
+    footer{
+    
+        .figure5{
+            top: 6597px;
+            width: 207px;
+            height: 72px;
+        }
+    
+        .footer{
+            top: 6670px;
+            height: 25px;
+        }
+    
+        .visitMain, .copyright, .backTop{
+            margin: 0 5px;
+            padding: 3px;
+            font: 8px/10px $font;
+        }
+    
+        .visitMain >a, .backTop >a{
+            font: 8px/10px $font;
+        }
+    }
+}
